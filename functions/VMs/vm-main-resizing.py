@@ -1,8 +1,12 @@
 import sys
+print(sys.path)
+
+import sys
+sys.path.append(r"C\Users\heide\OneDrive\Works\github\config_mgtm")
 
 
-from common import initialize_variables, create_vm_from_snap, start_vm_created, deallocating_vm, get_vm_status, execute_ssh_commands_stop, execute_ssh_commands_start, ssh_into_vm, create_snapshot_and_attach_existing_managed_disks
-from common import initialize_variables, create_nic, nic_attach
+from common.vm import initialize_variables, create_vm_from_snap, start_vm_created, deallocating_vm, get_vm_status, execute_ssh_commands_stop, execute_ssh_commands_start, ssh_into_vm, create_snapshot_and_attach_existing_managed_disks
+from common.network import initialize_variables, create_nic, nic_attach
 
 from azure.identity import DefaultAzureCredential
 from azure.mgmt.compute import ComputeManagementClient

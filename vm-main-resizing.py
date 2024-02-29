@@ -1,5 +1,5 @@
 from common.vm.vm import initialize_variables, create_vm_from_snap, start_vm_created, deallocating_vm, get_vm_status, execute_ssh_commands_stop, execute_ssh_commands_start, ssh_into_vm, create_snapshot_and_attach_existing_managed_disks
-from common.vm.network import initialize_variables, create_nic, nic_attach
+from common.network.network import initialize_variables, create_nic, nic_attach
 
 from azure.identity import DefaultAzureCredential
 from azure.mgmt.compute import ComputeManagementClient
