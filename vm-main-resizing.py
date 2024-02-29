@@ -16,7 +16,7 @@ snapshot_name = 'snap-vm1' # Snapshot name going to be created
 new_disk_name = 'vm1-new-test' # Managed Disk name name going to be created
 new_vm_name = 'vm1' # New VM name going to be created
 vm_size = 'Standard_DS1_v2'  # Replace with the desired VM size
-subscription_id = '7e0b9c40-967a-438d-b02d-a5aa7e85b912' # Replace with the subscription Id where is based the VM
+subscription_id = '' # Replace with the subscription Id where is based the VM
 key_path = r'' # in case you are using pem to aut in linux here is the local where is your pem
 ssh_user = 'heider' # This one is used for both authetication (pem and user/pass)
 ssh_password = 'Change@1234567' # used only for user/pass authentication
@@ -171,3 +171,11 @@ else:
 
 ## TO FIX: After start new VM is not connecting into the new one due to the key have to be renew
     #execute_ssh_commands_start(sshconnection, starting_commands)
+
+    ### Backlog to improve
+    #### Update the functions to receive a list instead single value
+    #### After start new VM is not connecting into the new one due to the key have to be renew
+    #### Run tests and improvements for Windows image
+    #### check if the services are running
+    #### Add same TAGs and values ols VMs had
+    #### Options to delete old VM

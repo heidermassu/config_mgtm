@@ -7,7 +7,7 @@ from azure.mgmt.compute.models import DiskCreateOption, DiskCreateOptionTypes, D
 import time
 
 #variables
-subscription_id = '7e0b9c40-967a-438d-b02d-a5aa7e85b912' # Replace with the subscription Id where is based the VM
+subscription_id = '' # Replace with the subscription Id where is based the VM
 resource_group_name = 'manual' # Replace with the RG regarding the source VM
 vm = 'vm1' # Replace with the RG regarding the where you want to create the new VM
 targetresource_group = 'aut' # Replace with the RG regarding the where you want to create the new VM
