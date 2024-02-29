@@ -172,7 +172,7 @@ else:
 ## TO FIX: After start new VM is not connecting into the new one due to the key have to be renew
     #execute_ssh_commands_start(sshconnection, starting_commands)
 
-    ### Backlog to improve
+    ### Backlog improvements
     #### Update the functions to receive a list instead single value
     #### After start new VM is not connecting into the new one due to the key have to be renew
     #### Run tests and improvements for Windows image
