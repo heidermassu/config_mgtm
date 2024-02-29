@@ -45,3 +45,19 @@ Provide step-by-step instructions on how to install and set up your project. Inc
 
 ## How to submit new script?
 The idea is have all scripts executed through Makefile
+
+## Main Functions
+
+### Resizing VM
+- Resizing VM 'VMs\vm-main-resizing.py'
+  - Automatic Steps:
+    - 1º ssh into server
+    - 2º Stop the services kudu-server, impalad and hadoop-hdfs-datanode'
+    - 3º Stop System operation
+    - 4º Deallocate VM
+    - 5º take Snapshot of OS disk and managed disk attached
+    - 6º Create a new disks from those Snapshots 
+    - 7º Create a new VM from the OS disk created and choose the new VM size 
+    - 7.1º Attach the new managed disk created
+    - 8º Make Private IP address static on NIC, Detach NIC from the old VM and attach it in the new VM
+    - 9º start the new VM

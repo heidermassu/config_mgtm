@@ -1,0 +1,3328 @@
+DisplayName: compbio-work-3, ApplicationId: 
+DisplayName: Dataverse, ApplicationId: 
+DisplayName: Wunderlist, ApplicationId: 
+DisplayName: mars-wkw-sp, ApplicationId: 
+DisplayName: Liftr Elastic RPaaS, ApplicationId: 
+DisplayName: Virtual Visits App, ApplicationId: 
+DisplayName: Office365 Shell WCSS-Server, ApplicationId: 
+DisplayName: aurora-westus3-dev-aks-identity, ApplicationId: 
+DisplayName: Smartsheet OneDrive Picker v3, ApplicationId: 
+DisplayName: habitats-aks-adpt-rwd, ApplicationId: 
+DisplayName: terrydevopstest-terrydevopstest-0d74dd78-51ee-4dc1-ad66-b00c939a32d9, ApplicationId: 
+DisplayName: Customer Service Trial PVA - readonly, ApplicationId: 
+DisplayName: SeanTest, ApplicationId: 
+DisplayName: cora-scripts-gblock-factors, ApplicationId: 
+DisplayName: azurepolicy-mirth-westus3-prod-aks, ApplicationId: 
+DisplayName: Azure Backup NRP Application, ApplicationId: 
+DisplayName: Azure.CodeSigning, ApplicationId: 
+DisplayName: Phish Alert, ApplicationId: 
+DisplayName: k8s-pods-workflow, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: Managed Applications On Behalf Application, ApplicationId: 
+DisplayName: Azure Machine Learning Services Asset Notification, ApplicationId: 
+DisplayName: gitlab-rayhan-dev-sp, ApplicationId: 
+DisplayName: Microsoft Defender for Cloud CIEM, ApplicationId: 
+DisplayName: adptipm-mi-amaczczvyno52, ApplicationId: 
+DisplayName: Customer Experience Platform CDPA Provisioning PROD, ApplicationId: 
+DisplayName: Azure Monitor Restricted, ApplicationId: 
+DisplayName: Meeting Catchup Recommendations V2, ApplicationId: 
+DisplayName: Microsoft Office Licensing Service vNext, ApplicationId: 
+DisplayName: Zapier Outlook, ApplicationId: 
+DisplayName: Microsoft Invitation Acceptance Portal, ApplicationId: 
+DisplayName: Dynamics 365 Analytics, ApplicationId: 
+DisplayName: Fiji Storage Backend, ApplicationId: 
+DisplayName: BambooAutoSP, ApplicationId: 
+DisplayName: Demeter.WorkerRole, ApplicationId: 
+DisplayName: Copilot 1 (Power Virtual Agents), ApplicationId: 
+DisplayName: Microsoft Teams Templates Service, ApplicationId: 
+DisplayName: localtest-sp-rbac, ApplicationId: 
+DisplayName: Microsoft Workplace Search Service, ApplicationId: 
+DisplayName: mira-analysis-personalized-svc-prod-sp, ApplicationId: 
+DisplayName: Azure AD Domain Services Sync, ApplicationId: 
+DisplayName: cora-test-sp, ApplicationId: 
+DisplayName: AAD App Management, ApplicationId: 
+DisplayName: Meeting Migration Service, ApplicationId: 
+DisplayName: Azure Cost Management Exports, ApplicationId: 
+DisplayName: gitlab-moira-sp, ApplicationId: 
+DisplayName: CosmosDB Dedicated Instance, ApplicationId: 
+DisplayName: Azure Virtual Desktop Client, ApplicationId: 
+DisplayName: MS-CE-CXG-MAC-AadShadowRoleWriter, ApplicationId: 
+DisplayName: Power Query Online GCC-L5, ApplicationId: 
+DisplayName: IC3 Modern Effective Config Worker, ApplicationId: 
+DisplayName: Microsoft Remote Desktop, ApplicationId: 
+DisplayName: Tasks in a Box, ApplicationId: 
+DisplayName: AtBot, ApplicationId: 
+DisplayName: Azure AD Identity Governance - Entitlement Management, ApplicationId: 
+DisplayName: omsagent-habitats-aks-adpt-pcb, ApplicationId: 
+DisplayName: adpt-netutil01, ApplicationId: 
+DisplayName: ccsemailsync.azurewebsites.net, ApplicationId: 
+DisplayName: k8s-pods-jupyter-hub, ApplicationId: 
+DisplayName: Microsoft Photos Services, ApplicationId: 
+DisplayName: CAP Package Deployer Service IM, ApplicationId: 
+DisplayName: Azure Diagnostics Resource Provider, ApplicationId: 
+DisplayName: Jamf Pro, ApplicationId: 
+DisplayName: Zoho, ApplicationId: 
+DisplayName: PartnerCenterCustomerServiceAppProd, ApplicationId: 
+DisplayName: Greenhouse, ApplicationId: 
+DisplayName: byok-91faae58-de1f-11ed-8e87-d24384864680, ApplicationId: 
+DisplayName: Power Platform Global Discovery Service, ApplicationId: 
+DisplayName: byok-6227f19b-c37c-11ed-88ef-7ae10d168a65, ApplicationId: 
+DisplayName: emradptr-westus3-stg-aks-identity, ApplicationId: 
+DisplayName: ordermgmt-dev-config-id, ApplicationId: 
+DisplayName: Salesforce, ApplicationId: 
+DisplayName: Microsoft Azure App Service, ApplicationId: 
+DisplayName: Notify Connector, ApplicationId: 
+DisplayName: Appspace, ApplicationId: 
+DisplayName: HPC Cache Resource Provider, ApplicationId: 
+DisplayName: NFV Resource Provider, ApplicationId: 
+DisplayName: NetworkTrafficAnalyticsService, ApplicationId: 
+DisplayName: Rocketbook, ApplicationId: 
+DisplayName: Azure Arc Data Services, ApplicationId: 
+DisplayName: gitlab-dddaz-sp, ApplicationId: 
+DisplayName: Azure Key Vault, ApplicationId: 
+DisplayName: Microsoft.HybridCompute Agent Service, ApplicationId: 
+DisplayName: Liftr Nginx RP Auth, ApplicationId: 
+DisplayName: SharePoint Framework Azure AD Helper, ApplicationId: 
+DisplayName: DocuSign for SharePoint Online, ApplicationId: 
+DisplayName: Azure Service Connector Resource Provider, ApplicationId: 
+DisplayName: Outlook Service for Exchange, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: DfMGraphApp, ApplicationId: 
+DisplayName: pipelineivdstage, ApplicationId: 
+DisplayName: alz-weus-dc01, ApplicationId: 
+DisplayName: DeliverySlip Office 365 Authentication, ApplicationId: 
+DisplayName: GrafanaAzureMonitor, ApplicationId: 
+DisplayName: Azure Media Services, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-emradptr-westus3-dev-aks, ApplicationId: 
+DisplayName: sdet-test, ApplicationId: 
+DisplayName: Sales Copilot Power Virtual Agents Bot (Power Virtual Agents), ApplicationId: 
+DisplayName: PCP-Intune, ApplicationId: 
+DisplayName: emradptr-westus3-dev-aks-agentpool, ApplicationId: 
+DisplayName: camundasink-tst-config-id, ApplicationId: 
+DisplayName: tableau1, ApplicationId: 
+DisplayName: AAD Terms Of Use, ApplicationId: 
+DisplayName: Gatekeeper PPE App, ApplicationId: 
+DisplayName: ServiceNow for OAuth2, ApplicationId: 
+DisplayName: emradptr-westus3-prod-aks-agentpool, ApplicationId: 
+DisplayName: workflows-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxwjhz3bchksbamwr7a, ApplicationId: 
+DisplayName: analyzer-notebook-prod, ApplicationId: 
+DisplayName: CAS API Security RP Staging, ApplicationId: 
+DisplayName: PushChannel, ApplicationId: 
+DisplayName: Windows 365, ApplicationId: 
+DisplayName: GitLab, ApplicationId: 
+DisplayName: DevPilotTest (Power Virtual Agents), ApplicationId: 
+DisplayName: AddEvent.com, ApplicationId: 
+DisplayName: O365 Suite UX, ApplicationId: 
+DisplayName: Microsoft Mobile Application Management Backend, ApplicationId: 
+DisplayName: lvdb-westus3-stg-00, ApplicationId: 
+DisplayName: imrtest-agic-sp, ApplicationId: 
+DisplayName: k8s-pods-atlas-api, ApplicationId: 
+DisplayName: bamboo-cora-services-test-sp, ApplicationId: 
+DisplayName: Azure Portal, ApplicationId: 
+DisplayName: Kaizala Sync Service, ApplicationId: 
+DisplayName: Exchange Rbac, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: Bing Search APIs, ApplicationId: 
+DisplayName: Jira cloud, ApplicationId: 
+DisplayName: MicrosoftAzureActiveAuthn, ApplicationId: 
+DisplayName: CodeTwo User Photos for Office 365 5b801940e2bb4eb2ae438fbf7cf62a79, ApplicationId: 
+DisplayName: adpt-shared-dev-apim-id, ApplicationId: 
+DisplayName: Microsoft Intune Enrollment, ApplicationId: 
+DisplayName: tdetect-test-ingress.adaptivebiotech.com, ApplicationId: 
+DisplayName: pairseq-analysis-personalized-svc-prod-sp, ApplicationId: 
+DisplayName: Azure Spring Cloud DiagSettings App, ApplicationId: 
+DisplayName: Tonygitlab-SP, ApplicationId: 
+DisplayName: omsagent-platinum-hvl2mos7hesu45574mhnxgerqgqizwm6l4rpyvl4efsutt7q53xq, ApplicationId: 
+DisplayName: pagerduty-teams, ApplicationId: 
+DisplayName: cshorizonlogcv1ced1lqs, ApplicationId: 
+DisplayName: Azure Database for PostgreSQL Marlin, ApplicationId: 
+DisplayName: teamsupgradeorchestrator-app, ApplicationId: 
+DisplayName: IC3 Gateway TestClone, ApplicationId: 
+DisplayName: Meeting Room 365 Production App, ApplicationId: 
+DisplayName: VSTS Bot, ApplicationId: 
+DisplayName: Microsoft.Azure.Cdn, ApplicationId: 
+DisplayName: NetApp Cloud Control, ApplicationId: 
+DisplayName: AML Registries, ApplicationId: 
+DisplayName: gitlab-landingvalet-test-sp, ApplicationId: 
+DisplayName: Lucidchart, ApplicationId: 
+DisplayName: Geneva Alert RP, ApplicationId: 
+DisplayName: CentOS, ApplicationId: 
+DisplayName: azure-cli-2020-12-07-22-29-28, ApplicationId: 
+DisplayName: infosec_azurecompute, ApplicationId: 
+DisplayName: Microsoft.Azure.ActiveDirectoryIUX, ApplicationId: 
+DisplayName: cs-aad-func-254b1718-c2cc-4e38-a739-10dfb46957bb, ApplicationId: 
+DisplayName: PrincipalSkinner, ApplicationId: 
+DisplayName: habitats-read-adpt-internal, ApplicationId: 
+DisplayName: Business Central to Common Data Service, ApplicationId: 
+DisplayName: M365 Compliance Drive, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-camunda-wu3-stg-aks, ApplicationId: 
+DisplayName: k8s-pods-atlas-scheduler, ApplicationId: 
+DisplayName: Azure Cost Management Public Main RP, ApplicationId: 
+DisplayName: Bot Service Resource Provider, ApplicationId: 
+DisplayName: aurora-westus3-dev-aks-agentpool, ApplicationId: 
+DisplayName: mira-analysis-personalized-svc-test-sp, ApplicationId: 
+DisplayName: Skype for Business Management Reporting and Analytics, ApplicationId: 
+DisplayName: k8s-pods-atlas-api, ApplicationId: 
+DisplayName: CIWebService, ApplicationId: 
+DisplayName: adpt-ipam-ui, ApplicationId: 
+DisplayName: Microsoft Partner Center, ApplicationId: 
+DisplayName: Azure Multi-Factor Auth Connector, ApplicationId: 
+DisplayName: SEAWXMIGRATEd942authandaccessaadapp, ApplicationId: 
+DisplayName: k8s-pods-atlas-hub, ApplicationId: 
+DisplayName: ZIX|AppRiver Office 365 Authentication, ApplicationId: 
+DisplayName: Intune DeviceActionService, ApplicationId: 
+DisplayName: Office 365 Client Insights Substrate Services Prod, ApplicationId: 
+DisplayName: Microsoft.Azure.CertificateRegistration, ApplicationId: 
+DisplayName: M365 License Manager, ApplicationId: 
+DisplayName: gitlab-lab-batch-engine-acrpush-stg-sp, ApplicationId: 
+DisplayName: Microsoft Discovery Service, ApplicationId: 
+DisplayName: AzureUpdateCenter, ApplicationId: 
+DisplayName: dwm-app-wus2-test, ApplicationId: 
+DisplayName: ProdITTest, ApplicationId: 
+DisplayName: AI Builder Prod Non God Mode, ApplicationId: 
+DisplayName: SnowflakePACInt0485, ApplicationId: 
+DisplayName: adpt-shared-wu3-test-apim, ApplicationId: 
+DisplayName: Azure VMware Solution RP, ApplicationId: 
+DisplayName: console-m365d, ApplicationId: 
+DisplayName: OCaaS Worker Services, ApplicationId: 
+DisplayName: adpt-shared-wu3-test-aks-agentpool, ApplicationId: 
+DisplayName: Eco Azure Data Download, ApplicationId: 
+DisplayName: Microsoft Teams User Profile Search Service, ApplicationId: 
+DisplayName: Microsoft Rights Management Services, ApplicationId: 
+DisplayName: gitlabrunner-qa-aks, ApplicationId: 
+DisplayName: CAP Neptune Prod CM Prod , ApplicationId: 
+DisplayName: Microsoft Defender for Cloud Azure Discovery, ApplicationId: 
+DisplayName: emradptr-westus3-dev-aks spot app, ApplicationId: 
+DisplayName: Capacity , ApplicationId: 
+DisplayName: Media Recording for Dynamics 365 Sales, ApplicationId: 
+DisplayName: Microsoft Parature Dynamics CRM, ApplicationId: 
+DisplayName: Azure AD Identity Protection, ApplicationId: 
+DisplayName: emradptr-westus3-test-aks-agentpool, ApplicationId: 
+DisplayName: Azure Cosmos DB Virtual Network To Network Resource Provider, ApplicationId: 
+DisplayName: Office 365 Enterprise Insights, ApplicationId: 
+DisplayName: Cortana at Work Service, ApplicationId: 
+DisplayName: Microsoft Support Diagnostics, ApplicationId: 
+DisplayName: Arc Token Service, ApplicationId: 
+DisplayName: IVD Regulations (Power Virtual Agents), ApplicationId: 
+DisplayName: jjones-analyzer-tools, ApplicationId: 
+DisplayName: Audit GraphAPI Application, ApplicationId: 
+DisplayName: Contingent_Worker_Sync, ApplicationId: 
+DisplayName: Microsoft Power BI Information Service, ApplicationId: 
+DisplayName: Azure Media Service, ApplicationId: 
+DisplayName: Microsoft Teams Chat Aggregator, ApplicationId: 
+DisplayName: analyzer-stress-test, ApplicationId: 
+DisplayName: Microsoft Mixed Reality, ApplicationId: 
+DisplayName: cs-activity-func-254b1718-c2cc-4e38-a739-10dfb46957bb, ApplicationId: 
+DisplayName: f4ce66b74b1240aa98ea30c3, ApplicationId: 
+DisplayName: CosmosDBMongoClusterPrivateEndpoint, ApplicationId: 
+DisplayName: Microsoft Teams AuditService, ApplicationId: 
+DisplayName: Office 365 Search Service, ApplicationId: 
+DisplayName: Apps Mspbackups, ApplicationId: 
+DisplayName: AD Hybrid Health, ApplicationId: 
+DisplayName: Cisco Webex Meetings, ApplicationId: 
+DisplayName: pipeline-dynamic, ApplicationId: 
+DisplayName: platinum-ny3ufpa7ecxaxxpooswwzfchoz5iwjqycfhdt2ieezvxuq3gxd6a, ApplicationId: 
+DisplayName: Grade Sync, ApplicationId: 
+DisplayName: GWPOCAKSCluster, ApplicationId: 
+DisplayName: alz-eaus-dc01, ApplicationId: 
+DisplayName: ElasticSearchSnapshots_Test, ApplicationId: 
+DisplayName: Azure Hilo Client, ApplicationId: 
+DisplayName: OMSAuthorizationServicePROD, ApplicationId: 
+DisplayName: Microsoft Policy Insights Provider Data Plane, ApplicationId: 
+DisplayName: dwm-app-wus2-prod, ApplicationId: 
+DisplayName: k8s-pods-atlas-hub, ApplicationId: 
+DisplayName: development-workflows, ApplicationId: 
+DisplayName: test-stacks-aks-uswest2-sp, ApplicationId: 
+DisplayName: Power Query Online GCC-L4, ApplicationId: 
+DisplayName: One Outlook Web, ApplicationId: 
+DisplayName: gitlab-mirth-stage-sp, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernels-76aqpt2pl5j5om6cz6ihacxxgs6y5zyq5vvcwsoot5tg37okxfgq, ApplicationId: 
+DisplayName: Windows 365 Portal, ApplicationId: 
+DisplayName: amethyst-tools-prod, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa, ApplicationId: 
+DisplayName: omsagent-platinum-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxwjhz3bchksbamwr7a, ApplicationId: 
+DisplayName: MicrosoftAzureRedisCache, ApplicationId: 
+DisplayName: Microsoft.Azure.DataMarket, ApplicationId: 
+DisplayName: My Workspace, a Microsoft Garage project, ApplicationId: 
+DisplayName: k8s-pod-tekton-pipeline-mgbapzrzzvyvmd254k34tcboifl67k, ApplicationId: 
+DisplayName: Mimecast Directory Synchronization, ApplicationId: 
+DisplayName: AvePoint Online Services, ApplicationId: 
+DisplayName: Tab SSO, ApplicationId: 
+DisplayName: gitlab-adpt-az-security-sp, ApplicationId: 
+DisplayName: aaw-storage, ApplicationId: 
+DisplayName: sheetgen-stage-config-id, ApplicationId: 
+DisplayName: k8s-pods-workflows, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: Azure App Configuration, ApplicationId: 
+DisplayName: Microsoft Teams Targeting Application, ApplicationId: 
+DisplayName: Smartsheet For OneDrive, ApplicationId: 
+DisplayName: Power Platform Data Analytics, ApplicationId: 
+DisplayName: Kinematik, ApplicationId: 
+DisplayName: Alkira-Connector, ApplicationId: 
+DisplayName: Microsoft Outlook, ApplicationId: 
+DisplayName: adpt-shared-wu3-dev-aks-agentpool, ApplicationId: 
+DisplayName: Tenant Schema Extension App, ApplicationId: 
+DisplayName: Teams EHR Connector, ApplicationId: 
+DisplayName: k8s-pods-trails-operatorzmgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa, ApplicationId: 
+DisplayName: Adaptive-Automation-2_rmG3P0AVunCkvUXwesbDQU0ZlCYCJzotmL0v+uV1Zos=, ApplicationId: 
+DisplayName: Microsoft Teams - Device Admin Agent, ApplicationId: 
+DisplayName: Jamf Conditional Access for Intune, ApplicationId: 
+DisplayName: AADPremiumService, ApplicationId: 
+DisplayName: Office 365 YammerOnOls, ApplicationId: 
+DisplayName: Teams ACL management service, ApplicationId: 
+DisplayName: ServiceNow Test - Email - MSGraph OAuth, ApplicationId: 
+DisplayName: O365 LinkedIn Connection, ApplicationId: 
+DisplayName: omsagent-platinum-76aqpt2pl5j5om6cz6ihacxxgs6y5zyq5vvcwsoot5tg37okxfgq, ApplicationId: 
+DisplayName: MSP360, ApplicationId: 
+DisplayName: OneNote, ApplicationId: 
+DisplayName: nitrostudio.azurewebsites.net, ApplicationId: 
+DisplayName: emradptr-westus3-prod-aks-identity, ApplicationId: 
+DisplayName: Substrate Instant Revocation Pipeline, ApplicationId: 
+DisplayName: gitlab-tcrbg-nonprod-sp, ApplicationId: 
+DisplayName: daz-test-aks-agentpool, ApplicationId: 
+DisplayName: Spot.io, ApplicationId: 
+DisplayName: Modern Workplace Core ITaaS, ApplicationId: 
+DisplayName: habitats-aks-adpt-shared, ApplicationId: 
+DisplayName: adpt-shared-dev-agw-id, ApplicationId: 
+DisplayName: Reply-At-Mention, ApplicationId: 
+DisplayName: Azure RBAC Data Plane, ApplicationId: 
+DisplayName: Azure AD Identity Governance - SPO Management, ApplicationId: 
+DisplayName: Microsoft Office Web Apps Service, ApplicationId: 
+DisplayName: Microsoft Exact Data Match Service, ApplicationId: 
+DisplayName: panel-design-svc-prod-sp, ApplicationId: 
+DisplayName: DirectoryLookupService, ApplicationId: 
+DisplayName: DocuSign, ApplicationId: 
+DisplayName: LucidChart Cloud Insights -- Cora Only, ApplicationId: 
+DisplayName: Bot Service Token Store, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: US Cloud Account Portal, ApplicationId: 
+DisplayName: azurepolicy-emradptr-westus3-stg-aks, ApplicationId: 
+DisplayName: amethyst-tools-test, ApplicationId: 
+DisplayName: OneDrive, ApplicationId: 
+DisplayName: Azure Spring Cloud Service Runtime Auth, ApplicationId: 
+DisplayName: k8s-pods-development-workflows-ny3ufpa7ecxaxxpooswwzfchoz5iwjqycfhdt2ieezvxuq3gxd6a, ApplicationId: 
+DisplayName: Portals-test, ApplicationId: 
+DisplayName: smartsheet for outlook, ApplicationId: 
+DisplayName: Microsoft Azure Policy Insights, ApplicationId: 
+DisplayName: artifactorybinarystorage, ApplicationId: 
+DisplayName: Application Insights API, ApplicationId: 
+DisplayName: MicrosoftGuestConfiguration, ApplicationId: 
+DisplayName: M365CommunicationCompliance, ApplicationId: 
+DisplayName: habitats-read-adpt-internal-platinum, ApplicationId: 
+DisplayName: Azure SQL Virtual Network to Network Resource Provider, ApplicationId: 
+DisplayName: azurepolicy-moira-test-aks, ApplicationId: 
+DisplayName: Microsoft Service Trust, ApplicationId: 
+DisplayName: MIRAScriptProd, ApplicationId: 
+DisplayName: Messaging Bot API Application for GCC, ApplicationId: 
+DisplayName: camunda-wu3-prd-aks-agentpool, ApplicationId: 
+DisplayName: azurepolicy-camunda-wu3-prd-aks, ApplicationId: 
+DisplayName: Azure AD Identity Governance - User Management, ApplicationId: 
+DisplayName: cora-mtdoom-sp, ApplicationId: 
+DisplayName: Microsoft Teams Settings Store, ApplicationId: 
+DisplayName: azure-cli-2019-05-23-23-06-59, ApplicationId: 
+DisplayName: slalom_cicd-sp.adaptivebiotech.com, ApplicationId: 
+DisplayName: CloudLicensingSystem, ApplicationId: 
+DisplayName: Azure Monitor for VMs, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernels-ny3ufpa7ecxaxxpooswwzfchoz5iwjqycfhdt2ieezvxuq3gxd6a, ApplicationId: 
+DisplayName: Cloud Infrastructure Entitlement Management, ApplicationId: 
+DisplayName: Lattice, ApplicationId: 
+DisplayName: Jira Cloud, ApplicationId: 
+DisplayName: Learning App Service In Teams, ApplicationId: 
+DisplayName: AzNS EventHub Action, ApplicationId: 
+DisplayName: AnalyticsWorkbench-sp, ApplicationId: 
+DisplayName: AzureAutomationAADPatchS2S, ApplicationId: 
+DisplayName: Meru19 MySQL First Party App, ApplicationId: 
+DisplayName: Sumo Logic Data Collection, ApplicationId: 
+DisplayName: cora-prod-sp, ApplicationId: 
+DisplayName: analyzer-notebook-test, ApplicationId: 
+DisplayName: Azure SCOM_58bc0ef6-6512-5a99-65bc-f4529109fca9_a6c5af60-99b6-4032-ab3b-22fdebce562d, ApplicationId: 
+DisplayName: Microsoft Graph Connectors Core, ApplicationId: 
+DisplayName: gitlab-emradptr-test-sp, ApplicationId: 
+DisplayName: Azure Application Change Service, ApplicationId: 
+DisplayName: Microsoft Information Protection Sync Service, ApplicationId: 
+DisplayName: Call Quality Dashboard, ApplicationId: 
+DisplayName: pipelinecb, ApplicationId: 
+DisplayName: habitats-aks-adpt-rwd-agentpool, ApplicationId: 
+DisplayName: Microsoft Teams Web Client, ApplicationId: 
+DisplayName: pipeline-dynamic-prod, ApplicationId: 
+DisplayName: 79b392a21c8b4328b4c3b016, ApplicationId: 
+DisplayName: Azure AD Power BI Content Pack App, ApplicationId: 
+DisplayName: Paylocity Web Pay, ApplicationId: 
+DisplayName: Microsoft Azure Container Apps - Data Plane, ApplicationId: 
+DisplayName: VirtasantServicePrincipalReader, ApplicationId: 
+DisplayName: denodo-vdp02, ApplicationId: 
+DisplayName: Office Online Third Party Storage, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-emradptr-westus3-prod-aks, ApplicationId: 
+DisplayName: Fiji Storage, ApplicationId: 
+DisplayName: M365 Label Analytics, ApplicationId: 
+DisplayName: iOS Accounts, ApplicationId: 
+DisplayName: Modern Workplace Customer APIs, ApplicationId: 
+DisplayName: Windows Azure Application Insights, ApplicationId: 
+DisplayName: Azure Blueprints, ApplicationId: 
+DisplayName: Modern Workplace Partner API, ApplicationId: 
+DisplayName: ChatMigrationService1P, ApplicationId: 
+DisplayName: Permission Service O365, ApplicationId: 
+DisplayName: IC3 Modern Effective Config, ApplicationId: 
+DisplayName: coresvcs-test-aks-identity, ApplicationId: 
+DisplayName: Azure Machine Learning OpenAI, ApplicationId: 
+DisplayName: Roomfinder, ApplicationId: 
+DisplayName: Azure Healthcare APIs Resource Provider, ApplicationId: 
+DisplayName: sp-CrowdStrike-ACR-Image-Scanning, ApplicationId: 
+DisplayName: CloudynAzureCollector, ApplicationId: 
+DisplayName: cora-scripts-stage-phi-sp, ApplicationId: 
+DisplayName: Tasks in a Box for SharePoint Online, ApplicationId: 
+DisplayName: Lucidpress, ApplicationId: 
+DisplayName: Microsoft StaffHub, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernels-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa, ApplicationId: 
+DisplayName: OfficeClientService, ApplicationId: 
+DisplayName: Azure Managed Grafana, ApplicationId: 
+DisplayName: Managed Service Identity, ApplicationId: 
+DisplayName: MRMapsProd, ApplicationId: 
+DisplayName: pipeline-ruo-test-sp, ApplicationId: 
+DisplayName: azurepolicy-gitlabrunner-aks, ApplicationId: 
+DisplayName: Azure Compute, ApplicationId: 
+DisplayName: Universal Print Enabled Printer, ApplicationId: 
+DisplayName: Dynamics Provision, ApplicationId: 
+DisplayName: Enterprise File Sync Service, ApplicationId: 
+DisplayName: Business Value Programs - API, ApplicationId: 
+DisplayName: k8s-pods-traefik, ApplicationId: 
+DisplayName: Microsoft.Azure.SyncFabric, ApplicationId: 
+DisplayName: Azure Container Registry - Dataplane, ApplicationId: 
+DisplayName: ConfigMgrSvc_017a4203-76e7-41ed-b45a-4a273d87bb7e, ApplicationId: 
+DisplayName: Funnel and Engagement Data Service, ApplicationId: 
+DisplayName: analyzer-notebook-clients1-aks, ApplicationId: 
+DisplayName: O365trustportal, ApplicationId: 
+DisplayName: Azure Managed Grafana SSO, ApplicationId: 
+DisplayName: Zendesk, ApplicationId: 
+DisplayName: Branch Connect Web Service, ApplicationId: 
+DisplayName: MARS, ApplicationId: 
+DisplayName: Arc Public Cloud - Networking, ApplicationId: 
+DisplayName: dwm-app-wus2-test, ApplicationId: 
+DisplayName: Partner Customer Delegated Admin Migration, ApplicationId: 
+DisplayName: Power Platform Dataflows Common Data Service Client, ApplicationId: 
+DisplayName: alz-weus-dc02, ApplicationId: 
+DisplayName: Microsoft Teams Wiki Images Migration, ApplicationId: 
+DisplayName: WindowsUpdate-Service, ApplicationId: 
+DisplayName: Microsoft App Access Panel, ApplicationId: 
+DisplayName: HabitatsAgateExport, ApplicationId: 
+DisplayName: AZ-NDES01, ApplicationId: 
+DisplayName: AzureArcConnector, ApplicationId: 
+DisplayName: k8s-pods-workflows, ApplicationId: 
+DisplayName: gitlab-devsecops-sp, ApplicationId: 
+DisplayName: MicrosoftTeamsCortanaSkills, ApplicationId: 
+DisplayName: seahqdc101, ApplicationId: 
+DisplayName: Alkira-SolarWinds, ApplicationId: 
+DisplayName: Test_Chase_Terraform, ApplicationId: 
+DisplayName: PowerAI, ApplicationId: 
+DisplayName: habitats-adpt-pharmacompbio, ApplicationId: 
+DisplayName: camundasink-dev-config-id, ApplicationId: 
+DisplayName: ddsdsasadSP-20191212131741, ApplicationId: 
+DisplayName: ServiceDesk, ApplicationId: 
+DisplayName: AzNet Security Guard, ApplicationId: 
+DisplayName: coresvcs-prd-aks-identity, ApplicationId: 
+DisplayName: Microsoft Stream Mobile Native, ApplicationId: 
+DisplayName: dwm-cicd-sp, ApplicationId: 
+DisplayName: SEAL All credentials, ApplicationId: 
+DisplayName: LinkedIn, ApplicationId: 
+DisplayName: gitlab-camundasink-acrpush-test-sp, ApplicationId: 
+DisplayName: OneNote, ApplicationId: 
+DisplayName: Microsoft Container Registry, ApplicationId: 
+DisplayName: Office 365 Security Optimization Assessment, ApplicationId: 
+DisplayName: Marketplace Api, ApplicationId: 
+DisplayName: EDU Assignments, ApplicationId: 
+DisplayName: SharePoint Notification Service, ApplicationId: 
+DisplayName: adpt-shared-stg-apim-id, ApplicationId: 
+DisplayName: Compute Resource Provider, ApplicationId: 
+DisplayName: Microsoft To-Do, ApplicationId: 
+DisplayName: SubstrateActionsService, ApplicationId: 
+DisplayName: TrustedPublishersProxyService, ApplicationId: 
+DisplayName: Microsoft Teams Partner Tenant Administration , ApplicationId: 
+DisplayName: denodo-sm, ApplicationId: 
+DisplayName: azurepolicy-dddaz-stage-aks, ApplicationId: 
+DisplayName: k8s-pods-trails-operator, ApplicationId: 
+DisplayName: Schoology Microsoft Integration, ApplicationId: 
+DisplayName: SharePoint Home Notifier, ApplicationId: 
+DisplayName: pairseqdash-app, ApplicationId: 
+DisplayName: gitlab-sheetgen-tst-sp, ApplicationId: 
+DisplayName: gitlab-emradptr-nonprod-sp, ApplicationId: 
+DisplayName: Apple Business Manager, ApplicationId: 
+DisplayName: Skype and Teams Real Time Telemetry, ApplicationId: 
+DisplayName: Weve, ApplicationId: 
+DisplayName: Microsoft DataMovement Metadata Service, ApplicationId: 
+DisplayName: k8s-pods-trails-operatorzny3ufpa7ecxaxxpooswwzfchoz5iwjqycfhdt2ieezvxuq3gxd6a, ApplicationId: 
+DisplayName: coresvcs-wu3-prd-aks-agentpool, ApplicationId: 
+DisplayName: electricterrylandsp, ApplicationId: 
+DisplayName: denodo-vdp-test, ApplicationId: 
+DisplayName: Azure Cloud Shell, ApplicationId: 
+DisplayName: ClusterConfigToConnectedCluster, ApplicationId: 
+DisplayName: IAM Supportability, ApplicationId: 
+DisplayName: Flow-E, ApplicationId: 
+DisplayName: CAS API Security RP Dev, ApplicationId: 
+DisplayName: azure-cli-2018-08-31-17-42-26, ApplicationId: 
+DisplayName: Outlook Online Add-in App, ApplicationId: 
+DisplayName: SubscriptionRP, ApplicationId: 
+DisplayName: Portals-test, ApplicationId: 
+DisplayName: gitlab-camundasink-acrpush-dev-sp, ApplicationId: 
+DisplayName: AzureLockbox, ApplicationId: 
+DisplayName: jjones-analyzer-tools-amethyst-test, ApplicationId: 
+DisplayName: platinum, ApplicationId: 
+DisplayName: mirth-westus3-stage-aks-agentpool, ApplicationId: 
+DisplayName: gitlab-sheetgen-dev-sp, ApplicationId: 
+DisplayName: Microsoft To-Do, ApplicationId: 
+DisplayName: Microsoft Defender for Cloud Servers Scanner Resource Provider, ApplicationId: 
+DisplayName: o365.servicecommunications.microsoft.com, ApplicationId: 
+DisplayName: Azure Digital Twins Resource Provider, ApplicationId: 
+DisplayName: Microsoft Exchange Online Protection, ApplicationId: 
+DisplayName: k8s-pods-trails-operatorzhvl2mos7hesu45574mhnxgerqgqizwm6l4rpyvl4efsutt7q53xq, ApplicationId: 
+DisplayName: Cortana at Work Bing Services, ApplicationId: 
+DisplayName: OfficeGraph, ApplicationId: 
+DisplayName: Expel Azure Integration, ApplicationId: 
+DisplayName: Azure API Management, ApplicationId: 
+DisplayName: Microsoft Forms, ApplicationId: 
+DisplayName: adaptiveterrypipetest, ApplicationId: 
+DisplayName: Azure Multi-Factor Auth Client, ApplicationId: 
+DisplayName: gitlab-ordermgmt-dev-sp, ApplicationId: 
+DisplayName: cora-scripts-prod-sp, ApplicationId: 
+DisplayName: TeamsLinkedInLiveApp, ApplicationId: 
+DisplayName: azurepolicy-emradptr-westus3-pre-aks, ApplicationId: 
+DisplayName: cora-scripts-test-phi-sp, ApplicationId: 
+DisplayName: Microsoft Partner, ApplicationId: 
+DisplayName: M365 App Management Service, ApplicationId: 
+DisplayName: Greenhouse, ApplicationId: 
+DisplayName: MIP Exchange Solutions - ODB, ApplicationId: 
+DisplayName: Microsoft Device Directory Service, ApplicationId: 
+DisplayName: ubuntu2204LTSPro, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-emradptr-westus3-stg-aks, ApplicationId: 
+DisplayName: azurepolicy-moira-prod-aks, ApplicationId: 
+DisplayName: emradptr-westus3-pre-aks-agentpool, ApplicationId: 
+DisplayName: workflows, ApplicationId: 
+DisplayName: gsb-webapp, ApplicationId: 
+DisplayName: Dynamics Lifecycle services, ApplicationId: 
+DisplayName: Microsoft Intune Web Company Portal, ApplicationId: 
+DisplayName: Universal Store Entitlements Service, ApplicationId: 
+DisplayName: Microsoft Approval Management, ApplicationId: 
+DisplayName: Arc Public Cloud - Servers, ApplicationId: 
+DisplayName: MicrosoftEndpointDLP, ApplicationId: 
+DisplayName: Kanban Board by Virto, ApplicationId: 
+DisplayName: gitlab-lab-batch-engine-dev-sp, ApplicationId: 
+DisplayName: Microsoft Azure Log Search Alerts, ApplicationId: 
+DisplayName: adpt-shared-prd-agw-id, ApplicationId: 
+DisplayName: Office 365 Mover, ApplicationId: 
+DisplayName: Azure HDInsight Surrogate Service, ApplicationId: 
+DisplayName: ServiceNow Auth App (DEV), ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-adpt-shared-wu3-test-aks, ApplicationId: 
+DisplayName: k8s-pods-workflows-hvl2mos7hesu45574mhnxgerqgqizwm6l4rpyvl4efsutt7q53xq, ApplicationId: 
+DisplayName: Microsoft Windows AutoPilot Service API, ApplicationId: 
+DisplayName: GWPOCAKSClusterPublic, ApplicationId: 
+DisplayName: hv-txfr, ApplicationId: 
+DisplayName: Hyper-V Recovery Manager, ApplicationId: 
+DisplayName: Smartsheet, ApplicationId: 
+DisplayName: rclone, ApplicationId: 
+DisplayName: AZ-Orion01, ApplicationId: 
+DisplayName: Azure Classic Portal, ApplicationId: 
+DisplayName: Microsoft Intune IW Service, ApplicationId: 
+DisplayName: k8s-pods-tmp-mira-workflow, ApplicationId: 
+DisplayName: Amazon Alexa, ApplicationId: 
+DisplayName: M365 Admin Services, ApplicationId: 
+DisplayName: SolarWinds-SAM, ApplicationId: 
+DisplayName: Outlook Service for OneDrive, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: Microsoft Partner Center, ApplicationId: 
+DisplayName: Azure Purview, ApplicationId: 
+DisplayName: Microsoft Office Licensing Service, ApplicationId: 
+DisplayName: Office Enterprise Protection Service, ApplicationId: 
+DisplayName: Bot Framework Composer, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-adpt-shared-wu3-dev-aks, ApplicationId: 
+DisplayName: Office Agent Service, ApplicationId: 
+DisplayName: dwm-app-wus2-sbox, ApplicationId: 
+DisplayName: Skype Presence Service, ApplicationId: 
+DisplayName: azure-cora-prod-file-access, ApplicationId: 
+DisplayName: Azure Data Factory, ApplicationId: 
+DisplayName: MoveCollection-wus-eus-eus2, ApplicationId: 
+DisplayName: Narada Notification Service, ApplicationId: 
+DisplayName: Tableau on Azure, ApplicationId: 
+DisplayName: Hybrid Connectivity RP, ApplicationId: 
+DisplayName: Microsoft Whiteboard Services, ApplicationId: 
+DisplayName: UEMS, ApplicationId: 
+DisplayName: k8s-pods-dev-workflow, ApplicationId: 
+DisplayName: jjones-adls, ApplicationId: 
+DisplayName: SUMOBRTaskConsumerSumoStorageTesttns5kxbfgfwfe, ApplicationId: 
+DisplayName: coresvcs-wu3-test-aks-agentpool, ApplicationId: 
+DisplayName: Azure Logic Apps, ApplicationId: 
+DisplayName: SSO Extension Intune, ApplicationId: 
+DisplayName: Zapier, ApplicationId: 
+DisplayName: adpt-shared-test-aks-identity, ApplicationId: 
+DisplayName: CodeTwo User Photos for Office 365, ApplicationId: 
+DisplayName: Doodle AG, ApplicationId: 
+DisplayName: Power Apps API, ApplicationId: 
+DisplayName: moira-services-test-sp, ApplicationId: 
+DisplayName: Microsoft AppSource, ApplicationId: 
+DisplayName: adpt-nginx-mi, ApplicationId: 
+DisplayName: Azure Machine Learning, ApplicationId: 
+DisplayName: azurepolicy-coresvcs-wu3-prd-aks, ApplicationId: 
+DisplayName: Cisco Secure Email MAR , ApplicationId: 
+DisplayName: site-reco-asr-automationaccount_VVu6B76ED8RpgHLKNz+VaRRIuULfHpfqoDjlq8A9/tg=, ApplicationId: 
+DisplayName: NA2, ApplicationId: 
+DisplayName: M365 Lighthouse Service, ApplicationId: 
+DisplayName: Lattice, ApplicationId: 
+DisplayName: ComplianceAuthServer, ApplicationId: 
+DisplayName: Microsoft.DynamicsMarketing, ApplicationId: 
+DisplayName: amethyst-notebooks-test, ApplicationId: 
+DisplayName: habitats-read-adpt-pharmacompbio, ApplicationId: 
+DisplayName: Intune DeviceCheckIn ConfidentialClient, ApplicationId: 
+DisplayName: seawxlabapps01, ApplicationId: 
+DisplayName: azurepolicy-moira-stage-aks, ApplicationId: 
+DisplayName: cloud-files-test, ApplicationId: 
+DisplayName: Microsoft Office Licensing Service Agents, ApplicationId: 
+DisplayName: Directory and Policy Cache, ApplicationId: 
+DisplayName: Veeam O365, ApplicationId: 
+DisplayName: Azure Machine Learning Authorization App 2, ApplicationId: 
+DisplayName: Skype for Business Announcement Service, ApplicationId: 
+DisplayName: Intune Grouping and Targeting Client Prod, ApplicationId: 
+DisplayName: moira-stage-aks, ApplicationId: 
+DisplayName: ReportReplica, ApplicationId: 
+DisplayName: gitlab-camunda-stg-sp, ApplicationId: 
+DisplayName: MSATenantRestrictions, ApplicationId: 
+DisplayName: Microsoft 365 Ticketing, ApplicationId: 
+DisplayName: k8s-pods-tmp-mira-dev-workflow, ApplicationId: 
+DisplayName: Cloud Hybrid Search, ApplicationId: 
+DisplayName: Microsoft Store for Web, ApplicationId: 
+DisplayName: azurepolicy-coresvcs-wu3-dev-aks, ApplicationId: 
+DisplayName: tableau2, ApplicationId: 
+DisplayName: pipeline-dynamic-test-launcher, ApplicationId: 
+DisplayName: AzUpdateCenterBilling, ApplicationId: 
+DisplayName: AdaptiveBiotech_ImageBuilder, ApplicationId: 
+DisplayName: Intune Remote Help, ApplicationId: 
+DisplayName: RoverGo, ApplicationId: 
+DisplayName: Skype for Business Application Configuration Service, ApplicationId: 
+DisplayName: omsagent-platinum, ApplicationId: 
+DisplayName: Azure Cost Management Scheduled Actions, ApplicationId: 
+DisplayName: Mimir, ApplicationId: 
+DisplayName: Now Virtual Agent, ApplicationId: 
+DisplayName: azurepolicy-aurora-westus3-dev-aks, ApplicationId: 
+DisplayName: ConfigMgrSvc_20673fb1-b918-456c-a51f-93ff802379eb, ApplicationId: 
+DisplayName: Microsoft Alchemy Service, ApplicationId: 
+DisplayName: cora-scripts-prod-phi-sp, ApplicationId: 
+DisplayName: mirth-westus3-test-aks-agentpool, ApplicationId: 
+DisplayName: test-cluster-qtlwyfqkgvh6qvvxl566bqafnvlh5icijy57jyp5u7cxxslxue-kubelet, ApplicationId: 
+DisplayName: Office Store, ApplicationId: 
+DisplayName: pairseq-analysis-personalized-svc-test-sp, ApplicationId: 
+DisplayName: mars-dci, ApplicationId: 
+DisplayName: MicrosoftAzureADFulfillment, ApplicationId: 
+DisplayName: Jira Cloud, ApplicationId: 
+DisplayName: azvmstartstoprhacmtbfoyn6e, ApplicationId: 
+DisplayName: MAPG, ApplicationId: 
+DisplayName: Microsoft Device Management Checkin, ApplicationId: 
+DisplayName: Veeam Backup for Microsoft Office 365, ApplicationId: 
+DisplayName: AdaptiveCMGClientapp, ApplicationId: 
+DisplayName: Teams User Engagement Profile Service, ApplicationId: 
+DisplayName: Log Analytics API, ApplicationId: 
+DisplayName: Room-Avail-Max, ApplicationId: 
+DisplayName: dddaz-stage-aks-agentpool, ApplicationId: 
+DisplayName: AdaptiveCMGServerApp, ApplicationId: 
+DisplayName: Microsoft Azure Legion , ApplicationId: 
+DisplayName: AzureDatabricks, ApplicationId: 
+DisplayName: gitlab-camundasink-test-sp, ApplicationId: 
+DisplayName: dbmanagedidentity, ApplicationId: 
+DisplayName: MarketplaceAPI Webhook, ApplicationId: 
+DisplayName: ordermgmt-stage-config-id, ApplicationId: 
+DisplayName: gitlab-qa-pipeline-sp, ApplicationId: 
+DisplayName: omsagent-platinum-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa, ApplicationId: 
+DisplayName: coresvcs-stg-aks-identity, ApplicationId: 
+DisplayName: Azure SQL Managed Instance to Azure AD Resource Provider, ApplicationId: 
+DisplayName: development-workflows-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxwjhz3bchksbamwr7a, ApplicationId: 
+DisplayName: Azure Code Signing API, ApplicationId: 
+DisplayName: dbmanagedidentitym4732javokg62, ApplicationId: 
+DisplayName: Azure Time Series Insights, ApplicationId: 
+DisplayName: Application Insights Configuration Service, ApplicationId: 
+DisplayName: HabitatsPortalJobRunner, ApplicationId: 
+DisplayName: Lucidchart Diagrams for MS365 AAD, ApplicationId: 
+DisplayName: codesigner, ApplicationId: 
+DisplayName: Azure Key Vault Managed HSM Key Governance Service, ApplicationId: 
+DisplayName: k8s-pods-workflows-ny3ufpa7ecxaxxpooswwzfchoz5iwjqycfhdt2ieezvxuq3gxd6a, ApplicationId: 
+DisplayName: Azure Information Protection, ApplicationId: 
+DisplayName: SharePoint Online Web Client Extensibility Isolated, ApplicationId: 
+DisplayName: Microsoft Teams Task Service, ApplicationId: 
+DisplayName: seawxnetjump01, ApplicationId: 
+DisplayName: Membership View Service, ApplicationId: 
+DisplayName: Configuration Manager Microservice, ApplicationId: 
+DisplayName: Networking-MNC, ApplicationId: 
+DisplayName: Learn on Demand LMS, ApplicationId: 
+DisplayName: Graph Connector Service, ApplicationId: 
+DisplayName: cora-services-test-sp, ApplicationId: 
+DisplayName: adaptive-internal-tools, ApplicationId: 
+DisplayName: Frontline Worker Orchestrator Service Test, ApplicationId: 
+DisplayName: LinkedIn Microsoft Graph Connector, ApplicationId: 
+DisplayName: Skype For Business Entitlement, ApplicationId: 
+DisplayName: azurepolicy-emradptr-westus3-prod-aks, ApplicationId: 
+DisplayName: Smartsheet, ApplicationId: 
+DisplayName: Intune Update Service, ApplicationId: 
+DisplayName: OCaaS Client Interaction Service, ApplicationId: 
+DisplayName: Lucidpress, ApplicationId: 
+DisplayName: Office 365 Exchange Online, ApplicationId: 
+DisplayName: adpt-shared-wu3-dev-apim, ApplicationId: 
+DisplayName: Microsoft.SupportTicketSubmission, ApplicationId: 
+DisplayName: Event Actions, ApplicationId: 
+DisplayName: JIRA Blue Python for OAuth2, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-coresvcs-wu3-stg-aks, ApplicationId: 
+DisplayName: adpt-ipam-engine, ApplicationId: 
+DisplayName: Azure MFA StrongAuthenticationService, ApplicationId: 
+DisplayName: Azure Spring Cloud Domain-Management Dogfood, ApplicationId: 
+DisplayName: Microsoft.EventHubs, ApplicationId: 
+DisplayName: adaptive-internal-tools-agentpool, ApplicationId: 
+DisplayName: AI Builder Authorization Service, ApplicationId: 
+DisplayName: pipelineruoprod, ApplicationId: 
+DisplayName: Atlassian, ApplicationId: 
+DisplayName: Data Export Service for Microsoft Dynamics 365, ApplicationId: 
+DisplayName: gitlab-coresvcs-stg-sp, ApplicationId: 
+DisplayName: sea-wx-netutil01.dna.corp.adaptivebiotech.com, ApplicationId: 
+DisplayName: Microsoft Command Service, ApplicationId: 
+DisplayName: platinum-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa-agentpool, ApplicationId: 
+DisplayName: SeaWXOktaSync, ApplicationId: 
+DisplayName: habitats-aks-adpt-internal-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxw-agentpool, ApplicationId: 
+DisplayName: Hybrid RP Application, ApplicationId: 
+DisplayName: gitlab-ordermgmt-stg-sp, ApplicationId: 
+DisplayName: azurepolicy-camunda-wu3-dev-aks, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernels-hvl2mos7hesu45574mhnxgerqgqizwm6l4rpyvl4efsutt7q53xq, ApplicationId: 
+DisplayName: TeamsFlowTab, ApplicationId: 
+DisplayName: Microsoft Intune Service Discovery, ApplicationId: 
+DisplayName: dbmanagedidentityuiy3wievolpbg, ApplicationId: 
+DisplayName: PCP-Intune, ApplicationId: 
+DisplayName: Azure AD Identity Governance Insights, ApplicationId: 
+DisplayName: adptatlas-api, ApplicationId: 
+DisplayName: Miro (formerly RealtimeBoard), ApplicationId: 
+DisplayName: tdetect-test-sp.adaptivebiotech.com, ApplicationId: 
+DisplayName: ClusterConfigToArcZone, ApplicationId: 
+DisplayName: HabitatsPortalCB, ApplicationId: 
+DisplayName: azure-cli-2019-11-19-04-45-27, ApplicationId: 
+DisplayName: Azure CosmosDB for PostgreSQL AAD Authentication, ApplicationId: 
+DisplayName: Intune SCEP, ApplicationId: 
+DisplayName: Azure Support - Network Watcher, ApplicationId: 
+DisplayName: Indoor Finders, ApplicationId: 
+DisplayName: Bing, ApplicationId: 
+DisplayName: Microsoft Loop App, ApplicationId: 
+DisplayName: tableauc, ApplicationId: 
+DisplayName: Microsoft Teams ATP Service, ApplicationId: 
+DisplayName: Billing, ApplicationId: 
+DisplayName: Microsoft Exact Data Match Upload Agent, ApplicationId: 
+DisplayName: Windows Virtual Desktop ARM Provider, ApplicationId: 
+DisplayName: Tryane Analytics for Sharepoint, ApplicationId: 
+DisplayName: Avatier-Agent2, ApplicationId: 
+DisplayName: PipelineTanakua, ApplicationId: 
+DisplayName: AML Inferencing Frontdoor - Staging, ApplicationId: 
+DisplayName: MoveCollection-wus2-wus-eus2, ApplicationId: 
+DisplayName: Search Federation Connector - Dataverse, ApplicationId: 
+DisplayName: TeamsChatServiceApp, ApplicationId: 
+DisplayName: proditTestStack, ApplicationId: 
+DisplayName: SalesInsightsWebApp, ApplicationId: 
+DisplayName: platinum-76aqpt2pl5j5om6cz6ihacxxgs6y5zyq5vvcwsoot5tg37okxfgq-agentpool, ApplicationId: 
+DisplayName: test-key-vault-identity-fmyphh4rxozhijlwbzj32kj5nwkp7n, ApplicationId: 
+DisplayName: Azure Arc Data Services Billing, ApplicationId: 
+DisplayName: Microsoft Azure Linux Virtual Machine Sign-In, ApplicationId: 
+DisplayName: ClusterConfigToAKS, ApplicationId: 
+DisplayName: attunixmover, ApplicationId: 
+DisplayName: Azure HDInsight Service, ApplicationId: 
+DisplayName: Microsoft Teams IP Policy Service, ApplicationId: 
+DisplayName: Regulatory / Quality Questions (Power Virtual Agents), ApplicationId: 
+DisplayName: CrowdStrikeCSPM, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: SQLVMResourceProviderAuth, ApplicationId: 
+DisplayName: Azure ESTS Service, ApplicationId: 
+DisplayName: Exchange Office Graph Client for AAD - Noninteractive, ApplicationId: 
+DisplayName: camundasink-stg-config-id, ApplicationId: 
+DisplayName: Microsoft Azure Alerts Management, ApplicationId: 
+DisplayName: Azure AD Notification, ApplicationId: 
+DisplayName: StreamToSubstrateRepl, ApplicationId: 
+DisplayName: OfficeFeedProcessors, ApplicationId: 
+DisplayName: Azure Container Instance Service, ApplicationId: 
+DisplayName: Request Approvals Read Platform, ApplicationId: 
+DisplayName: KaizalaActionsPlatform, ApplicationId: 
+DisplayName: habitats-adpt-shared, ApplicationId: 
+DisplayName: Lucidchart Diagrams for Word, ApplicationId: 
+DisplayName: Azure AD Identity Governance - Azure Resource Management, ApplicationId: 
+DisplayName: denodo-vdp, ApplicationId: 
+DisplayName: NOTamethyst-notebooks-staging, ApplicationId: 
+DisplayName: Azure Managed HSM RP, ApplicationId: 
+DisplayName: EnterpriseAgentPlatform, ApplicationId: 
+DisplayName: Microsoft events, ApplicationId: 
+DisplayName: Site Provisioning, ApplicationId: 
+DisplayName: cora-services-prod-sp, ApplicationId: 
+DisplayName: adaptive-internal-tools-sp, ApplicationId: 
+DisplayName: To-Do Importer, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-camunda-wu3-test-aks, ApplicationId: 
+DisplayName: Internal_AccessScope, ApplicationId: 
+DisplayName: Compromised Account Service, ApplicationId: 
+DisplayName: Microsoft Cognitive Services, ApplicationId: 
+DisplayName: Modern Workplace App Diagnostic Authenticator, ApplicationId: 
+DisplayName: Microsoft Visio Data Visualizer, ApplicationId: 
+DisplayName: BenefitsFD, ApplicationId: 
+DisplayName: Managed Service, ApplicationId: 
+DisplayName: ccsportal.azurewebsites.net, ApplicationId: 
+DisplayName: emradptr-westus3-pre-aks-identity, ApplicationId: 
+DisplayName: Email, ApplicationId: 
+DisplayName: GWPOCAKSCluster-agentpool, ApplicationId: 
+DisplayName: Azure Credential Configuration Endpoint Service, ApplicationId: 
+DisplayName: Microsoft Teams Graph Service, ApplicationId: 
+DisplayName: habitats-aks-adpt-shared-agentpool, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab, ApplicationId: 
+DisplayName: gitlab-lab-batch-engine-test-sp, ApplicationId: 
+DisplayName: Azns AAD Webhook, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernels, ApplicationId: 
+DisplayName: Microsoft Flow CDS Integration Service, ApplicationId: 
+DisplayName: mi-dwm-dev, ApplicationId: 
+DisplayName: platinum-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa-kubelet, ApplicationId: 
+DisplayName: gitlab-mirth-test-sp, ApplicationId: 
+DisplayName: gitlab-sharedapp-dev-sp, ApplicationId: 
+DisplayName: moira-test-aks-eventhub-sp, ApplicationId: 
+DisplayName: cora-scripts-stage-sp, ApplicationId: 
+DisplayName: Windows 365 IW Service, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab, ApplicationId: 
+DisplayName: Smartsheet, ApplicationId: 
+DisplayName: Azure Storage, ApplicationId: 
+DisplayName: CAP Package Deployer Service, ApplicationId: 
+DisplayName: Cisco SecureX Sign-On, ApplicationId: 
+DisplayName: OneDrive, ApplicationId: 
+DisplayName: Microsoft Intune SCCM Connector, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-platinum-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa, ApplicationId: 
+DisplayName: Site Provisioning (February 2023), ApplicationId: 
+DisplayName: dwm-dbtdocsapp-wus2-test, ApplicationId: 
+DisplayName: Postman, ApplicationId: 
+DisplayName: Microsoft.ServiceBus, ApplicationId: 
+DisplayName: Reading Assignments, ApplicationId: 
+DisplayName: sumo-aks-test, ApplicationId: 
+DisplayName: ropipelineruo, ApplicationId: 
+DisplayName: Office 365 ASI App, ApplicationId: 
+DisplayName: AzureDataShare, ApplicationId: 
+DisplayName: Domain Controller Services, ApplicationId: 
+DisplayName: mira-cora-ro, ApplicationId: 
+DisplayName: Messaging Async Media, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: AzureDnsFrontendApp, ApplicationId: 
+DisplayName: azdc103, ApplicationId: 
+DisplayName: Docebo-Connect (Wayfinder), ApplicationId: 
+DisplayName: tableaub, ApplicationId: 
+DisplayName: Agiloft Application for OAuth2, ApplicationId: 
+DisplayName: Discovery Service, ApplicationId: 
+DisplayName: cora-scripts-test-sp, ApplicationId: 
+DisplayName: Azure Region Move Orchestrator Application, ApplicationId: 
+DisplayName: k8s-pods-atlas-api, ApplicationId: 
+DisplayName: AzureContainerService, ApplicationId: 
+DisplayName: Webex Video Integration for MS Teams, ApplicationId: 
+DisplayName: sheetgen-dev-config-id, ApplicationId: 
+DisplayName: CMAT, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab-ny3ufpa7ecxaxxpooswwzfchoz5iwjqycfhdt2ieezvxuq3gxd6a, ApplicationId: 
+DisplayName: Skype and Teams Tenant Admin API, ApplicationId: 
+DisplayName: ddshared-qa-test-sp, ApplicationId: 
+DisplayName: ccsframeworkapp.azurewebsites.net, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: SEAWXMIGRATE6882vault, ApplicationId: 
+DisplayName: sheetgen-test-config-id, ApplicationId: 
+DisplayName: Appspace, ApplicationId: 
+DisplayName: Microsoft Defender for Cloud Pricing Resource Provider, ApplicationId: 
+DisplayName: ConfigMgrSvc_037644ef-1a9f-4b99-bc26-17a1571498c1, ApplicationId: 
+DisplayName: shared-services-test-aks-agentpool, ApplicationId: 
+DisplayName: camunda-wu3-prd-aks-identity, ApplicationId: 
+DisplayName: gitlab-emradptr-dev-sp, ApplicationId: 
+DisplayName: dbmanagedidentity, ApplicationId: 
+DisplayName: Intune CMDeviceService, ApplicationId: 
+DisplayName: Skype for Business Online, ApplicationId: 
+DisplayName: My Staff, ApplicationId: 
+DisplayName: alz-w3us-dc01, ApplicationId: 
+DisplayName: analyzer-tools-staging, ApplicationId: 
+DisplayName: emradptr-westus3-dev-aks-identity, ApplicationId: 
+DisplayName: analyzer-notebook-testSP-20180830154500, ApplicationId: 
+DisplayName: Dynamics 365 AI for Customer Service Bot , ApplicationId: 
+DisplayName: coresvcs-wu3-stg-aks-agentpool, ApplicationId: 
+DisplayName: platinum-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxwjhz3bchksbamwr7a, ApplicationId: 
+DisplayName: Network Watcher, ApplicationId: 
+DisplayName: habitats-aks-adpt-pcb, ApplicationId: 
+DisplayName: habitats-adpt-realworlddata, ApplicationId: 
+DisplayName: Connectors, ApplicationId: 
+DisplayName: Automated Call Distribution, ApplicationId: 
+DisplayName: gitlab-camunda-dev-sp, ApplicationId: 
+DisplayName: Azure Arc Appliance Resource Provider, ApplicationId: 
+DisplayName: Common Data Service - Azure Data Lake Storage, ApplicationId: 
+DisplayName: aro-vzfrikkf, ApplicationId: 
+DisplayName: Liftr Nginx Network, ApplicationId: 
+DisplayName: azurepolicy-adpt-shared-wu3-test-aks, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernel, ApplicationId: 
+DisplayName: HabitatAdptInternal, ApplicationId: 
+DisplayName: Azure Key Vault Managed HSM, ApplicationId: 
+DisplayName: k8s-pods-development-workflows-76aqpt2pl5j5om6cz6ihacxxgs6y5zyq5vvcwsoot5tg37okxfgq, ApplicationId: 
+DisplayName: ServiceNow Discovery, ApplicationId: 
+DisplayName: Universal Print Connector, ApplicationId: 
+DisplayName: Common Data Service User Management, ApplicationId: 
+DisplayName: AZ-ORIONDB01, ApplicationId: 
+DisplayName: KustoService, ApplicationId: 
+DisplayName: OnTAP, ApplicationId: 
+DisplayName: OneProfile Service, ApplicationId: 
+DisplayName: Yggdrasil, ApplicationId: 
+DisplayName: test-stacks-test, ApplicationId: 
+DisplayName: Tableau Server, ApplicationId: 
+DisplayName: PowerApps and Flow - Azure AD, ApplicationId: 
+DisplayName: Event Hub MSI App, ApplicationId: 
+DisplayName: mi-dwm-prod, ApplicationId: 
+DisplayName: Azure OSSRDBMS MySQL Flexible Server BYOK, ApplicationId: 
+DisplayName: Azure Lab Services, ApplicationId: 
+DisplayName: platinum-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxwjhz3bchksbamwr7a-agentpool, ApplicationId: 
+DisplayName: batchengine-dev-config-id, ApplicationId: 
+DisplayName: Business Value Programs, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-coresvcs-wu3-test-aks, ApplicationId: 
+DisplayName: azurepolicy-camunda-wu3-stg-aks, ApplicationId: 
+DisplayName: Business Value Programs - SPE API, ApplicationId: 
+DisplayName: IDML Graph Resolver Service and CAD, ApplicationId: 
+DisplayName: quartz-microsoft-sp, ApplicationId: 
+DisplayName: InviteService, ApplicationId: 
+DisplayName: Marketplace Caps API, ApplicationId: 
+DisplayName: Service Encryption, ApplicationId: 
+DisplayName: Business Value Programs - MWBVS API V2, ApplicationId: 
+DisplayName: Azure Container Registry, ApplicationId: 
+DisplayName: dddaz-test-aks, ApplicationId: 
+DisplayName: MSFT Security Experts AOBO Egress, ApplicationId: 
+DisplayName: O365Account, ApplicationId: 
+DisplayName: Microsoft Azure Stream Analytics, ApplicationId: 
+DisplayName: Azure Spring Cloud Marketplace Integration, ApplicationId: 
+DisplayName: cshorizonaadcv1ced1lqs, ApplicationId: 
+DisplayName: ACR-Tasks-Network, ApplicationId: 
+DisplayName: Azure AD Identity Governance - Dynamics 365 Management, ApplicationId: 
+DisplayName: APIGWPOCRavi, ApplicationId: 
+DisplayName: Microsoft Activity Feed Service, ApplicationId: 
+DisplayName: Microsoft.Azure.GraphExplorer, ApplicationId: 
+DisplayName: Export to data lake, ApplicationId: 
+DisplayName: prodit-tools-sp, ApplicationId: 
+DisplayName: PowerApps-Advisor, ApplicationId: 
+DisplayName: Envoy Rooms, ApplicationId: 
+DisplayName: Microsoft Dynamics CRM Learning Path, ApplicationId: 
+DisplayName: Turbonomics, ApplicationId: 
+DisplayName: Microsoft.SecurityDevOps Resource Provider, ApplicationId: 
+DisplayName: adaptiveagatecoraprod, ApplicationId: 
+DisplayName: ordermgmt-test-config-id, ApplicationId: 
+DisplayName: Office365DirectorySynchronizationService, ApplicationId: 
+DisplayName: Azure Maps, ApplicationId: 
+DisplayName: ansible29, ApplicationId: 
+DisplayName: CCM TAGS, ApplicationId: 
+DisplayName: adpt-shared-stg-aks-identity, ApplicationId: 
+DisplayName: Skype Core Calling Service, ApplicationId: 
+DisplayName: AzureBackup_WBCM_Service, ApplicationId: 
+DisplayName: Adaptive Project Site Provisioning, ApplicationId: 
+DisplayName: MDC Data Sensitivity, ApplicationId: 
+DisplayName: ClusterConfigResourceSync, ApplicationId: 
+DisplayName: Teams NRT DLP Service, ApplicationId: 
+DisplayName: Skype for Business OrgAA, ApplicationId: 
+DisplayName: App Studio for Microsoft Teams, ApplicationId: 
+DisplayName: Azure Application Change Service, ApplicationId: 
+DisplayName: Microsoft Stream Portal, ApplicationId: 
+DisplayName: Azure Virtual Desktop, ApplicationId: 
+DisplayName: denodo-vdp01, ApplicationId: 
+DisplayName: My Apps, ApplicationId: 
+DisplayName: habitats-read-adpt-shared, ApplicationId: 
+DisplayName: Group Configuration Processor, ApplicationId: 
+DisplayName: dwm-dev, ApplicationId: 
+DisplayName: Office MRO Device Manager Service, ApplicationId: 
+DisplayName: cloud-ops-admin, ApplicationId: 
+DisplayName: Omnichannel for CS Provisioning App Primary, ApplicationId: 
+DisplayName: Microsoft Graph Change Tracking, ApplicationId: 
+DisplayName: BingWebmasterTools, ApplicationId: 
+DisplayName: Defender for IoT, ApplicationId: 
+DisplayName: Substrate Conversation Intelligence Service, ApplicationId: 
+DisplayName: Skype Team Substrate connector, ApplicationId: 
+DisplayName: Power Platform Environment Discovery Service, ApplicationId: 
+DisplayName: Partner Customer Delegated Admin Offline Processor, ApplicationId: 
+DisplayName: mira-hal2-glados-sync, ApplicationId: 
+DisplayName: Microsoft Intune PowerShell, ApplicationId: 
+DisplayName: tableaudesktop, ApplicationId: 
+DisplayName: Dynamic Alerts, ApplicationId: 
+DisplayName: AvePoint Online Services Administration, ApplicationId: 
+DisplayName: Machine Learning Services Network Management, ApplicationId: 
+DisplayName: Avatier AIMS, ApplicationId: 
+DisplayName: gitlab-coresvcs-prd-sp, ApplicationId: 
+DisplayName: MIP Exchange Solutions - Teams, ApplicationId: 
+DisplayName: amethyst-notebooks-prod, ApplicationId: 
+DisplayName: eAgreements-Services, ApplicationId: 
+DisplayName: Azure Machine Learning Authorization App 1, ApplicationId: 
+DisplayName: ServiceNow Prod - Email - MSGraph OAuth, ApplicationId: 
+DisplayName: k8s-pods-development-workflows-hvl2mos7hesu45574mhnxgerqgqizwm6l4rpyvl4efsutt7q53xq, ApplicationId: 
+DisplayName: Microsoft Intune Advanced Threat Protection Integration, ApplicationId: 
+DisplayName: Microsoft.MileIQ.Dashboard, ApplicationId: 
+DisplayName: Messaging Bot API Application, ApplicationId: 
+DisplayName: k8s-pods-grafana, ApplicationId: 
+DisplayName: Office365 Zoom, ApplicationId: 
+DisplayName: Audit Search Api Service, ApplicationId: 
+DisplayName: MicrosoftAzureActiveDirectoryIntegratedApp, ApplicationId: 
+DisplayName: workflows, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: Docebo (Wayfinder) for Oauth2, ApplicationId: 
+DisplayName: Backup Management Service, ApplicationId: 
+DisplayName: azurepolicy-shared-services-test-aks, ApplicationId: 
+DisplayName: Azure OSSRDBMS Database, ApplicationId: 
+DisplayName: Azure Container Apps Arc - Control Plane, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab, ApplicationId: 
+DisplayName: Office 365 SharePoint Online, ApplicationId: 
+DisplayName: Windows Azure Security Resource Provider, ApplicationId: 
+DisplayName: sea-ops101, ApplicationId: 
+DisplayName: Microsoft Device Management Enrollment, ApplicationId: 
+DisplayName: omsagent-platinum-ny3ufpa7ecxaxxpooswwzfchoz5iwjqycfhdt2ieezvxuq3gxd6a, ApplicationId: 
+DisplayName: auth0-tools-sp, ApplicationId: 
+DisplayName: habitats-aks-adpt-internal-agentpool, ApplicationId: 
+DisplayName: mirth-westus3-test-aks-identity, ApplicationId: 
+DisplayName: Microsoft Intune AndroidSync, ApplicationId: 
+DisplayName: IPSubstrate, ApplicationId: 
+DisplayName: camunda-wu3-stg-aks-agentpool, ApplicationId: 
+DisplayName: SEA-SCCM01, ApplicationId: 
+DisplayName: Business Value Programs - VDW API, ApplicationId: 
+DisplayName: ECO Azure, ApplicationId: 
+DisplayName: Azure Smart Alerts, ApplicationId: 
+DisplayName: dwm-app-wus2-dev, ApplicationId: 
+DisplayName: CAS API Security RP, ApplicationId: 
+DisplayName: Windows Notification Service, ApplicationId: 
+DisplayName: Azure AD Identity Governance, ApplicationId: 
+DisplayName: Azure Digital Twins, ApplicationId: 
+DisplayName: Intune DeviceDirectory ConfidentialClient, ApplicationId: 
+DisplayName: tableau-desktop, ApplicationId: 
+DisplayName: gitlab-camundasink-dev-sp, ApplicationId: 
+DisplayName: pipelineivdprod, ApplicationId: 
+DisplayName: Microsoft Teams Web Client, ApplicationId: 
+DisplayName: dbmanagedidentity, ApplicationId: 
+DisplayName: gitlab-sheetgen-stg-sp, ApplicationId: 
+DisplayName: lvdb-westus3-tst-00, ApplicationId: 
+DisplayName: CXP Previews Portal, ApplicationId: 
+DisplayName: Azure Communication Services, ApplicationId: 
+DisplayName: Test Name , ApplicationId: 
+DisplayName: Azure Notebooks, ApplicationId: 
+DisplayName: Microsoft Azure Data Catalog, ApplicationId: 
+DisplayName: Microsoft B2B Admin Worker, ApplicationId: 
+DisplayName: Message Header Analyzer, ApplicationId: 
+DisplayName: IC3 Long Running Operations Service, ApplicationId: 
+DisplayName: Power BI Service, ApplicationId: 
+DisplayName: gitlabrunner-aks, ApplicationId: 
+DisplayName: Busylight Teams Graph Presence Access, ApplicationId: 
+DisplayName: Teams NRT DLP Ingestion Service, ApplicationId: 
+DisplayName: Azure Kubernetes Service AAD Server, ApplicationId: 
+DisplayName: Skype for Business, ApplicationId: 
+DisplayName: O365 Secure Score, ApplicationId: 
+DisplayName: OutlookTasksConnector-PowerApps and Flow, ApplicationId: 
+DisplayName: Azure Data Factory, ApplicationId: 
+DisplayName: moveworks-teamsappstore-prod, ApplicationId: 
+DisplayName: Conferencing Virtual Assistant, ApplicationId: 
+DisplayName: Microsoft Teams Services, ApplicationId: 
+DisplayName: Azure Forensics Service, ApplicationId: 
+DisplayName: Customer Experience Platform CDPA Provisioning TIP, ApplicationId: 
+DisplayName: Azure OSSRDBMS PostgreSQL Flexible Server AAD Authentication, ApplicationId: 
+DisplayName: Dynamics 365 Resource Scheduling Optimization, ApplicationId: 
+DisplayName: Dynamics 365 collaboration with Microsoft Teams, ApplicationId: 
+DisplayName: CompliancePolicy, ApplicationId: 
+DisplayName: Power BI Premium, ApplicationId: 
+DisplayName: Access IoT Hub Device Provisioning Service, ApplicationId: 
+DisplayName: Afdx Resource Provider, ApplicationId: 
+DisplayName: Power Virtual Agents Service, ApplicationId: 
+DisplayName: ServiceDesk Plus for OAuth2, ApplicationId: 
+DisplayName: k8s-pods-workflows-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa, ApplicationId: 
+DisplayName: dbmanagedidentity, ApplicationId: 
+DisplayName: ManageEngine AD Auditor, ApplicationId: 
+DisplayName: ECAL, ApplicationId: 
+DisplayName: Azure SQL Database, ApplicationId: 
+DisplayName: Dataverse Resource Provider, ApplicationId: 
+DisplayName: OnCommand Cloud Manager Wizard, ApplicationId: 
+DisplayName: pipelineruotest, ApplicationId: 
+DisplayName: dddaz-prod-aks, ApplicationId: 
+DisplayName: Cisco Webex, ApplicationId: 
+DisplayName: ef85edffa4664fe4a21ac121, ApplicationId: 
+DisplayName: pairseq-mira-merge-personalized-svc-test-sp, ApplicationId: 
+DisplayName: ASA Curation Web Tool, ApplicationId: 
+DisplayName: Bot Framework Dev Portal, ApplicationId: 
+DisplayName: platinum-hvl2mos7hesu45574mhnxgerqgqizwm6l4rpyvl4efsutt7q53xq-agentpool, ApplicationId: 
+DisplayName: Graph explorer, ApplicationId: 
+DisplayName: RoverGo, ApplicationId: 
+DisplayName: Azure Digital Twins Authorization PDP, ApplicationId: 
+DisplayName: habitats-aks-adpt-internal-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxw, ApplicationId: 
+DisplayName: Office Personal Assistant at Work Service, ApplicationId: 
+DisplayName: Microsoft.NotificationHubs, ApplicationId: 
+DisplayName: gitlab-aurora-dev-sp, ApplicationId: 
+DisplayName: adpt-shared-dev-aks-identity, ApplicationId: 
+DisplayName: Modern Workplace Management, ApplicationId: 
+DisplayName: Intune Autopilot ConfidentialClient, ApplicationId: 
+DisplayName: Microsoft People Cards Service, ApplicationId: 
+DisplayName: gitlab-lab-batch-engine-stg-sp, ApplicationId: 
+DisplayName: Partner Customer Delegated Administration, ApplicationId: 
+DisplayName: testAppTobias, ApplicationId: 
+DisplayName: RPA - Machine Management Relay Service - Application, ApplicationId: 
+DisplayName: Az-AdaptiveSQL, ApplicationId: 
+DisplayName: Microsoft Office 365 Portal, ApplicationId: 
+DisplayName: Universal Print PS Module, ApplicationId: 
+DisplayName: Skype Teams Calling API Service, ApplicationId: 
+DisplayName: gitlab-crowdstrike-acr-push-sp, ApplicationId: 
+DisplayName: Microsoft Services, ApplicationId: 
+DisplayName: Microsoft Teams AuthSvc, ApplicationId: 
+DisplayName: Microsoft Invoicing, ApplicationId: 
+DisplayName: ViewPoint, ApplicationId: 
+DisplayName: Quest Software, ApplicationId: 
+DisplayName: gitlab-camunda-test-sp, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-coresvcs-wu3-dev-aks, ApplicationId: 
+DisplayName: Microsoft Seller Dashboard, ApplicationId: 
+DisplayName: Azure Monitor Control Service, ApplicationId: 
+DisplayName: gitlab-sheetgen-prd-sp, ApplicationId: 
+DisplayName: Media Analysis and Transformation Service, ApplicationId: 
+DisplayName: gitlab-sharedapp-stg-sp, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxwjhz3bchksbamwr7a, ApplicationId: 
+DisplayName: k8s-pods-workflows-76aqpt2pl5j5om6cz6ihacxxgs6y5zyq5vvcwsoot5tg37okxfgq, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-emradptr-westus3-test-aks, ApplicationId: 
+DisplayName: Teams CMD Services Artifacts, ApplicationId: 
+DisplayName: Centralized Deployment, ApplicationId: 
+DisplayName: Diagnostic Services Data Access, ApplicationId: 
+DisplayName: Targeted Messaging Service, ApplicationId: 
+DisplayName: RPA - Machine Management Relay Service, ApplicationId: 
+DisplayName: ConnectionsService, ApplicationId: 
+DisplayName: SharePoint Online Client Extensibility Web Application Principal, ApplicationId: 
+DisplayName: Substrate-FileWatcher, ApplicationId: 
+DisplayName: Lucid Chart Cloud Insights, ApplicationId: 
+DisplayName: Microsoft Operations Management Suite, ApplicationId: 
+DisplayName: Conference Auto Attendant, ApplicationId: 
+DisplayName: Teams Work Report, ApplicationId: 
+DisplayName: OneLTI, ApplicationId: 
+DisplayName: Cloud Connector user registration app, ApplicationId: 
+DisplayName: gitlab-camunda-prd-sp, ApplicationId: 
+DisplayName: k8s-pods-jupyter-enterprise-gateway, ApplicationId: 
+DisplayName: Microsoft Modern Contact Master, ApplicationId: 
+DisplayName: Windows Update for Business Deployment Service, ApplicationId: 
+DisplayName: dwm-adfir-wus2-shared, ApplicationId: 
+DisplayName: Microsoft Intune AAD BitLocker Recovery Key Integration, ApplicationId: 
+DisplayName: camunda-wu3-test-aks-agentpool, ApplicationId: 
+DisplayName: MDATPNetworkScanAgent, ApplicationId: 
+DisplayName: GWPOCAKSClusterPublic-agentpool, ApplicationId: 
+DisplayName: Azure Red Hat OpenShift RP, ApplicationId: 
+DisplayName: habitats-read-adpt-realworlddata, ApplicationId: 
+DisplayName: platinum-ny3ufpa7ecxaxxpooswwzfchoz5iwjqycfhdt2ieezvxuq3gxd6a-agentpool, ApplicationId: 
+DisplayName: gitlab-lab-batch-engine-acrpush-dev-sp, ApplicationId: 
+DisplayName: AzureDataCatalog, ApplicationId: 
+DisplayName: Viva Engage, ApplicationId: 
+DisplayName: Marketplace SaaS v2, ApplicationId: 
+DisplayName: Microsoft Azure Container Apps - Control Plane, ApplicationId: 
+DisplayName: teamorgchart.com, ApplicationId: 
+DisplayName: IC3 Gateway, ApplicationId: 
+DisplayName: OCaaS Experience Management Service, ApplicationId: 
+DisplayName: BRBv2, ApplicationId: 
+DisplayName: pvt-cluster-test, ApplicationId: 
+DisplayName: Azure Spring Cloud Resource Provider, ApplicationId: 
+DisplayName: moira-prod-aks-agentpool, ApplicationId: 
+DisplayName: DevilFish, ApplicationId: 
+DisplayName: HabitatsAgateTestExport, ApplicationId: 
+DisplayName: adpt-grafana-neteng, ApplicationId: 
+DisplayName: Microsoft Photos, ApplicationId: 
+DisplayName: Azure Bastion, ApplicationId: 
+DisplayName: Azure CosmosDB for PostgreSQL Microsoft EntraId, ApplicationId: 
+DisplayName: gitlab-sharedapp-prd-sp, ApplicationId: 
+DisplayName: Customer Service Trial PVA, ApplicationId: 
+DisplayName: Customer Experience Platform PROD, ApplicationId: 
+DisplayName: Diagnostic Services Trusted Storage Access, ApplicationId: 
+DisplayName: omsagent-habitats-aks-adpt-shared, ApplicationId: 
+DisplayName: batchengine-stg-config-id, ApplicationId: 
+DisplayName: OfficeServicesManager, ApplicationId: 
+DisplayName: Cortana Experience with O365, ApplicationId: 
+DisplayName: Azure HDInsight Cluster API, ApplicationId: 
+DisplayName: Jamf Native macOS Connector, ApplicationId: 
+DisplayName: Site Provisioning 7DEC2021, ApplicationId: 
+DisplayName: pairseq-mira-merge-personalized-svc-stage-sp, ApplicationId: 
+DisplayName: Azure Machine Learning Services, ApplicationId: 
+DisplayName: PnP Management Shell, ApplicationId: 
+DisplayName: azurepolicy-dddaz-test-aks, ApplicationId: 
+DisplayName: Azure SQL Database Backup To Azure Backup Vault, ApplicationId: 
+DisplayName: Microsoft.Relay, ApplicationId: 
+DisplayName: VPN Server, ApplicationId: 
+DisplayName: Power Platform Governance Services - TIRPS, ApplicationId: 
+DisplayName: Jamf API Integration, ApplicationId: 
+DisplayName: Cloud Sync - Create Data Broker, ApplicationId: 
+DisplayName: MURAL, ApplicationId: 
+DisplayName: OneDriveLTI, ApplicationId: 
+DisplayName: compbio-personalized-product-read-prd-sp, ApplicationId: 
+DisplayName: Dynamics 365 Customer Insights - Consent, ApplicationId: 
+DisplayName: Outlook Calendar for Slack, ApplicationId: 
+DisplayName: analyzer-tools-test, ApplicationId: 
+DisplayName: SharePoint Online Client Extensibility Web Application Principal Helper, ApplicationId: 
+DisplayName: 8f64fdc27d3c479290dfed30, ApplicationId: 
+DisplayName: adpt-shared-wu3-stg-aks-agentpool, ApplicationId: 
+DisplayName: HoloLens Camera Roll Upload, ApplicationId: 
+DisplayName: gitlab-ordermgmt-test-sp, ApplicationId: 
+DisplayName: Amazon Alexa Connect, ApplicationId: 
+DisplayName: Microsoft password reset service, ApplicationId: 
+DisplayName: Azure AD Application Proxy, ApplicationId: 
+DisplayName: Teams Application Gateway, ApplicationId: 
+DisplayName: WindowsDefenderATP, ApplicationId: 
+DisplayName: Azure DNS Managed Resolver, ApplicationId: 
+DisplayName: camunda-wu3-dev-aks-identity, ApplicationId: 
+DisplayName: Exchange Office Graph Client for AAD - Interactive, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab, ApplicationId: 
+DisplayName: Compute Artifacts Publishing Service, ApplicationId: 
+DisplayName: Office 365 Import Service, ApplicationId: 
+DisplayName: dbmanagedidentity, ApplicationId: 
+DisplayName: Microsoft.MileIQ.RESTService, ApplicationId: 
+DisplayName: MIP Exchange Solutions, ApplicationId: 
+DisplayName: mirth-westus3-prod-aks-identity, ApplicationId: 
+DisplayName: SPIQ, ApplicationId: 
+DisplayName: Microsoft Threat Protection, ApplicationId: 
+DisplayName: Microsoft Defender for Cloud Scanner Resource Provider, ApplicationId: 
+DisplayName: MaintenanceResourceProvider, ApplicationId: 
+DisplayName: azurepolicy-camunda-wu3-test-aks, ApplicationId: 
+DisplayName: Teams Calling Meeting Devices Services, ApplicationId: 
+DisplayName: Outlook Web App Widgets, ApplicationId: 
+DisplayName: Azure Maps Resource Provider, ApplicationId: 
+DisplayName: dwm-adf-wus2-test, ApplicationId: 
+DisplayName: imrprod-agic-sp, ApplicationId: 
+DisplayName: Microsoft Teams Admin Gateway Service, ApplicationId: 
+DisplayName: AdaptiveCMG, ApplicationId: 
+DisplayName: OneNote Web Clipper, ApplicationId: 
+DisplayName: Microsoft.SMIT, ApplicationId: 
+DisplayName: Envoy - Teams - Graph permissions, ApplicationId: 
+DisplayName: NetworkVerifier, ApplicationId: 
+DisplayName: gitlab-tcrbg-acrpush-prod-sp, ApplicationId: 
+DisplayName: azurepolicy-coresvcs-wu3-test-aks, ApplicationId: 
+DisplayName: Microsoft Kaizala, ApplicationId: 
+DisplayName: Modern Workplace Customer API Native, ApplicationId: 
+DisplayName: Skype for Business Voicemail, ApplicationId: 
+DisplayName: azure-cli-2019-05-23-23-37-03, ApplicationId: 
+DisplayName: Policy Administration Service, ApplicationId: 
+DisplayName: P2P Server, ApplicationId: 
+DisplayName: MIRAScriptTest, ApplicationId: 
+DisplayName: SEAL SNI, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxwjhz3bchksbamwr7a, ApplicationId: 
+DisplayName: O365 Customer Monitoring, ApplicationId: 
+DisplayName: Common Data Service License Management, ApplicationId: 
+DisplayName: Azure Security Insights, ApplicationId: 
+DisplayName: O365 Demeter, ApplicationId: 
+DisplayName: IAMTenantCrawler, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-camunda-wu3-prd-aks, ApplicationId: 
+DisplayName: alz-w3us-dc02, ApplicationId: 
+DisplayName: cshorizonactcv1ced1lqs, ApplicationId: 
+DisplayName: Windows Store for Business, ApplicationId: 
+DisplayName: AgreementsWeb, ApplicationId: 
+DisplayName: Appliance Resource Provider, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab-hvl2mos7hesu45574mhnxgerqgqizwm6l4rpyvl4efsutt7q53xq, ApplicationId: 
+DisplayName: Azure Healthcare APIs, ApplicationId: 
+DisplayName: Sailpoint, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernels-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxwjhz3bchksbamwr7a, ApplicationId: 
+DisplayName: Microsoft Teams AadSync, ApplicationId: 
+DisplayName: BambooTestStacksSP, ApplicationId: 
+DisplayName: azurepolicy-emradptr-westus3-test-aks, ApplicationId: 
+DisplayName: Microsoft.MileIQ, ApplicationId: 
+DisplayName: Azure Hilo cluster API access, ApplicationId: 
+DisplayName: Azure-Veeam01, ApplicationId: 
+DisplayName: Frontline Worker Orchestrator Service, ApplicationId: 
+DisplayName: Application Registration Portal, ApplicationId: 
+DisplayName: ordermgmt-svc-prd-sp, ApplicationId: 
+DisplayName: Samsung Email, ApplicationId: 
+DisplayName: SmartDeploy, ApplicationId: 
+DisplayName: Azure Container Registry Application, ApplicationId: 
+DisplayName: MSAI Substrate Meeting Intelligence , ApplicationId: 
+DisplayName: adpt-shared-stg-agw-id, ApplicationId: 
+DisplayName: Office 365 Configure, ApplicationId: 
+DisplayName: gitlab-camundasink-acrpush-stage-sp, ApplicationId: 
+DisplayName: omsagent-habitats-aks-adpt-rwd, ApplicationId: 
+DisplayName: DeploymentScheduler, ApplicationId: 
+DisplayName: Office365 Shell SS-Server Default, ApplicationId: 
+DisplayName: Azure Management Groups, ApplicationId: 
+DisplayName: gitlab-tcrbg-prod-sp, ApplicationId: 
+DisplayName: Microsoft_Azure_Support, ApplicationId: 
+DisplayName: Azure Advanced Threat Protection, ApplicationId: 
+DisplayName: Azure Cost Management XCloud, ApplicationId: 
+DisplayName: Azure Resource Graph, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernel, ApplicationId: 
+DisplayName: reactmsalapp, ApplicationId: 
+DisplayName: AzureBackup_Fabric_Service, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: OfficeDelve, ApplicationId: 
+DisplayName: Microsoft.Azure.Frontdoor, ApplicationId: 
+DisplayName: Quota, ApplicationId: 
+DisplayName: ccsworkflowmanager.azurewebsites.net, ApplicationId: 
+DisplayName: lvdb-westus3-prd-00, ApplicationId: 
+DisplayName: Metrics Monitor API, ApplicationId: 
+DisplayName: alz-w3us-certman, ApplicationId: 
+DisplayName: Atlassian Links, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: SUMOBRDLQProcessorSumoStorageTesttns5kxbfgfwfe, ApplicationId: 
+DisplayName: gitlab-coresvcs-dev-sp, ApplicationId: 
+DisplayName: Dynamics 365 Business Central, ApplicationId: 
+DisplayName: Azure DNS, ApplicationId: 
+DisplayName: Dual-write, ApplicationId: 
+DisplayName: azure-cli-2021-01-07-19-04-23, ApplicationId: 
+DisplayName: Windows 365 Ibiza Extension, ApplicationId: 
+DisplayName: Microsoft Volume Licensing, ApplicationId: 
+DisplayName: omsagent-habitats-aks-adpt-internal-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxw, ApplicationId: 
+DisplayName: emradptr-westus3-stg-aks-agentpool, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-coresvcs-wu3-prd-aks, ApplicationId: 
+DisplayName: TEST-avsfpapp, ApplicationId: 
+DisplayName: AzureSupportCenter, ApplicationId: 
+DisplayName: daz-test-aks, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-mirth-westus3-test-aks, ApplicationId: 
+DisplayName: Microsoft Stream Service, ApplicationId: 
+DisplayName: Microsoft Managed Policy Manager, ApplicationId: 
+DisplayName: Radius Aad Syncer, ApplicationId: 
+DisplayName: Microsoft Azure, ApplicationId: 
+DisplayName: Microsoft Dynamics ERP Microservices CDS, ApplicationId: 
+DisplayName: Office Delve, ApplicationId: 
+DisplayName: Protection Center, ApplicationId: 
+DisplayName: Microsoft.ExtensibleRealUserMonitoring, ApplicationId: 
+DisplayName: adpt-shared-wu3-stg-apim, ApplicationId: 
+DisplayName: Common Data Service, ApplicationId: 
+DisplayName: Microsoft Dynamics 365 Supply Chain Visibility, ApplicationId: 
+DisplayName: ordermgmt-attachments-dev-sp, ApplicationId: 
+DisplayName: Azure API for DICOM, ApplicationId: 
+DisplayName: Sherlock, ApplicationId: 
+DisplayName: TelephoneNumberManagement, ApplicationId: 
+DisplayName: Microsoft.Intune, ApplicationId: 
+DisplayName: Domain Controller Services, ApplicationId: 
+DisplayName: azure-cora-test-file-access, ApplicationId: 
+DisplayName: Azure Healthcare APIs RBAC, ApplicationId: 
+DisplayName: teams contacts griffin processor, ApplicationId: 
+DisplayName: MsgDataMgmt, ApplicationId: 
+DisplayName: k8s-pods-development-workflows-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa, ApplicationId: 
+DisplayName: Teams Approvals, ApplicationId: 
+DisplayName: asmcontainerimagescanner, ApplicationId: 
+DisplayName: gitlab-emradptr-pre-sp, ApplicationId: 
+DisplayName: ALZ-SD-TEST, ApplicationId: 
+DisplayName: OCPS Admin Service, ApplicationId: 
+DisplayName: Microsoft Graph, ApplicationId: 
+DisplayName: M365 Lighthouse API, ApplicationId: 
+DisplayName: imrtest-sp, ApplicationId: 
+DisplayName: PTSS, ApplicationId: 
+DisplayName: Microsoft Teams, ApplicationId: 
+DisplayName: Azure Data Warehouse Polybase, ApplicationId: 
+DisplayName: dwhite-pipeline-test, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab, ApplicationId: 
+DisplayName: MicrosoftOffAzureApp, ApplicationId: 
+DisplayName: Azure Container Scale Sets, ApplicationId: 
+DisplayName: MRMaps PPE, ApplicationId: 
+DisplayName: moira-test-aks, ApplicationId: 
+DisplayName: emradptr-westus3-test-aks-identity, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: ME AD Auditor, ApplicationId: 
+DisplayName: Windows Update for Business Cloud Extensions PowerShell, ApplicationId: 
+DisplayName: Microsoft.Azure.DomainRegistration, ApplicationId: 
+DisplayName: Azure Cosmos DB, ApplicationId: 
+DisplayName: Azure SQL Managed Instance to Microsoft.Network, ApplicationId: 
+DisplayName: Domain Controller Services, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-camunda-wu3-dev-aks, ApplicationId: 
+DisplayName: ordermgmt-svc-test-sp, ApplicationId: 
+DisplayName: Verifiable Credentials Issuer Service, ApplicationId: 
+DisplayName: Microsoft Teams VSTS, ApplicationId: 
+DisplayName: Microsoft Teams Bots, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-emradptr-westus3-pre-aks, ApplicationId: 
+DisplayName: Microsoft Azure Windows Virtual Machine Sign-in, ApplicationId: 
+DisplayName: gitlabrunner-qa-aks-agentpool, ApplicationId: 
+DisplayName: Nine for Office 365, ApplicationId: 
+DisplayName: Workato, ApplicationId: 
+DisplayName: MileIQ Admin Center, ApplicationId: 
+DisplayName: ISV Portal, ApplicationId: 
+DisplayName: Microsoft Azure Signup Portal, ApplicationId: 
+DisplayName: ComplianceWorkbenchApp, ApplicationId: 
+DisplayName: Alkira, ApplicationId: 
+DisplayName: EngineeringHub, ApplicationId: 
+DisplayName: Azure Gallery RP, ApplicationId: 
+DisplayName: Azure Iot Hub, ApplicationId: 
+DisplayName: AAD Lifecycle Management, ApplicationId: 
+DisplayName: Microsoft Flow CDS Integration Service TIP1, ApplicationId: 
+DisplayName: Expel O365 Integration, ApplicationId: 
+DisplayName: Microsoft Azure Workflow, ApplicationId: 
+DisplayName: Storage Resource Provider, ApplicationId: 
+DisplayName: adaptivecmg1165, ApplicationId: 
+DisplayName: SharePoint Online Web Client Extensibility, ApplicationId: 
+DisplayName: ad-sp-dwm-cicd-dev, ApplicationId: 
+DisplayName: Microsoft Intune API, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: bb-stress-testSP-20190124112246, ApplicationId: 
+DisplayName: camunda-wu3-dev-aks-agentpool, ApplicationId: 
+DisplayName: cora-unit-test-sp, ApplicationId: 
+DisplayName: Intune AndroidFOTAService ConfidentialClient, ApplicationId: 
+DisplayName: PowerApps Service, ApplicationId: 
+DisplayName: Microsoft Teams RetentionHook Service, ApplicationId: 
+DisplayName: Tableau Desktop, ApplicationId: 
+DisplayName: Groupies Web Service, ApplicationId: 
+DisplayName: daz-test-sp, ApplicationId: 
+DisplayName: Power platform Community, ApplicationId: 
+DisplayName: gitlab-sharedapp-test-sp, ApplicationId: 
+DisplayName: adpt-dataset-transfer, ApplicationId: 
+DisplayName: Skype Business Voice Fraud Detection and Prevention, ApplicationId: 
+DisplayName: Bing Places for Business, ApplicationId: 
+DisplayName: Microsoft AppPlat EMA, ApplicationId: 
+DisplayName: Azure Machine Learning Singularity, ApplicationId: 
+DisplayName: Azure VPN, ApplicationId: 
+DisplayName: Microsoft O365 Scuba, ApplicationId: 
+DisplayName: Azure Data Lake, ApplicationId: 
+DisplayName: k8s-pods-atlas-hub, ApplicationId: 
+DisplayName: Domain Controller Services, ApplicationId: 
+DisplayName: StoragePool Resource Provider, ApplicationId: 
+DisplayName: Packer for Azure, ApplicationId: 
+DisplayName: ordermgmt-svc-dev-sp, ApplicationId: 
+DisplayName: Portfolios, ApplicationId: 
+DisplayName: habitats-adpt-internal, ApplicationId: 
+DisplayName: ACR-Tasks-Prod, ApplicationId: 
+DisplayName: Graph Explorer, ApplicationId: 
+DisplayName: Spool-Resource-Provider, ApplicationId: 
+DisplayName: Data Classification Service, ApplicationId: 
+DisplayName: Office Scripts Service, ApplicationId: 
+DisplayName: Office 365 Management, ApplicationId: 
+DisplayName: analyzer-stress-testSP-20190124124041, ApplicationId: 
+DisplayName: Office Hive, ApplicationId: 
+DisplayName: Azure Service Fabric Resource Provider, ApplicationId: 
+DisplayName: dddaz-prod-aks-agentpool, ApplicationId: 
+DisplayName: azurepolicy-gitlabrunner-qa-aks, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-aurora-westus3-dev-aks, ApplicationId: 
+DisplayName: habitats-aks-adpt-pcb-agentpool, ApplicationId: 
+DisplayName: pipelinernd, ApplicationId: 
+DisplayName: AIGraphClient, ApplicationId: 
+DisplayName: Policy Processor, ApplicationId: 
+DisplayName: Azure Spring Cloud Domain-Management, ApplicationId: 
+DisplayName: Microsoft Information Protection API, ApplicationId: 
+DisplayName: gitlab-cawemo-acr-dev-sp, ApplicationId: 
+DisplayName: pairseq-mira-merge-personalized-svc-prod-sp, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: MIP Exchange Solutions - SPO, ApplicationId: 
+DisplayName: azure-cli-2019-05-21-18-12-16, ApplicationId: 
+DisplayName: Iris Provider EOP Web Service, ApplicationId: 
+DisplayName: OxBlue Interface Single Sign On, ApplicationId: 
+DisplayName: Data Migration Service, ApplicationId: 
+DisplayName: ingress-agw-sp, ApplicationId: 
+DisplayName: Microsoft Teams Intelligent Workspaces Interactions Service, ApplicationId: 
+DisplayName: Business Value Programs - FT API, ApplicationId: 
+DisplayName: SvcPrincipalProdIT1, ApplicationId: 
+DisplayName: ServiceNow Dev - Email - MSGraph OAuth, ApplicationId: 
+DisplayName: sheetgen-prd-config-id, ApplicationId: 
+DisplayName: MS Tech Comm, ApplicationId: 
+DisplayName: Azure Search Management, ApplicationId: 
+DisplayName: Jira Server, ApplicationId: 
+DisplayName: Microsoft Volume Licensing, ApplicationId: 
+DisplayName: Common Job Provider, ApplicationId: 
+DisplayName: Dynamics CRM Online Administration, ApplicationId: 
+DisplayName: labvantagelargelanguagemodel, ApplicationId: 
+DisplayName: moira-test-aks-agentpool, ApplicationId: 
+DisplayName: adpt-shared-test-agw-id, ApplicationId: 
+DisplayName: Slack, ApplicationId: 
+DisplayName: tableaua, ApplicationId: 
+DisplayName: O365SBRM Service, ApplicationId: 
+DisplayName: Office Change Management, ApplicationId: 
+DisplayName: Skype For Business Powershell Server Application, ApplicationId: 
+DisplayName: Azure Cognitive Search, ApplicationId: 
+DisplayName: lucidconnector, ApplicationId: 
+DisplayName: Okta Microsoft Graph Client, ApplicationId: 
+DisplayName: compbio-storage-sp, ApplicationId: 
+DisplayName: Dynamics 365 for Marketing, ApplicationId: 
+DisplayName: Skype for Business Name Dictionary Service, ApplicationId: 
+DisplayName: Power Platform Governance Services, ApplicationId: 
+DisplayName: azurepolicy-coresvcs-wu3-stg-aks, ApplicationId: 
+DisplayName: Skype Teams Firehose, ApplicationId: 
+DisplayName: ProjectWorkManagement, ApplicationId: 
+DisplayName: Intune oAuth Graph, ApplicationId: 
+DisplayName: shared-services-test-aks, ApplicationId: 
+DisplayName: ordermgmt-attachments-stg-sp, ApplicationId: 
+DisplayName: azure-cli-2021-08-18-22-19-26, ApplicationId: 
+DisplayName: Zapier, ApplicationId: 
+DisplayName: mirth-westus3-stage-aks-identity, ApplicationId: 
+DisplayName: CoraSvcsTestAGICid, ApplicationId: 
+DisplayName: MicrosoftMigrateProject, ApplicationId: 
+DisplayName: dwm-adf-wus2-dev, ApplicationId: 
+DisplayName: development-workflows, ApplicationId: 
+DisplayName: NYC-DC101, ApplicationId: 
+DisplayName: test-cluster-k3x7emixzijk7hqgp56eke2tq7x7gdgkscugtebyjbltz5hfob-kubelet, ApplicationId: 
+DisplayName: Boomerang, ApplicationId: 
+DisplayName: amethyst-notebooks-staging, ApplicationId: 
+DisplayName: Azure Guest Container Update Manager, ApplicationId: 
+DisplayName: Microsoft.OfficeModernCalendar, ApplicationId: 
+DisplayName: Virtual Connector Provider, ApplicationId: 
+DisplayName: Intune SidecarService ConfidentialClient, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-mirth-westus3-stage-aks, ApplicationId: 
+DisplayName: M365 Compliance Drive Client, ApplicationId: 
+DisplayName: azure-cora-stage-file-access, ApplicationId: 
+DisplayName: Microsoft Flow Portal, ApplicationId: 
+DisplayName: Envoy for Teams, ApplicationId: 
+DisplayName: Calendly, ApplicationId: 
+DisplayName: Adaptive PM Site Provisioning, ApplicationId: 
+DisplayName: SPAuthEvent, ApplicationId: 
+DisplayName: SharePoint Notification Service, ApplicationId: 
+DisplayName: AssistAPI, ApplicationId: 
+DisplayName: cora-scripts-test, ApplicationId: 
+DisplayName: Databricks Resource Provider, ApplicationId: 
+DisplayName: moira-stage-aks-agentpool, ApplicationId: 
+DisplayName: moira-test-sp, ApplicationId: 
+DisplayName: Microsoft.CodeSigning, ApplicationId: 
+DisplayName: AAD Request Verification Service - PROD, ApplicationId: 
+DisplayName: Dynamics 365 Universal Resource Scheduling, ApplicationId: 
+DisplayName: servicedesk, ApplicationId: 
+DisplayName: dwm-adf-wus2-prod, ApplicationId: 
+DisplayName: CABProvisioning, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernel, ApplicationId: 
+DisplayName: AzureBackupReporting, ApplicationId: 
+DisplayName: dwm-dbtdocsapp-wus2-dev, ApplicationId: 
+DisplayName: azurepolicy-adpt-shared-wu3-stg-aks, ApplicationId: 
+DisplayName: AADReporting, ApplicationId: 
+DisplayName: camundahackathon, ApplicationId: 
+DisplayName: platinum-hvl2mos7hesu45574mhnxgerqgqizwm6l4rpyvl4efsutt7q53xq, ApplicationId: 
+DisplayName: mi-dwm-sbox578c4a45, ApplicationId: 
+DisplayName: ansibleit, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: adpt-shared-test-apim-id, ApplicationId: 
+DisplayName: SmartList Designer, ApplicationId: 
+DisplayName: Skype Business Voice Directory, ApplicationId: 
+DisplayName: Adobe Acrobat, ApplicationId: 
+DisplayName: Office 365 Client Admin, ApplicationId: 
+DisplayName: Microsoft Substrate Management, ApplicationId: 
+DisplayName: Azure Analysis Services, ApplicationId: 
+DisplayName: agateteststoragesp, ApplicationId: 
+DisplayName: habitats-aks-adpt-internal, ApplicationId: 
+DisplayName: Liftr Elastic Whale Worker, ApplicationId: 
+DisplayName: analyzer-tools-prod, ApplicationId: 
+DisplayName: camunda-wu3-stg-aks-identity, ApplicationId: 
+DisplayName: Power Query Online, ApplicationId: 
+DisplayName: oauth-breaker, ApplicationId: 
+DisplayName: Azure Iot Hub Publisher App, ApplicationId: 
+DisplayName: EventGrid Data API, ApplicationId: 
+DisplayName: Microsoft SharePoint Online - SharePoint Home, ApplicationId: 
+DisplayName: Intune DiagnosticService, ApplicationId: 
+DisplayName: DelineaPriviligeManager-Connect, ApplicationId: 
+DisplayName: coresvcs-dev-aks-identity, ApplicationId: 
+DisplayName: OneDrive Free Client, ApplicationId: 
+DisplayName: Microsoft Fluid Framework Preview, ApplicationId: 
+DisplayName: gitlab-coresvcs-test-sp, ApplicationId: 
+DisplayName: Universal Print Native Client, ApplicationId: 
+DisplayName: OCPS Checkin Service, ApplicationId: 
+DisplayName: Signup, ApplicationId: 
+DisplayName: pipelineruostage, ApplicationId: 
+DisplayName: Call Recorder, ApplicationId: 
+DisplayName: coresvcs-wu3-dev-aks-agentpool, ApplicationId: 
+DisplayName: azurepolicy-mirth-westus3-test-aks, ApplicationId: 
+DisplayName: PROD Microsoft Defender For Cloud XDR, ApplicationId: 
+DisplayName: Microsoft Azure BatchAI, ApplicationId: 
+DisplayName: Cloudsponge, ApplicationId: 
+DisplayName: Azure Graph, ApplicationId: 
+DisplayName: drawio, ApplicationId: 
+DisplayName: M365 Pillar Diagnostics Service, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-adpt-shared-wu3-stg-aks, ApplicationId: 
+DisplayName: Microsoft Dynamics 365 Apps Integration, ApplicationId: 
+DisplayName: Microsoft Flow Service, ApplicationId: 
+DisplayName: Compute Usage Provider, ApplicationId: 
+DisplayName: Azure Reserved Instance Application, ApplicationId: 
+DisplayName: Meru19 First Party App, ApplicationId: 
+DisplayName: Apps Mspbackups Web, ApplicationId: 
+DisplayName: staging-adptatlas-api, ApplicationId: 
+DisplayName: mmrpreview, ApplicationId: 
+DisplayName: adaptiveinternal, ApplicationId: 
+DisplayName: Microsoft Insider Risk Management, ApplicationId: 
+DisplayName: dddaz-test-aks-agentpool, ApplicationId: 
+DisplayName: Azure Regional Service Manager, ApplicationId: 
+DisplayName: azure-cli-2023-03-27-17-28-24, ApplicationId: 
+DisplayName: My React App, ApplicationId: 
+DisplayName: Messaging Augmentation Application, ApplicationId: 
+DisplayName: azurepolicy-emradptr-westus3-dev-aks, ApplicationId: 
+DisplayName: gitlab-camundasink-stage-sp, ApplicationId: 
+DisplayName: Azure DevOps, ApplicationId: 
+DisplayName: azvmstartstop, ApplicationId: 
+DisplayName: Microsoft Azure Batch, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernels, ApplicationId: 
+DisplayName: Omnichannel for CS CRM ClientApp Primary, ApplicationId: 
+DisplayName: Webex Teams Calendar Service, ApplicationId: 
+DisplayName: Greenhouse Service Application, ApplicationId: 
+DisplayName: Office365 Shell SS-Server, ApplicationId: 
+DisplayName: Azure Marketplace Container Management API, ApplicationId: 
+DisplayName: Azure Security for IoT, ApplicationId: 
+DisplayName: pipelineivdtest, ApplicationId: 
+DisplayName: Windows Azure Service Management API, ApplicationId: 
+DisplayName: pairseq-analysis-personalized-svc-stage-sp, ApplicationId: 
+DisplayName: panel-design-svc-stage-sp, ApplicationId: 
+DisplayName: aws-migration, ApplicationId: 
+DisplayName: dddaz-stage-aks, ApplicationId: 
+DisplayName: mirth-westus3-prod-aks-agentpool, ApplicationId: 
+DisplayName: Office 365 Reports, ApplicationId: 
+DisplayName: ordermgmt-attachments-test-sp, ApplicationId: 
+DisplayName: K8 Bridge, ApplicationId: 
+DisplayName: WebhooksTest, ApplicationId: 
+DisplayName: gitlab-emradptr-stg-sp, ApplicationId: 
+DisplayName: Microsoft Azure AD Identity Protection, ApplicationId: 
+DisplayName: Marketplace Reviews, ApplicationId: 
+DisplayName: platinum-agentpool, ApplicationId: 
+DisplayName: k8s-pods-development-workflows, ApplicationId: 
+DisplayName: platinum-76aqpt2pl5j5om6cz6ihacxxgs6y5zyq5vvcwsoot5tg37okxfgq, ApplicationId: 
+DisplayName: Windows Azure Active Directory, ApplicationId: 
+DisplayName: Azure Notification Service, ApplicationId: 
+DisplayName: ASM Campaign Servicing, ApplicationId: 
+DisplayName: Hubble Media Service, ApplicationId: 
+DisplayName: Lucidchart, ApplicationId: 
+DisplayName: Bot Service CMEK Prod, ApplicationId: 
+DisplayName: Atlas, ApplicationId: 
+DisplayName: Live Chat Bot, ApplicationId: 
+DisplayName: Device Registration Service, ApplicationId: 
+DisplayName: Windows Cloud Login, ApplicationId: 
+DisplayName: gitlab-devops-poc-sp, ApplicationId: 
+DisplayName: ordermgmt-svc-stg-sp, ApplicationId: 
+DisplayName: Office 365 OAuth2 Sandbox, ApplicationId: 
+DisplayName: Cloud Connector, ApplicationId: 
+DisplayName: O365 UAP Processor, ApplicationId: 
+DisplayName: Service Bus MSI App, ApplicationId: 
+DisplayName: Dynamics Data Integration, ApplicationId: 
+DisplayName: batchengine-test-config-id, ApplicationId: 
+DisplayName: platinum-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa-control-plane, ApplicationId: 
+DisplayName: Modern workplace, ApplicationId: 
+DisplayName: pipeline-docker-auth-sp, ApplicationId: 
+DisplayName: Power Query Online GCC-L2, ApplicationId: 
+DisplayName: amethyst-tools-staging, ApplicationId: 
+DisplayName: Jarvis Transaction Service, ApplicationId: 
+DisplayName: SurveyMonkey, ApplicationId: 
+DisplayName: Media Analysis and Transformation Service, ApplicationId: 
+DisplayName: CPIM Service, ApplicationId: 
+DisplayName: azurepolicy-dddaz-prod-aks, ApplicationId: 
+DisplayName: PowerApps and Flow, ApplicationId: 
+DisplayName: SoapBox, ApplicationId: 
+DisplayName: CodeTwo User Photos for Office 365, ApplicationId: 
+DisplayName: OneBit Survey Master, ApplicationId: 
+DisplayName: tableau3, ApplicationId: 
+DisplayName: Federated Profile Service, ApplicationId: 
+DisplayName: App Protection, ApplicationId: 
+DisplayName: Azure Advisor, ApplicationId: 
+DisplayName: imrprod-sp, ApplicationId: 
+DisplayName: k8s-pods-trails-operatorz76aqpt2pl5j5om6cz6ihacxxgs6y5zyq5vvcwsoot5tg37okxfgq, ApplicationId: 
+DisplayName: Microsoft Customer Engagement Portal, ApplicationId: 
+DisplayName: gitlab-mirth-prod-sp, ApplicationId: 
+DisplayName: panel-design-svc-test-sp, ApplicationId: 
+DisplayName: moira-prod-aks, ApplicationId: 
+DisplayName: aciapi, ApplicationId: 
+DisplayName: Microsoft.CustomProviders RP, ApplicationId: 
+DisplayName: MS-PIM, ApplicationId: 
+DisplayName: spntest3, ApplicationId: 
+DisplayName: Intune-Graph-API, ApplicationId: 
+DisplayName: M365DataAtRestEncryption, ApplicationId: 
+DisplayName: Lucid, ApplicationId: 
+DisplayName: camunda-wu3-test-aks-identity, ApplicationId: 
+DisplayName: Cisco Webex Meetings, ApplicationId: 
+DisplayName: pipelineruononprod, ApplicationId: 
+DisplayName: CorptITAutomation, ApplicationId: 
+DisplayName: Microsoft Teams Mailhook, ApplicationId: 
+DisplayName: Outlook Lite, ApplicationId: 
+DisplayName: gitlab-ordermgmt-prd-sp, ApplicationId: 
+DisplayName: OneDrive Web, ApplicationId: 
+DisplayName: Office 365 Management APIs, ApplicationId: 
+DisplayName: Business Scenario Service, ApplicationId: 
+DisplayName: Universal Print, ApplicationId: 
+DisplayName: alz-eaus-dc02, ApplicationId: 
+DisplayName: FastTrack Production, ApplicationId: 
+DisplayName: gitlabrunner-aks-agentpool, ApplicationId: 
+DisplayName: SharePoint Online Client, ApplicationId: 
+DisplayName: Microsoft Teams Retail Service, ApplicationId: 
+DisplayName: MoveCollection-eus-wus2-eus2, ApplicationId: 
+DisplayName: Cortana Runtime Service, ApplicationId: 
+DisplayName: Microsoft.EventGrid, ApplicationId: 
+DisplayName: Microsoft Azure Authorization Private Link Provider, ApplicationId: 
+DisplayName: azurepolicy-mirth-westus3-stage-aks, ApplicationId: 
+DisplayName: analyzer-notebook-staging, ApplicationId: 
+DisplayName: gitlab-emradptr-prd-sp, ApplicationId: 
+DisplayName: sea-sccmsql01, ApplicationId: 
+DisplayName: MALogAnalyticsReader, ApplicationId: 
+DisplayName: Sway, ApplicationId: 
+DisplayName: Microsoft Cloud App Security, ApplicationId: 
+DisplayName: Microsoft Social Engagement, ApplicationId: 
+DisplayName: gitlab-lab-batch-engine-acrpush-test-sp, ApplicationId: 
+DisplayName: IpLicensingService, ApplicationId: 
+DisplayName: MCAPI Authorization Prod, ApplicationId: 
+DisplayName: netapp-cloudmanager, ApplicationId: 
+DisplayName: Microsoft Graph PowerShell, ApplicationId: 
+DisplayName: dwm-dbtdocsapp-wus2-test, ApplicationId: 
+DisplayName: ccsapproval.azurewebsites.net, ApplicationId: 
+DisplayName: gitlab-mira-qa-test-sp, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-mirth-westus3-prod-aks, ApplicationId: 
+DisplayName: lvdb-westus3-dev-00, ApplicationId: 
+DisplayName: aro-qwlytnem, ApplicationId: 
+DisplayName: Compute Recommendation Service, ApplicationId: 
+DisplayName: Microsoft Teams ADL, ApplicationId: 
+DisplayName: ResourceHealthRP, ApplicationId: 
+DisplayName: update-management, ApplicationId: 
+DisplayName: AvsOnFleetRP, ApplicationId: 
+DisplayName: Microsoft Intune Checkin, ApplicationId: 
+DisplayName: MTS, ApplicationId: 
+DisplayName: ProdIT-S3-Transfers, ApplicationId: 
+DisplayName: My Profile, ApplicationId: 
+DisplayName: azdc102, ApplicationId: 
+DisplayName: Microsoft_EMM_ModernWorkplace, ApplicationId: 
+DisplayName: azurepolicy-adpt-shared-wu3-dev-aks, ApplicationId: 
+DisplayName: mira-analysis-personalized-svc-stage-sp, ApplicationId: 
+DisplayName: IpAddressManager, ApplicationId: 
+DisplayName: cora-stage-sp, ApplicationId: 
+DisplayName: Request Based Chats, ApplicationId: 
+DisplayName: pipeprod-docker-auth-sp, ApplicationId: 
+DisplayName: Office 365 Information Protection, ApplicationId: 
+DisplayName: MS Teams Griffin Assistant, ApplicationId: 
+DisplayName: k8s-pods-development-workflows, ApplicationId: 
+DisplayName: Microsoft Mobile Application Management, ApplicationId: 
+DisplayName: Microsoft Device Management EMM API, ApplicationId: 
+DisplayName: Office Shredding Service, ApplicationId: 
+DisplayName: M365 Pillar Diagnostics Service API, ApplicationId: 
+DisplayName: SharePoint Online Client Extensibility, ApplicationId: 
+DisplayName: key-fetcher, ApplicationId: 
+DisplayName: Microsoft B2B Admin Portal, ApplicationId: 
+DisplayName: Microsoft Azure Authorization Resource Provider, ApplicationId: 
+DisplayName: omsagent-habitats-aks-adpt-internal, ApplicationId: 
+DisplayName: GatewayRP, ApplicationId: 
+DisplayName: Sharegate, ApplicationId: 
+DisplayName: aea23ca1c8ad4b0bbf3c25c1, ApplicationId: 
+DisplayName: Azure Traffic Manager and DNS, ApplicationId: 
+DisplayName: Microsoft Teams UIS, ApplicationId: 
+DisplayName: FastTrack, ApplicationId: 
+DisplayName: compbio-work-3, ApplicationId: 
+DisplayName: Dataverse, ApplicationId: 
+DisplayName: Wunderlist, ApplicationId: 
+DisplayName: mars-wkw-sp, ApplicationId: 
+DisplayName: Liftr Elastic RPaaS, ApplicationId: 
+DisplayName: Virtual Visits App, ApplicationId: 
+DisplayName: Office365 Shell WCSS-Server, ApplicationId: 
+DisplayName: aurora-westus3-dev-aks-identity, ApplicationId: 
+DisplayName: Smartsheet OneDrive Picker v3, ApplicationId: 
+DisplayName: habitats-aks-adpt-rwd, ApplicationId: 
+DisplayName: terrydevopstest-terrydevopstest-0d74dd78-51ee-4dc1-ad66-b00c939a32d9, ApplicationId: 
+DisplayName: Customer Service Trial PVA - readonly, ApplicationId: 
+DisplayName: SeanTest, ApplicationId: 
+DisplayName: cora-scripts-gblock-factors, ApplicationId: 
+DisplayName: azurepolicy-mirth-westus3-prod-aks, ApplicationId: 
+DisplayName: Azure Backup NRP Application, ApplicationId: 
+DisplayName: Azure.CodeSigning, ApplicationId: 
+DisplayName: Phish Alert, ApplicationId: 
+DisplayName: k8s-pods-workflow, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: Managed Applications On Behalf Application, ApplicationId: 
+DisplayName: Azure Machine Learning Services Asset Notification, ApplicationId: 
+DisplayName: gitlab-rayhan-dev-sp, ApplicationId: 
+DisplayName: Microsoft Defender for Cloud CIEM, ApplicationId: 
+DisplayName: adptipm-mi-amaczczvyno52, ApplicationId: 
+DisplayName: Customer Experience Platform CDPA Provisioning PROD, ApplicationId: 
+DisplayName: Azure Monitor Restricted, ApplicationId: 
+DisplayName: Meeting Catchup Recommendations V2, ApplicationId: 
+DisplayName: Microsoft Office Licensing Service vNext, ApplicationId: 
+DisplayName: Zapier Outlook, ApplicationId: 
+DisplayName: Microsoft Invitation Acceptance Portal, ApplicationId: 
+DisplayName: Dynamics 365 Analytics, ApplicationId: 
+DisplayName: Fiji Storage Backend, ApplicationId: 
+DisplayName: BambooAutoSP, ApplicationId: 
+DisplayName: Demeter.WorkerRole, ApplicationId: 
+DisplayName: Copilot 1 (Power Virtual Agents), ApplicationId: 
+DisplayName: Microsoft Teams Templates Service, ApplicationId: 
+DisplayName: localtest-sp-rbac, ApplicationId: 
+DisplayName: Microsoft Workplace Search Service, ApplicationId: 
+DisplayName: mira-analysis-personalized-svc-prod-sp, ApplicationId: 
+DisplayName: Azure AD Domain Services Sync, ApplicationId: 
+DisplayName: cora-test-sp, ApplicationId: 
+DisplayName: AAD App Management, ApplicationId: 
+DisplayName: Meeting Migration Service, ApplicationId: 
+DisplayName: Azure Cost Management Exports, ApplicationId: 
+DisplayName: gitlab-moira-sp, ApplicationId: 
+DisplayName: CosmosDB Dedicated Instance, ApplicationId: 
+DisplayName: Azure Virtual Desktop Client, ApplicationId: 
+DisplayName: MS-CE-CXG-MAC-AadShadowRoleWriter, ApplicationId: 
+DisplayName: Power Query Online GCC-L5, ApplicationId: 
+DisplayName: IC3 Modern Effective Config Worker, ApplicationId: 
+DisplayName: Microsoft Remote Desktop, ApplicationId: 
+DisplayName: Tasks in a Box, ApplicationId: 
+DisplayName: AtBot, ApplicationId: 
+DisplayName: Azure AD Identity Governance - Entitlement Management, ApplicationId: 
+DisplayName: omsagent-habitats-aks-adpt-pcb, ApplicationId: 
+DisplayName: adpt-netutil01, ApplicationId: 
+DisplayName: ccsemailsync.azurewebsites.net, ApplicationId: 
+DisplayName: k8s-pods-jupyter-hub, ApplicationId: 
+DisplayName: Microsoft Photos Services, ApplicationId: 
+DisplayName: CAP Package Deployer Service IM, ApplicationId: 
+DisplayName: Azure Diagnostics Resource Provider, ApplicationId: 
+DisplayName: Jamf Pro, ApplicationId: 
+DisplayName: Zoho, ApplicationId: 
+DisplayName: PartnerCenterCustomerServiceAppProd, ApplicationId: 
+DisplayName: Greenhouse, ApplicationId: 
+DisplayName: byok-91faae58-de1f-11ed-8e87-d24384864680, ApplicationId: 
+DisplayName: Power Platform Global Discovery Service, ApplicationId: 
+DisplayName: byok-6227f19b-c37c-11ed-88ef-7ae10d168a65, ApplicationId: 
+DisplayName: emradptr-westus3-stg-aks-identity, ApplicationId: 
+DisplayName: ordermgmt-dev-config-id, ApplicationId: 
+DisplayName: Salesforce, ApplicationId: 
+DisplayName: Microsoft Azure App Service, ApplicationId: 
+DisplayName: Notify Connector, ApplicationId: 
+DisplayName: Appspace, ApplicationId: 
+DisplayName: HPC Cache Resource Provider, ApplicationId: 
+DisplayName: NFV Resource Provider, ApplicationId: 
+DisplayName: NetworkTrafficAnalyticsService, ApplicationId: 
+DisplayName: Rocketbook, ApplicationId: 
+DisplayName: Azure Arc Data Services, ApplicationId: 
+DisplayName: gitlab-dddaz-sp, ApplicationId: 
+DisplayName: Azure Key Vault, ApplicationId: 
+DisplayName: Microsoft.HybridCompute Agent Service, ApplicationId: 
+DisplayName: Liftr Nginx RP Auth, ApplicationId: 
+DisplayName: SharePoint Framework Azure AD Helper, ApplicationId: 
+DisplayName: DocuSign for SharePoint Online, ApplicationId: 
+DisplayName: Azure Service Connector Resource Provider, ApplicationId: 
+DisplayName: Outlook Service for Exchange, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: DfMGraphApp, ApplicationId: 
+DisplayName: pipelineivdstage, ApplicationId: 
+DisplayName: alz-weus-dc01, ApplicationId: 
+DisplayName: DeliverySlip Office 365 Authentication, ApplicationId: 
+DisplayName: GrafanaAzureMonitor, ApplicationId: 
+DisplayName: Azure Media Services, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-emradptr-westus3-dev-aks, ApplicationId: 
+DisplayName: sdet-test, ApplicationId: 
+DisplayName: Sales Copilot Power Virtual Agents Bot (Power Virtual Agents), ApplicationId: 
+DisplayName: PCP-Intune, ApplicationId: 
+DisplayName: emradptr-westus3-dev-aks-agentpool, ApplicationId: 
+DisplayName: camundasink-tst-config-id, ApplicationId: 
+DisplayName: tableau1, ApplicationId: 
+DisplayName: AAD Terms Of Use, ApplicationId: 
+DisplayName: Gatekeeper PPE App, ApplicationId: 
+DisplayName: ServiceNow for OAuth2, ApplicationId: 
+DisplayName: emradptr-westus3-prod-aks-agentpool, ApplicationId: 
+DisplayName: workflows-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxwjhz3bchksbamwr7a, ApplicationId: 
+DisplayName: analyzer-notebook-prod, ApplicationId: 
+DisplayName: CAS API Security RP Staging, ApplicationId: 
+DisplayName: PushChannel, ApplicationId: 
+DisplayName: Windows 365, ApplicationId: 
+DisplayName: GitLab, ApplicationId: 
+DisplayName: DevPilotTest (Power Virtual Agents), ApplicationId: 
+DisplayName: AddEvent.com, ApplicationId: 
+DisplayName: O365 Suite UX, ApplicationId: 
+DisplayName: Microsoft Mobile Application Management Backend, ApplicationId: 
+DisplayName: lvdb-westus3-stg-00, ApplicationId: 
+DisplayName: imrtest-agic-sp, ApplicationId: 
+DisplayName: k8s-pods-atlas-api, ApplicationId: 
+DisplayName: bamboo-cora-services-test-sp, ApplicationId: 
+DisplayName: Azure Portal, ApplicationId: 
+DisplayName: Kaizala Sync Service, ApplicationId: 
+DisplayName: Exchange Rbac, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: Bing Search APIs, ApplicationId: 
+DisplayName: Jira cloud, ApplicationId: 
+DisplayName: MicrosoftAzureActiveAuthn, ApplicationId: 
+DisplayName: CodeTwo User Photos for Office 365 5b801940e2bb4eb2ae438fbf7cf62a79, ApplicationId: 
+DisplayName: adpt-shared-dev-apim-id, ApplicationId: 
+DisplayName: Microsoft Intune Enrollment, ApplicationId: 
+DisplayName: tdetect-test-ingress.adaptivebiotech.com, ApplicationId: 
+DisplayName: pairseq-analysis-personalized-svc-prod-sp, ApplicationId: 
+DisplayName: Azure Spring Cloud DiagSettings App, ApplicationId: 
+DisplayName: Tonygitlab-SP, ApplicationId: 
+DisplayName: omsagent-platinum-hvl2mos7hesu45574mhnxgerqgqizwm6l4rpyvl4efsutt7q53xq, ApplicationId: 
+DisplayName: pagerduty-teams, ApplicationId: 
+DisplayName: cshorizonlogcv1ced1lqs, ApplicationId: 
+DisplayName: Azure Database for PostgreSQL Marlin, ApplicationId: 
+DisplayName: teamsupgradeorchestrator-app, ApplicationId: 
+DisplayName: IC3 Gateway TestClone, ApplicationId: 
+DisplayName: Meeting Room 365 Production App, ApplicationId: 
+DisplayName: VSTS Bot, ApplicationId: 
+DisplayName: Microsoft.Azure.Cdn, ApplicationId: 
+DisplayName: NetApp Cloud Control, ApplicationId: 
+DisplayName: AML Registries, ApplicationId: 
+DisplayName: gitlab-landingvalet-test-sp, ApplicationId: 
+DisplayName: Lucidchart, ApplicationId: 
+DisplayName: Geneva Alert RP, ApplicationId: 
+DisplayName: CentOS, ApplicationId: 
+DisplayName: azure-cli-2020-12-07-22-29-28, ApplicationId: 
+DisplayName: infosec_azurecompute, ApplicationId: 
+DisplayName: Microsoft.Azure.ActiveDirectoryIUX, ApplicationId: 
+DisplayName: cs-aad-func-254b1718-c2cc-4e38-a739-10dfb46957bb, ApplicationId: 
+DisplayName: PrincipalSkinner, ApplicationId: 
+DisplayName: habitats-read-adpt-internal, ApplicationId: 
+DisplayName: Business Central to Common Data Service, ApplicationId: 
+DisplayName: M365 Compliance Drive, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-camunda-wu3-stg-aks, ApplicationId: 
+DisplayName: k8s-pods-atlas-scheduler, ApplicationId: 
+DisplayName: Azure Cost Management Public Main RP, ApplicationId: 
+DisplayName: Bot Service Resource Provider, ApplicationId: 
+DisplayName: aurora-westus3-dev-aks-agentpool, ApplicationId: 
+DisplayName: mira-analysis-personalized-svc-test-sp, ApplicationId: 
+DisplayName: Skype for Business Management Reporting and Analytics, ApplicationId: 
+DisplayName: k8s-pods-atlas-api, ApplicationId: 
+DisplayName: CIWebService, ApplicationId: 
+DisplayName: adpt-ipam-ui, ApplicationId: 
+DisplayName: Microsoft Partner Center, ApplicationId: 
+DisplayName: Azure Multi-Factor Auth Connector, ApplicationId: 
+DisplayName: SEAWXMIGRATEd942authandaccessaadapp, ApplicationId: 
+DisplayName: k8s-pods-atlas-hub, ApplicationId: 
+DisplayName: ZIX|AppRiver Office 365 Authentication, ApplicationId: 
+DisplayName: Intune DeviceActionService, ApplicationId: 
+DisplayName: Office 365 Client Insights Substrate Services Prod, ApplicationId: 
+DisplayName: Microsoft.Azure.CertificateRegistration, ApplicationId: 
+DisplayName: M365 License Manager, ApplicationId: 
+DisplayName: gitlab-lab-batch-engine-acrpush-stg-sp, ApplicationId: 
+DisplayName: Microsoft Discovery Service, ApplicationId: 
+DisplayName: AzureUpdateCenter, ApplicationId: 
+DisplayName: dwm-app-wus2-test, ApplicationId: 
+DisplayName: ProdITTest, ApplicationId: 
+DisplayName: AI Builder Prod Non God Mode, ApplicationId: 
+DisplayName: SnowflakePACInt0485, ApplicationId: 
+DisplayName: adpt-shared-wu3-test-apim, ApplicationId: 
+DisplayName: Azure VMware Solution RP, ApplicationId: 
+DisplayName: console-m365d, ApplicationId: 
+DisplayName: OCaaS Worker Services, ApplicationId: 
+DisplayName: adpt-shared-wu3-test-aks-agentpool, ApplicationId: 
+DisplayName: Eco Azure Data Download, ApplicationId: 
+DisplayName: Microsoft Teams User Profile Search Service, ApplicationId: 
+DisplayName: Microsoft Rights Management Services, ApplicationId: 
+DisplayName: gitlabrunner-qa-aks, ApplicationId: 
+DisplayName: CAP Neptune Prod CM Prod , ApplicationId: 
+DisplayName: Microsoft Defender for Cloud Azure Discovery, ApplicationId: 
+DisplayName: emradptr-westus3-dev-aks spot app, ApplicationId: 
+DisplayName: Capacity , ApplicationId: 
+DisplayName: Media Recording for Dynamics 365 Sales, ApplicationId: 
+DisplayName: Microsoft Parature Dynamics CRM, ApplicationId: 
+DisplayName: Azure AD Identity Protection, ApplicationId: 
+DisplayName: emradptr-westus3-test-aks-agentpool, ApplicationId: 
+DisplayName: Azure Cosmos DB Virtual Network To Network Resource Provider, ApplicationId: 
+DisplayName: Office 365 Enterprise Insights, ApplicationId: 
+DisplayName: Cortana at Work Service, ApplicationId: 
+DisplayName: Microsoft Support Diagnostics, ApplicationId: 
+DisplayName: Arc Token Service, ApplicationId: 
+DisplayName: IVD Regulations (Power Virtual Agents), ApplicationId: 
+DisplayName: jjones-analyzer-tools, ApplicationId: 
+DisplayName: Audit GraphAPI Application, ApplicationId: 
+DisplayName: Contingent_Worker_Sync, ApplicationId: 
+DisplayName: Microsoft Power BI Information Service, ApplicationId: 
+DisplayName: Azure Media Service, ApplicationId: 
+DisplayName: Microsoft Teams Chat Aggregator, ApplicationId: 
+DisplayName: analyzer-stress-test, ApplicationId: 
+DisplayName: Microsoft Mixed Reality, ApplicationId: 
+DisplayName: cs-activity-func-254b1718-c2cc-4e38-a739-10dfb46957bb, ApplicationId: 
+DisplayName: f4ce66b74b1240aa98ea30c3, ApplicationId: 
+DisplayName: CosmosDBMongoClusterPrivateEndpoint, ApplicationId: 
+DisplayName: Microsoft Teams AuditService, ApplicationId: 
+DisplayName: Office 365 Search Service, ApplicationId: 
+DisplayName: Apps Mspbackups, ApplicationId: 
+DisplayName: AD Hybrid Health, ApplicationId: 
+DisplayName: Cisco Webex Meetings, ApplicationId: 
+DisplayName: pipeline-dynamic, ApplicationId: 
+DisplayName: platinum-ny3ufpa7ecxaxxpooswwzfchoz5iwjqycfhdt2ieezvxuq3gxd6a, ApplicationId: 
+DisplayName: Grade Sync, ApplicationId: 
+DisplayName: GWPOCAKSCluster, ApplicationId: 
+DisplayName: alz-eaus-dc01, ApplicationId: 
+DisplayName: ElasticSearchSnapshots_Test, ApplicationId: 
+DisplayName: Azure Hilo Client, ApplicationId: 
+DisplayName: OMSAuthorizationServicePROD, ApplicationId: 
+DisplayName: Microsoft Policy Insights Provider Data Plane, ApplicationId: 
+DisplayName: dwm-app-wus2-prod, ApplicationId: 
+DisplayName: k8s-pods-atlas-hub, ApplicationId: 
+DisplayName: development-workflows, ApplicationId: 
+DisplayName: test-stacks-aks-uswest2-sp, ApplicationId: 
+DisplayName: Power Query Online GCC-L4, ApplicationId: 
+DisplayName: One Outlook Web, ApplicationId: 
+DisplayName: gitlab-mirth-stage-sp, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernels-76aqpt2pl5j5om6cz6ihacxxgs6y5zyq5vvcwsoot5tg37okxfgq, ApplicationId: 
+DisplayName: Windows 365 Portal, ApplicationId: 
+DisplayName: amethyst-tools-prod, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa, ApplicationId: 
+DisplayName: omsagent-platinum-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxwjhz3bchksbamwr7a, ApplicationId: 
+DisplayName: MicrosoftAzureRedisCache, ApplicationId: 
+DisplayName: Microsoft.Azure.DataMarket, ApplicationId: 
+DisplayName: My Workspace, a Microsoft Garage project, ApplicationId: 
+DisplayName: k8s-pod-tekton-pipeline-mgbapzrzzvyvmd254k34tcboifl67k, ApplicationId: 
+DisplayName: Mimecast Directory Synchronization, ApplicationId: 
+DisplayName: AvePoint Online Services, ApplicationId: 
+DisplayName: Tab SSO, ApplicationId: 
+DisplayName: gitlab-adpt-az-security-sp, ApplicationId: 
+DisplayName: aaw-storage, ApplicationId: 
+DisplayName: sheetgen-stage-config-id, ApplicationId: 
+DisplayName: k8s-pods-workflows, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: Azure App Configuration, ApplicationId: 
+DisplayName: Microsoft Teams Targeting Application, ApplicationId: 
+DisplayName: Smartsheet For OneDrive, ApplicationId: 
+DisplayName: Power Platform Data Analytics, ApplicationId: 
+DisplayName: Kinematik, ApplicationId: 
+DisplayName: Alkira-Connector, ApplicationId: 
+DisplayName: Microsoft Outlook, ApplicationId: 
+DisplayName: adpt-shared-wu3-dev-aks-agentpool, ApplicationId: 
+DisplayName: Tenant Schema Extension App, ApplicationId: 
+DisplayName: Teams EHR Connector, ApplicationId: 
+DisplayName: k8s-pods-trails-operatorzmgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa, ApplicationId: 
+DisplayName: Adaptive-Automation-2_rmG3P0AVunCkvUXwesbDQU0ZlCYCJzotmL0v+uV1Zos=, ApplicationId: 
+DisplayName: Microsoft Teams - Device Admin Agent, ApplicationId: 
+DisplayName: Jamf Conditional Access for Intune, ApplicationId: 
+DisplayName: AADPremiumService, ApplicationId: 
+DisplayName: Office 365 YammerOnOls, ApplicationId: 
+DisplayName: Teams ACL management service, ApplicationId: 
+DisplayName: ServiceNow Test - Email - MSGraph OAuth, ApplicationId: 
+DisplayName: O365 LinkedIn Connection, ApplicationId: 
+DisplayName: omsagent-platinum-76aqpt2pl5j5om6cz6ihacxxgs6y5zyq5vvcwsoot5tg37okxfgq, ApplicationId: 
+DisplayName: MSP360, ApplicationId: 
+DisplayName: OneNote, ApplicationId: 
+DisplayName: nitrostudio.azurewebsites.net, ApplicationId: 
+DisplayName: emradptr-westus3-prod-aks-identity, ApplicationId: 
+DisplayName: Substrate Instant Revocation Pipeline, ApplicationId: 
+DisplayName: gitlab-tcrbg-nonprod-sp, ApplicationId: 
+DisplayName: daz-test-aks-agentpool, ApplicationId: 
+DisplayName: Spot.io, ApplicationId: 
+DisplayName: Modern Workplace Core ITaaS, ApplicationId: 
+DisplayName: habitats-aks-adpt-shared, ApplicationId: 
+DisplayName: adpt-shared-dev-agw-id, ApplicationId: 
+DisplayName: Reply-At-Mention, ApplicationId: 
+DisplayName: Azure RBAC Data Plane, ApplicationId: 
+DisplayName: Azure AD Identity Governance - SPO Management, ApplicationId: 
+DisplayName: Microsoft Office Web Apps Service, ApplicationId: 
+DisplayName: Microsoft Exact Data Match Service, ApplicationId: 
+DisplayName: panel-design-svc-prod-sp, ApplicationId: 
+DisplayName: DirectoryLookupService, ApplicationId: 
+DisplayName: DocuSign, ApplicationId: 
+DisplayName: LucidChart Cloud Insights -- Cora Only, ApplicationId: 
+DisplayName: Bot Service Token Store, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: US Cloud Account Portal, ApplicationId: 
+DisplayName: azurepolicy-emradptr-westus3-stg-aks, ApplicationId: 
+DisplayName: amethyst-tools-test, ApplicationId: 
+DisplayName: OneDrive, ApplicationId: 
+DisplayName: Azure Spring Cloud Service Runtime Auth, ApplicationId: 
+DisplayName: k8s-pods-development-workflows-ny3ufpa7ecxaxxpooswwzfchoz5iwjqycfhdt2ieezvxuq3gxd6a, ApplicationId: 
+DisplayName: Portals-test, ApplicationId: 
+DisplayName: smartsheet for outlook, ApplicationId: 
+DisplayName: Microsoft Azure Policy Insights, ApplicationId: 
+DisplayName: artifactorybinarystorage, ApplicationId: 
+DisplayName: Application Insights API, ApplicationId: 
+DisplayName: MicrosoftGuestConfiguration, ApplicationId: 
+DisplayName: M365CommunicationCompliance, ApplicationId: 
+DisplayName: habitats-read-adpt-internal-platinum, ApplicationId: 
+DisplayName: Azure SQL Virtual Network to Network Resource Provider, ApplicationId: 
+DisplayName: azurepolicy-moira-test-aks, ApplicationId: 
+DisplayName: Microsoft Service Trust, ApplicationId: 
+DisplayName: MIRAScriptProd, ApplicationId: 
+DisplayName: Messaging Bot API Application for GCC, ApplicationId: 
+DisplayName: camunda-wu3-prd-aks-agentpool, ApplicationId: 
+DisplayName: azurepolicy-camunda-wu3-prd-aks, ApplicationId: 
+DisplayName: Azure AD Identity Governance - User Management, ApplicationId: 
+DisplayName: cora-mtdoom-sp, ApplicationId: 
+DisplayName: Microsoft Teams Settings Store, ApplicationId: 
+DisplayName: azure-cli-2019-05-23-23-06-59, ApplicationId: 
+DisplayName: slalom_cicd-sp.adaptivebiotech.com, ApplicationId: 
+DisplayName: CloudLicensingSystem, ApplicationId: 
+DisplayName: Azure Monitor for VMs, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernels-ny3ufpa7ecxaxxpooswwzfchoz5iwjqycfhdt2ieezvxuq3gxd6a, ApplicationId: 
+DisplayName: Cloud Infrastructure Entitlement Management, ApplicationId: 
+DisplayName: Lattice, ApplicationId: 
+DisplayName: Jira Cloud, ApplicationId: 
+DisplayName: Learning App Service In Teams, ApplicationId: 
+DisplayName: AzNS EventHub Action, ApplicationId: 
+DisplayName: AnalyticsWorkbench-sp, ApplicationId: 
+DisplayName: AzureAutomationAADPatchS2S, ApplicationId: 
+DisplayName: Meru19 MySQL First Party App, ApplicationId: 
+DisplayName: Sumo Logic Data Collection, ApplicationId: 
+DisplayName: cora-prod-sp, ApplicationId: 
+DisplayName: analyzer-notebook-test, ApplicationId: 
+DisplayName: Azure SCOM_58bc0ef6-6512-5a99-65bc-f4529109fca9_a6c5af60-99b6-4032-ab3b-22fdebce562d, ApplicationId: 
+DisplayName: Microsoft Graph Connectors Core, ApplicationId: 
+DisplayName: gitlab-emradptr-test-sp, ApplicationId: 
+DisplayName: Azure Application Change Service, ApplicationId: 
+DisplayName: Microsoft Information Protection Sync Service, ApplicationId: 
+DisplayName: Call Quality Dashboard, ApplicationId: 
+DisplayName: pipelinecb, ApplicationId: 
+DisplayName: habitats-aks-adpt-rwd-agentpool, ApplicationId: 
+DisplayName: Microsoft Teams Web Client, ApplicationId: 
+DisplayName: pipeline-dynamic-prod, ApplicationId: 
+DisplayName: 79b392a21c8b4328b4c3b016, ApplicationId: 
+DisplayName: Azure AD Power BI Content Pack App, ApplicationId: 
+DisplayName: Paylocity Web Pay, ApplicationId: 
+DisplayName: Microsoft Azure Container Apps - Data Plane, ApplicationId: 
+DisplayName: VirtasantServicePrincipalReader, ApplicationId: 
+DisplayName: denodo-vdp02, ApplicationId: 
+DisplayName: Office Online Third Party Storage, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-emradptr-westus3-prod-aks, ApplicationId: 
+DisplayName: Fiji Storage, ApplicationId: 
+DisplayName: M365 Label Analytics, ApplicationId: 
+DisplayName: iOS Accounts, ApplicationId: 
+DisplayName: Modern Workplace Customer APIs, ApplicationId: 
+DisplayName: Windows Azure Application Insights, ApplicationId: 
+DisplayName: Azure Blueprints, ApplicationId: 
+DisplayName: Modern Workplace Partner API, ApplicationId: 
+DisplayName: ChatMigrationService1P, ApplicationId: 
+DisplayName: Permission Service O365, ApplicationId: 
+DisplayName: IC3 Modern Effective Config, ApplicationId: 
+DisplayName: coresvcs-test-aks-identity, ApplicationId: 
+DisplayName: Azure Machine Learning OpenAI, ApplicationId: 
+DisplayName: Roomfinder, ApplicationId: 
+DisplayName: Azure Healthcare APIs Resource Provider, ApplicationId: 
+DisplayName: sp-CrowdStrike-ACR-Image-Scanning, ApplicationId: 
+DisplayName: CloudynAzureCollector, ApplicationId: 
+DisplayName: cora-scripts-stage-phi-sp, ApplicationId: 
+DisplayName: Tasks in a Box for SharePoint Online, ApplicationId: 
+DisplayName: Lucidpress, ApplicationId: 
+DisplayName: Microsoft StaffHub, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernels-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa, ApplicationId: 
+DisplayName: OfficeClientService, ApplicationId: 
+DisplayName: Azure Managed Grafana, ApplicationId: 
+DisplayName: Managed Service Identity, ApplicationId: 
+DisplayName: MRMapsProd, ApplicationId: 
+DisplayName: pipeline-ruo-test-sp, ApplicationId: 
+DisplayName: azurepolicy-gitlabrunner-aks, ApplicationId: 
+DisplayName: Azure Compute, ApplicationId: 
+DisplayName: Universal Print Enabled Printer, ApplicationId: 
+DisplayName: Dynamics Provision, ApplicationId: 
+DisplayName: Enterprise File Sync Service, ApplicationId: 
+DisplayName: Business Value Programs - API, ApplicationId: 
+DisplayName: k8s-pods-traefik, ApplicationId: 
+DisplayName: Microsoft.Azure.SyncFabric, ApplicationId: 
+DisplayName: Azure Container Registry - Dataplane, ApplicationId: 
+DisplayName: ConfigMgrSvc_017a4203-76e7-41ed-b45a-4a273d87bb7e, ApplicationId: 
+DisplayName: Funnel and Engagement Data Service, ApplicationId: 
+DisplayName: analyzer-notebook-clients1-aks, ApplicationId: 
+DisplayName: O365trustportal, ApplicationId: 
+DisplayName: Azure Managed Grafana SSO, ApplicationId: 
+DisplayName: Zendesk, ApplicationId: 
+DisplayName: Branch Connect Web Service, ApplicationId: 
+DisplayName: MARS, ApplicationId: 
+DisplayName: Arc Public Cloud - Networking, ApplicationId: 
+DisplayName: dwm-app-wus2-test, ApplicationId: 
+DisplayName: Partner Customer Delegated Admin Migration, ApplicationId: 
+DisplayName: Power Platform Dataflows Common Data Service Client, ApplicationId: 
+DisplayName: alz-weus-dc02, ApplicationId: 
+DisplayName: Microsoft Teams Wiki Images Migration, ApplicationId: 
+DisplayName: WindowsUpdate-Service, ApplicationId: 
+DisplayName: Microsoft App Access Panel, ApplicationId: 
+DisplayName: HabitatsAgateExport, ApplicationId: 
+DisplayName: AZ-NDES01, ApplicationId: 
+DisplayName: AzureArcConnector, ApplicationId: 
+DisplayName: k8s-pods-workflows, ApplicationId: 
+DisplayName: gitlab-devsecops-sp, ApplicationId: 
+DisplayName: MicrosoftTeamsCortanaSkills, ApplicationId: 
+DisplayName: seahqdc101, ApplicationId: 
+DisplayName: Alkira-SolarWinds, ApplicationId: 
+DisplayName: Test_Chase_Terraform, ApplicationId: 
+DisplayName: PowerAI, ApplicationId: 
+DisplayName: habitats-adpt-pharmacompbio, ApplicationId: 
+DisplayName: camundasink-dev-config-id, ApplicationId: 
+DisplayName: ddsdsasadSP-20191212131741, ApplicationId: 
+DisplayName: ServiceDesk, ApplicationId: 
+DisplayName: AzNet Security Guard, ApplicationId: 
+DisplayName: coresvcs-prd-aks-identity, ApplicationId: 
+DisplayName: Microsoft Stream Mobile Native, ApplicationId: 
+DisplayName: dwm-cicd-sp, ApplicationId: 
+DisplayName: SEAL All credentials, ApplicationId: 
+DisplayName: LinkedIn, ApplicationId: 
+DisplayName: gitlab-camundasink-acrpush-test-sp, ApplicationId: 
+DisplayName: OneNote, ApplicationId: 
+DisplayName: Microsoft Container Registry, ApplicationId: 
+DisplayName: Office 365 Security Optimization Assessment, ApplicationId: 
+DisplayName: Marketplace Api, ApplicationId: 
+DisplayName: EDU Assignments, ApplicationId: 
+DisplayName: SharePoint Notification Service, ApplicationId: 
+DisplayName: adpt-shared-stg-apim-id, ApplicationId: 
+DisplayName: Compute Resource Provider, ApplicationId: 
+DisplayName: Microsoft To-Do, ApplicationId: 
+DisplayName: SubstrateActionsService, ApplicationId: 
+DisplayName: TrustedPublishersProxyService, ApplicationId: 
+DisplayName: Microsoft Teams Partner Tenant Administration , ApplicationId: 
+DisplayName: denodo-sm, ApplicationId: 
+DisplayName: azurepolicy-dddaz-stage-aks, ApplicationId: 
+DisplayName: k8s-pods-trails-operator, ApplicationId: 
+DisplayName: Schoology Microsoft Integration, ApplicationId: 
+DisplayName: SharePoint Home Notifier, ApplicationId: 
+DisplayName: pairseqdash-app, ApplicationId: 
+DisplayName: gitlab-sheetgen-tst-sp, ApplicationId: 
+DisplayName: gitlab-emradptr-nonprod-sp, ApplicationId: 
+DisplayName: Apple Business Manager, ApplicationId: 
+DisplayName: Skype and Teams Real Time Telemetry, ApplicationId: 
+DisplayName: Weve, ApplicationId: 
+DisplayName: Microsoft DataMovement Metadata Service, ApplicationId: 
+DisplayName: k8s-pods-trails-operatorzny3ufpa7ecxaxxpooswwzfchoz5iwjqycfhdt2ieezvxuq3gxd6a, ApplicationId: 
+DisplayName: coresvcs-wu3-prd-aks-agentpool, ApplicationId: 
+DisplayName: electricterrylandsp, ApplicationId: 
+DisplayName: denodo-vdp-test, ApplicationId: 
+DisplayName: Azure Cloud Shell, ApplicationId: 
+DisplayName: ClusterConfigToConnectedCluster, ApplicationId: 
+DisplayName: IAM Supportability, ApplicationId: 
+DisplayName: Flow-E, ApplicationId: 
+DisplayName: CAS API Security RP Dev, ApplicationId: 
+DisplayName: azure-cli-2018-08-31-17-42-26, ApplicationId: 
+DisplayName: Outlook Online Add-in App, ApplicationId: 
+DisplayName: SubscriptionRP, ApplicationId: 
+DisplayName: Portals-test, ApplicationId: 
+DisplayName: gitlab-camundasink-acrpush-dev-sp, ApplicationId: 
+DisplayName: AzureLockbox, ApplicationId: 
+DisplayName: jjones-analyzer-tools-amethyst-test, ApplicationId: 
+DisplayName: platinum, ApplicationId: 
+DisplayName: mirth-westus3-stage-aks-agentpool, ApplicationId: 
+DisplayName: gitlab-sheetgen-dev-sp, ApplicationId: 
+DisplayName: Microsoft To-Do, ApplicationId: 
+DisplayName: Microsoft Defender for Cloud Servers Scanner Resource Provider, ApplicationId: 
+DisplayName: o365.servicecommunications.microsoft.com, ApplicationId: 
+DisplayName: Azure Digital Twins Resource Provider, ApplicationId: 
+DisplayName: Microsoft Exchange Online Protection, ApplicationId: 
+DisplayName: k8s-pods-trails-operatorzhvl2mos7hesu45574mhnxgerqgqizwm6l4rpyvl4efsutt7q53xq, ApplicationId: 
+DisplayName: Cortana at Work Bing Services, ApplicationId: 
+DisplayName: OfficeGraph, ApplicationId: 
+DisplayName: Expel Azure Integration, ApplicationId: 
+DisplayName: Azure API Management, ApplicationId: 
+DisplayName: Microsoft Forms, ApplicationId: 
+DisplayName: adaptiveterrypipetest, ApplicationId: 
+DisplayName: Azure Multi-Factor Auth Client, ApplicationId: 
+DisplayName: gitlab-ordermgmt-dev-sp, ApplicationId: 
+DisplayName: cora-scripts-prod-sp, ApplicationId: 
+DisplayName: TeamsLinkedInLiveApp, ApplicationId: 
+DisplayName: azurepolicy-emradptr-westus3-pre-aks, ApplicationId: 
+DisplayName: cora-scripts-test-phi-sp, ApplicationId: 
+DisplayName: Microsoft Partner, ApplicationId: 
+DisplayName: M365 App Management Service, ApplicationId: 
+DisplayName: Greenhouse, ApplicationId: 
+DisplayName: MIP Exchange Solutions - ODB, ApplicationId: 
+DisplayName: Microsoft Device Directory Service, ApplicationId: 
+DisplayName: ubuntu2204LTSPro, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-emradptr-westus3-stg-aks, ApplicationId: 
+DisplayName: azurepolicy-moira-prod-aks, ApplicationId: 
+DisplayName: emradptr-westus3-pre-aks-agentpool, ApplicationId: 
+DisplayName: workflows, ApplicationId: 
+DisplayName: gsb-webapp, ApplicationId: 
+DisplayName: Dynamics Lifecycle services, ApplicationId: 
+DisplayName: Microsoft Intune Web Company Portal, ApplicationId: 
+DisplayName: Universal Store Entitlements Service, ApplicationId: 
+DisplayName: Microsoft Approval Management, ApplicationId: 
+DisplayName: Arc Public Cloud - Servers, ApplicationId: 
+DisplayName: MicrosoftEndpointDLP, ApplicationId: 
+DisplayName: Kanban Board by Virto, ApplicationId: 
+DisplayName: gitlab-lab-batch-engine-dev-sp, ApplicationId: 
+DisplayName: Microsoft Azure Log Search Alerts, ApplicationId: 
+DisplayName: adpt-shared-prd-agw-id, ApplicationId: 
+DisplayName: Office 365 Mover, ApplicationId: 
+DisplayName: Azure HDInsight Surrogate Service, ApplicationId: 
+DisplayName: ServiceNow Auth App (DEV), ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-adpt-shared-wu3-test-aks, ApplicationId: 
+DisplayName: k8s-pods-workflows-hvl2mos7hesu45574mhnxgerqgqizwm6l4rpyvl4efsutt7q53xq, ApplicationId: 
+DisplayName: Microsoft Windows AutoPilot Service API, ApplicationId: 
+DisplayName: GWPOCAKSClusterPublic, ApplicationId: 
+DisplayName: hv-txfr, ApplicationId: 
+DisplayName: Hyper-V Recovery Manager, ApplicationId: 
+DisplayName: Smartsheet, ApplicationId: 
+DisplayName: rclone, ApplicationId: 
+DisplayName: AZ-Orion01, ApplicationId: 
+DisplayName: Azure Classic Portal, ApplicationId: 
+DisplayName: Microsoft Intune IW Service, ApplicationId: 
+DisplayName: k8s-pods-tmp-mira-workflow, ApplicationId: 
+DisplayName: Amazon Alexa, ApplicationId: 
+DisplayName: M365 Admin Services, ApplicationId: 
+DisplayName: SolarWinds-SAM, ApplicationId: 
+DisplayName: Outlook Service for OneDrive, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: Microsoft Partner Center, ApplicationId: 
+DisplayName: Azure Purview, ApplicationId: 
+DisplayName: Microsoft Office Licensing Service, ApplicationId: 
+DisplayName: Office Enterprise Protection Service, ApplicationId: 
+DisplayName: Bot Framework Composer, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-adpt-shared-wu3-dev-aks, ApplicationId: 
+DisplayName: Office Agent Service, ApplicationId: 
+DisplayName: dwm-app-wus2-sbox, ApplicationId: 
+DisplayName: Skype Presence Service, ApplicationId: 
+DisplayName: azure-cora-prod-file-access, ApplicationId: 
+DisplayName: Azure Data Factory, ApplicationId: 
+DisplayName: MoveCollection-wus-eus-eus2, ApplicationId: 
+DisplayName: Narada Notification Service, ApplicationId: 
+DisplayName: Tableau on Azure, ApplicationId: 
+DisplayName: Hybrid Connectivity RP, ApplicationId: 
+DisplayName: Microsoft Whiteboard Services, ApplicationId: 
+DisplayName: UEMS, ApplicationId: 
+DisplayName: k8s-pods-dev-workflow, ApplicationId: 
+DisplayName: jjones-adls, ApplicationId: 
+DisplayName: SUMOBRTaskConsumerSumoStorageTesttns5kxbfgfwfe, ApplicationId: 
+DisplayName: coresvcs-wu3-test-aks-agentpool, ApplicationId: 
+DisplayName: Azure Logic Apps, ApplicationId: 
+DisplayName: SSO Extension Intune, ApplicationId: 
+DisplayName: Zapier, ApplicationId: 
+DisplayName: adpt-shared-test-aks-identity, ApplicationId: 
+DisplayName: CodeTwo User Photos for Office 365, ApplicationId: 
+DisplayName: Doodle AG, ApplicationId: 
+DisplayName: Power Apps API, ApplicationId: 
+DisplayName: moira-services-test-sp, ApplicationId: 
+DisplayName: Microsoft AppSource, ApplicationId: 
+DisplayName: adpt-nginx-mi, ApplicationId: 
+DisplayName: Azure Machine Learning, ApplicationId: 
+DisplayName: azurepolicy-coresvcs-wu3-prd-aks, ApplicationId: 
+DisplayName: Cisco Secure Email MAR , ApplicationId: 
+DisplayName: site-reco-asr-automationaccount_VVu6B76ED8RpgHLKNz+VaRRIuULfHpfqoDjlq8A9/tg=, ApplicationId: 
+DisplayName: NA2, ApplicationId: 
+DisplayName: M365 Lighthouse Service, ApplicationId: 
+DisplayName: Lattice, ApplicationId: 
+DisplayName: ComplianceAuthServer, ApplicationId: 
+DisplayName: Microsoft.DynamicsMarketing, ApplicationId: 
+DisplayName: amethyst-notebooks-test, ApplicationId: 
+DisplayName: habitats-read-adpt-pharmacompbio, ApplicationId: 
+DisplayName: Intune DeviceCheckIn ConfidentialClient, ApplicationId: 
+DisplayName: seawxlabapps01, ApplicationId: 
+DisplayName: azurepolicy-moira-stage-aks, ApplicationId: 
+DisplayName: cloud-files-test, ApplicationId: 
+DisplayName: Microsoft Office Licensing Service Agents, ApplicationId: 
+DisplayName: Directory and Policy Cache, ApplicationId: 
+DisplayName: Veeam O365, ApplicationId: 
+DisplayName: Azure Machine Learning Authorization App 2, ApplicationId: 
+DisplayName: Skype for Business Announcement Service, ApplicationId: 
+DisplayName: Intune Grouping and Targeting Client Prod, ApplicationId: 
+DisplayName: moira-stage-aks, ApplicationId: 
+DisplayName: ReportReplica, ApplicationId: 
+DisplayName: gitlab-camunda-stg-sp, ApplicationId: 
+DisplayName: MSATenantRestrictions, ApplicationId: 
+DisplayName: Microsoft 365 Ticketing, ApplicationId: 
+DisplayName: k8s-pods-tmp-mira-dev-workflow, ApplicationId: 
+DisplayName: Cloud Hybrid Search, ApplicationId: 
+DisplayName: Microsoft Store for Web, ApplicationId: 
+DisplayName: azurepolicy-coresvcs-wu3-dev-aks, ApplicationId: 
+DisplayName: tableau2, ApplicationId: 
+DisplayName: pipeline-dynamic-test-launcher, ApplicationId: 
+DisplayName: AzUpdateCenterBilling, ApplicationId: 
+DisplayName: AdaptiveBiotech_ImageBuilder, ApplicationId: 
+DisplayName: Intune Remote Help, ApplicationId: 
+DisplayName: RoverGo, ApplicationId: 
+DisplayName: Skype for Business Application Configuration Service, ApplicationId: 
+DisplayName: omsagent-platinum, ApplicationId: 
+DisplayName: Azure Cost Management Scheduled Actions, ApplicationId: 
+DisplayName: Mimir, ApplicationId: 
+DisplayName: Now Virtual Agent, ApplicationId: 
+DisplayName: azurepolicy-aurora-westus3-dev-aks, ApplicationId: 
+DisplayName: ConfigMgrSvc_20673fb1-b918-456c-a51f-93ff802379eb, ApplicationId: 
+DisplayName: Microsoft Alchemy Service, ApplicationId: 
+DisplayName: cora-scripts-prod-phi-sp, ApplicationId: 
+DisplayName: mirth-westus3-test-aks-agentpool, ApplicationId: 
+DisplayName: test-cluster-qtlwyfqkgvh6qvvxl566bqafnvlh5icijy57jyp5u7cxxslxue-kubelet, ApplicationId: 
+DisplayName: Office Store, ApplicationId: 
+DisplayName: pairseq-analysis-personalized-svc-test-sp, ApplicationId: 
+DisplayName: mars-dci, ApplicationId: 
+DisplayName: MicrosoftAzureADFulfillment, ApplicationId: 
+DisplayName: Jira Cloud, ApplicationId: 
+DisplayName: azvmstartstoprhacmtbfoyn6e, ApplicationId: 
+DisplayName: MAPG, ApplicationId: 
+DisplayName: Microsoft Device Management Checkin, ApplicationId: 
+DisplayName: Veeam Backup for Microsoft Office 365, ApplicationId: 
+DisplayName: AdaptiveCMGClientapp, ApplicationId: 
+DisplayName: Teams User Engagement Profile Service, ApplicationId: 
+DisplayName: Log Analytics API, ApplicationId: 
+DisplayName: Room-Avail-Max, ApplicationId: 
+DisplayName: dddaz-stage-aks-agentpool, ApplicationId: 
+DisplayName: AdaptiveCMGServerApp, ApplicationId: 
+DisplayName: Microsoft Azure Legion , ApplicationId: 
+DisplayName: AzureDatabricks, ApplicationId: 
+DisplayName: gitlab-camundasink-test-sp, ApplicationId: 
+DisplayName: dbmanagedidentity, ApplicationId: 
+DisplayName: MarketplaceAPI Webhook, ApplicationId: 
+DisplayName: ordermgmt-stage-config-id, ApplicationId: 
+DisplayName: gitlab-qa-pipeline-sp, ApplicationId: 
+DisplayName: omsagent-platinum-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa, ApplicationId: 
+DisplayName: coresvcs-stg-aks-identity, ApplicationId: 
+DisplayName: Azure SQL Managed Instance to Azure AD Resource Provider, ApplicationId: 
+DisplayName: development-workflows-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxwjhz3bchksbamwr7a, ApplicationId: 
+DisplayName: Azure Code Signing API, ApplicationId: 
+DisplayName: dbmanagedidentitym4732javokg62, ApplicationId: 
+DisplayName: Azure Time Series Insights, ApplicationId: 
+DisplayName: Application Insights Configuration Service, ApplicationId: 
+DisplayName: HabitatsPortalJobRunner, ApplicationId: 
+DisplayName: Lucidchart Diagrams for MS365 AAD, ApplicationId: 
+DisplayName: codesigner, ApplicationId: 
+DisplayName: Azure Key Vault Managed HSM Key Governance Service, ApplicationId: 
+DisplayName: k8s-pods-workflows-ny3ufpa7ecxaxxpooswwzfchoz5iwjqycfhdt2ieezvxuq3gxd6a, ApplicationId: 
+DisplayName: Azure Information Protection, ApplicationId: 
+DisplayName: SharePoint Online Web Client Extensibility Isolated, ApplicationId: 
+DisplayName: Microsoft Teams Task Service, ApplicationId: 
+DisplayName: seawxnetjump01, ApplicationId: 
+DisplayName: Membership View Service, ApplicationId: 
+DisplayName: Configuration Manager Microservice, ApplicationId: 
+DisplayName: Networking-MNC, ApplicationId: 
+DisplayName: Learn on Demand LMS, ApplicationId: 
+DisplayName: Graph Connector Service, ApplicationId: 
+DisplayName: cora-services-test-sp, ApplicationId: 
+DisplayName: adaptive-internal-tools, ApplicationId: 
+DisplayName: Frontline Worker Orchestrator Service Test, ApplicationId: 
+DisplayName: LinkedIn Microsoft Graph Connector, ApplicationId: 
+DisplayName: Skype For Business Entitlement, ApplicationId: 
+DisplayName: azurepolicy-emradptr-westus3-prod-aks, ApplicationId: 
+DisplayName: Smartsheet, ApplicationId: 
+DisplayName: Intune Update Service, ApplicationId: 
+DisplayName: OCaaS Client Interaction Service, ApplicationId: 
+DisplayName: Lucidpress, ApplicationId: 
+DisplayName: Office 365 Exchange Online, ApplicationId: 
+DisplayName: adpt-shared-wu3-dev-apim, ApplicationId: 
+DisplayName: Microsoft.SupportTicketSubmission, ApplicationId: 
+DisplayName: Event Actions, ApplicationId: 
+DisplayName: JIRA Blue Python for OAuth2, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-coresvcs-wu3-stg-aks, ApplicationId: 
+DisplayName: adpt-ipam-engine, ApplicationId: 
+DisplayName: Azure MFA StrongAuthenticationService, ApplicationId: 
+DisplayName: Azure Spring Cloud Domain-Management Dogfood, ApplicationId: 
+DisplayName: Microsoft.EventHubs, ApplicationId: 
+DisplayName: adaptive-internal-tools-agentpool, ApplicationId: 
+DisplayName: AI Builder Authorization Service, ApplicationId: 
+DisplayName: pipelineruoprod, ApplicationId: 
+DisplayName: Atlassian, ApplicationId: 
+DisplayName: Data Export Service for Microsoft Dynamics 365, ApplicationId: 
+DisplayName: gitlab-coresvcs-stg-sp, ApplicationId: 
+DisplayName: sea-wx-netutil01.dna.corp.adaptivebiotech.com, ApplicationId: 
+DisplayName: Microsoft Command Service, ApplicationId: 
+DisplayName: platinum-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa-agentpool, ApplicationId: 
+DisplayName: SeaWXOktaSync, ApplicationId: 
+DisplayName: habitats-aks-adpt-internal-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxw-agentpool, ApplicationId: 
+DisplayName: Hybrid RP Application, ApplicationId: 
+DisplayName: gitlab-ordermgmt-stg-sp, ApplicationId: 
+DisplayName: azurepolicy-camunda-wu3-dev-aks, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernels-hvl2mos7hesu45574mhnxgerqgqizwm6l4rpyvl4efsutt7q53xq, ApplicationId: 
+DisplayName: TeamsFlowTab, ApplicationId: 
+DisplayName: Microsoft Intune Service Discovery, ApplicationId: 
+DisplayName: dbmanagedidentityuiy3wievolpbg, ApplicationId: 
+DisplayName: PCP-Intune, ApplicationId: 
+DisplayName: Azure AD Identity Governance Insights, ApplicationId: 
+DisplayName: adptatlas-api, ApplicationId: 
+DisplayName: Miro (formerly RealtimeBoard), ApplicationId: 
+DisplayName: tdetect-test-sp.adaptivebiotech.com, ApplicationId: 
+DisplayName: ClusterConfigToArcZone, ApplicationId: 
+DisplayName: HabitatsPortalCB, ApplicationId: 
+DisplayName: azure-cli-2019-11-19-04-45-27, ApplicationId: 
+DisplayName: Azure CosmosDB for PostgreSQL AAD Authentication, ApplicationId: 
+DisplayName: Intune SCEP, ApplicationId: 
+DisplayName: Azure Support - Network Watcher, ApplicationId: 
+DisplayName: Indoor Finders, ApplicationId: 
+DisplayName: Bing, ApplicationId: 
+DisplayName: Microsoft Loop App, ApplicationId: 
+DisplayName: tableauc, ApplicationId: 
+DisplayName: Microsoft Teams ATP Service, ApplicationId: 
+DisplayName: Billing, ApplicationId: 
+DisplayName: Microsoft Exact Data Match Upload Agent, ApplicationId: 
+DisplayName: Windows Virtual Desktop ARM Provider, ApplicationId: 
+DisplayName: Tryane Analytics for Sharepoint, ApplicationId: 
+DisplayName: Avatier-Agent2, ApplicationId: 
+DisplayName: PipelineTanakua, ApplicationId: 
+DisplayName: AML Inferencing Frontdoor - Staging, ApplicationId: 
+DisplayName: MoveCollection-wus2-wus-eus2, ApplicationId: 
+DisplayName: Search Federation Connector - Dataverse, ApplicationId: 
+DisplayName: TeamsChatServiceApp, ApplicationId: 
+DisplayName: proditTestStack, ApplicationId: 
+DisplayName: SalesInsightsWebApp, ApplicationId: 
+DisplayName: platinum-76aqpt2pl5j5om6cz6ihacxxgs6y5zyq5vvcwsoot5tg37okxfgq-agentpool, ApplicationId: 
+DisplayName: test-key-vault-identity-fmyphh4rxozhijlwbzj32kj5nwkp7n, ApplicationId: 
+DisplayName: Azure Arc Data Services Billing, ApplicationId: 
+DisplayName: Microsoft Azure Linux Virtual Machine Sign-In, ApplicationId: 
+DisplayName: ClusterConfigToAKS, ApplicationId: 
+DisplayName: attunixmover, ApplicationId: 
+DisplayName: Azure HDInsight Service, ApplicationId: 
+DisplayName: Microsoft Teams IP Policy Service, ApplicationId: 
+DisplayName: Regulatory / Quality Questions (Power Virtual Agents), ApplicationId: 
+DisplayName: CrowdStrikeCSPM, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: SQLVMResourceProviderAuth, ApplicationId: 
+DisplayName: Azure ESTS Service, ApplicationId: 
+DisplayName: Exchange Office Graph Client for AAD - Noninteractive, ApplicationId: 
+DisplayName: camundasink-stg-config-id, ApplicationId: 
+DisplayName: Microsoft Azure Alerts Management, ApplicationId: 
+DisplayName: Azure AD Notification, ApplicationId: 
+DisplayName: StreamToSubstrateRepl, ApplicationId: 
+DisplayName: OfficeFeedProcessors, ApplicationId: 
+DisplayName: Azure Container Instance Service, ApplicationId: 
+DisplayName: Request Approvals Read Platform, ApplicationId: 
+DisplayName: KaizalaActionsPlatform, ApplicationId: 
+DisplayName: habitats-adpt-shared, ApplicationId: 
+DisplayName: Lucidchart Diagrams for Word, ApplicationId: 
+DisplayName: Azure AD Identity Governance - Azure Resource Management, ApplicationId: 
+DisplayName: denodo-vdp, ApplicationId: 
+DisplayName: NOTamethyst-notebooks-staging, ApplicationId: 
+DisplayName: Azure Managed HSM RP, ApplicationId: 
+DisplayName: EnterpriseAgentPlatform, ApplicationId: 
+DisplayName: Microsoft events, ApplicationId: 
+DisplayName: Site Provisioning, ApplicationId: 
+DisplayName: cora-services-prod-sp, ApplicationId: 
+DisplayName: adaptive-internal-tools-sp, ApplicationId: 
+DisplayName: To-Do Importer, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-camunda-wu3-test-aks, ApplicationId: 
+DisplayName: Internal_AccessScope, ApplicationId: 
+DisplayName: Compromised Account Service, ApplicationId: 
+DisplayName: Microsoft Cognitive Services, ApplicationId: 
+DisplayName: Modern Workplace App Diagnostic Authenticator, ApplicationId: 
+DisplayName: Microsoft Visio Data Visualizer, ApplicationId: 
+DisplayName: BenefitsFD, ApplicationId: 
+DisplayName: Managed Service, ApplicationId: 
+DisplayName: ccsportal.azurewebsites.net, ApplicationId: 
+DisplayName: emradptr-westus3-pre-aks-identity, ApplicationId: 
+DisplayName: Email, ApplicationId: 
+DisplayName: Gatekeeper Prod App, ApplicationId: 
+DisplayName: GWPOCAKSCluster-agentpool, ApplicationId: 
+DisplayName: Azure Credential Configuration Endpoint Service, ApplicationId: 
+DisplayName: Microsoft Teams Graph Service, ApplicationId: 
+DisplayName: habitats-aks-adpt-shared-agentpool, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab, ApplicationId: 
+DisplayName: gitlab-lab-batch-engine-test-sp, ApplicationId: 
+DisplayName: Azns AAD Webhook, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernels, ApplicationId: 
+DisplayName: Microsoft Flow CDS Integration Service, ApplicationId: 
+DisplayName: mi-dwm-dev, ApplicationId: 
+DisplayName: platinum-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa-kubelet, ApplicationId: 
+DisplayName: gitlab-mirth-test-sp, ApplicationId: 
+DisplayName: gitlab-sharedapp-dev-sp, ApplicationId: 
+DisplayName: moira-test-aks-eventhub-sp, ApplicationId: 
+DisplayName: cora-scripts-stage-sp, ApplicationId: 
+DisplayName: Windows 365 IW Service, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab, ApplicationId: 
+DisplayName: Smartsheet, ApplicationId: 
+DisplayName: Azure Storage, ApplicationId: 
+DisplayName: CAP Package Deployer Service, ApplicationId: 
+DisplayName: Cisco SecureX Sign-On, ApplicationId: 
+DisplayName: OneDrive, ApplicationId: 
+DisplayName: Microsoft Intune SCCM Connector, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-platinum-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa, ApplicationId: 
+DisplayName: Site Provisioning (February 2023), ApplicationId: 
+DisplayName: dwm-dbtdocsapp-wus2-test, ApplicationId: 
+DisplayName: Postman, ApplicationId: 
+DisplayName: Microsoft.ServiceBus, ApplicationId: 
+DisplayName: Reading Assignments, ApplicationId: 
+DisplayName: sumo-aks-test, ApplicationId: 
+DisplayName: ropipelineruo, ApplicationId: 
+DisplayName: Office 365 ASI App, ApplicationId: 
+DisplayName: AzureDataShare, ApplicationId: 
+DisplayName: Domain Controller Services, ApplicationId: 
+DisplayName: mira-cora-ro, ApplicationId: 
+DisplayName: Messaging Async Media, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: AzureDnsFrontendApp, ApplicationId: 
+DisplayName: azdc103, ApplicationId: 
+DisplayName: Docebo-Connect (Wayfinder), ApplicationId: 
+DisplayName: tableaub, ApplicationId: 
+DisplayName: Agiloft Application for OAuth2, ApplicationId: 
+DisplayName: Discovery Service, ApplicationId: 
+DisplayName: cora-scripts-test-sp, ApplicationId: 
+DisplayName: Azure Region Move Orchestrator Application, ApplicationId: 
+DisplayName: k8s-pods-atlas-api, ApplicationId: 
+DisplayName: AzureContainerService, ApplicationId: 
+DisplayName: Webex Video Integration for MS Teams, ApplicationId: 
+DisplayName: sheetgen-dev-config-id, ApplicationId: 
+DisplayName: CMAT, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab-ny3ufpa7ecxaxxpooswwzfchoz5iwjqycfhdt2ieezvxuq3gxd6a, ApplicationId: 
+DisplayName: Skype and Teams Tenant Admin API, ApplicationId: 
+DisplayName: ddshared-qa-test-sp, ApplicationId: 
+DisplayName: ccsframeworkapp.azurewebsites.net, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: SEAWXMIGRATE6882vault, ApplicationId: 
+DisplayName: sheetgen-test-config-id, ApplicationId: 
+DisplayName: Appspace, ApplicationId: 
+DisplayName: Microsoft Defender for Cloud Pricing Resource Provider, ApplicationId: 
+DisplayName: ConfigMgrSvc_037644ef-1a9f-4b99-bc26-17a1571498c1, ApplicationId: 
+DisplayName: shared-services-test-aks-agentpool, ApplicationId: 
+DisplayName: camunda-wu3-prd-aks-identity, ApplicationId: 
+DisplayName: gitlab-emradptr-dev-sp, ApplicationId: 
+DisplayName: dbmanagedidentity, ApplicationId: 
+DisplayName: Intune CMDeviceService, ApplicationId: 
+DisplayName: Skype for Business Online, ApplicationId: 
+DisplayName: My Staff, ApplicationId: 
+DisplayName: alz-w3us-dc01, ApplicationId: 
+DisplayName: analyzer-tools-staging, ApplicationId: 
+DisplayName: emradptr-westus3-dev-aks-identity, ApplicationId: 
+DisplayName: analyzer-notebook-testSP-20180830154500, ApplicationId: 
+DisplayName: Dynamics 365 AI for Customer Service Bot , ApplicationId: 
+DisplayName: coresvcs-wu3-stg-aks-agentpool, ApplicationId: 
+DisplayName: platinum-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxwjhz3bchksbamwr7a, ApplicationId: 
+DisplayName: Network Watcher, ApplicationId: 
+DisplayName: habitats-aks-adpt-pcb, ApplicationId: 
+DisplayName: habitats-adpt-realworlddata, ApplicationId: 
+DisplayName: Connectors, ApplicationId: 
+DisplayName: Automated Call Distribution, ApplicationId: 
+DisplayName: gitlab-camunda-dev-sp, ApplicationId: 
+DisplayName: Azure Arc Appliance Resource Provider, ApplicationId: 
+DisplayName: Common Data Service - Azure Data Lake Storage, ApplicationId: 
+DisplayName: aro-vzfrikkf, ApplicationId: 
+DisplayName: Liftr Nginx Network, ApplicationId: 
+DisplayName: azurepolicy-adpt-shared-wu3-test-aks, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernel, ApplicationId: 
+DisplayName: HabitatAdptInternal, ApplicationId: 
+DisplayName: Azure Key Vault Managed HSM, ApplicationId: 
+DisplayName: k8s-pods-development-workflows-76aqpt2pl5j5om6cz6ihacxxgs6y5zyq5vvcwsoot5tg37okxfgq, ApplicationId: 
+DisplayName: ServiceNow Discovery, ApplicationId: 
+DisplayName: Universal Print Connector, ApplicationId: 
+DisplayName: Common Data Service User Management, ApplicationId: 
+DisplayName: AZ-ORIONDB01, ApplicationId: 
+DisplayName: KustoService, ApplicationId: 
+DisplayName: OnTAP, ApplicationId: 
+DisplayName: OneProfile Service, ApplicationId: 
+DisplayName: Yggdrasil, ApplicationId: 
+DisplayName: test-stacks-test, ApplicationId: 
+DisplayName: Tableau Server, ApplicationId: 
+DisplayName: PowerApps and Flow - Azure AD, ApplicationId: 
+DisplayName: Event Hub MSI App, ApplicationId: 
+DisplayName: mi-dwm-prod, ApplicationId: 
+DisplayName: Azure OSSRDBMS MySQL Flexible Server BYOK, ApplicationId: 
+DisplayName: Azure Lab Services, ApplicationId: 
+DisplayName: platinum-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxwjhz3bchksbamwr7a-agentpool, ApplicationId: 
+DisplayName: batchengine-dev-config-id, ApplicationId: 
+DisplayName: Business Value Programs, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-coresvcs-wu3-test-aks, ApplicationId: 
+DisplayName: azurepolicy-camunda-wu3-stg-aks, ApplicationId: 
+DisplayName: Business Value Programs - SPE API, ApplicationId: 
+DisplayName: IDML Graph Resolver Service and CAD, ApplicationId: 
+DisplayName: quartz-microsoft-sp, ApplicationId: 
+DisplayName: InviteService, ApplicationId: 
+DisplayName: Marketplace Caps API, ApplicationId: 
+DisplayName: Service Encryption, ApplicationId: 
+DisplayName: Business Value Programs - MWBVS API V2, ApplicationId: 
+DisplayName: Azure Container Registry, ApplicationId: 
+DisplayName: dddaz-test-aks, ApplicationId: 
+DisplayName: MSFT Security Experts AOBO Egress, ApplicationId: 
+DisplayName: O365Account, ApplicationId: 
+DisplayName: Microsoft Azure Stream Analytics, ApplicationId: 
+DisplayName: Azure Spring Cloud Marketplace Integration, ApplicationId: 
+DisplayName: cshorizonaadcv1ced1lqs, ApplicationId: 
+DisplayName: ACR-Tasks-Network, ApplicationId: 
+DisplayName: Azure AD Identity Governance - Dynamics 365 Management, ApplicationId: 
+DisplayName: APIGWPOCRavi, ApplicationId: 
+DisplayName: Microsoft Activity Feed Service, ApplicationId: 
+DisplayName: Microsoft.Azure.GraphExplorer, ApplicationId: 
+DisplayName: Export to data lake, ApplicationId: 
+DisplayName: prodit-tools-sp, ApplicationId: 
+DisplayName: PowerApps-Advisor, ApplicationId: 
+DisplayName: Envoy Rooms, ApplicationId: 
+DisplayName: Microsoft Dynamics CRM Learning Path, ApplicationId: 
+DisplayName: Turbonomics, ApplicationId: 
+DisplayName: Microsoft.SecurityDevOps Resource Provider, ApplicationId: 
+DisplayName: adaptiveagatecoraprod, ApplicationId: 
+DisplayName: ordermgmt-test-config-id, ApplicationId: 
+DisplayName: Office365DirectorySynchronizationService, ApplicationId: 
+DisplayName: Azure Maps, ApplicationId: 
+DisplayName: ansible29, ApplicationId: 
+DisplayName: CCM TAGS, ApplicationId: 
+DisplayName: adpt-shared-stg-aks-identity, ApplicationId: 
+DisplayName: Skype Core Calling Service, ApplicationId: 
+DisplayName: AzureBackup_WBCM_Service, ApplicationId: 
+DisplayName: Adaptive Project Site Provisioning, ApplicationId: 
+DisplayName: MDC Data Sensitivity, ApplicationId: 
+DisplayName: ClusterConfigResourceSync, ApplicationId: 
+DisplayName: Teams NRT DLP Service, ApplicationId: 
+DisplayName: Skype for Business OrgAA, ApplicationId: 
+DisplayName: App Studio for Microsoft Teams, ApplicationId: 
+DisplayName: Azure Application Change Service, ApplicationId: 
+DisplayName: Microsoft Stream Portal, ApplicationId: 
+DisplayName: Azure Virtual Desktop, ApplicationId: 
+DisplayName: denodo-vdp01, ApplicationId: 
+DisplayName: My Apps, ApplicationId: 
+DisplayName: habitats-read-adpt-shared, ApplicationId: 
+DisplayName: Group Configuration Processor, ApplicationId: 
+DisplayName: dwm-dev, ApplicationId: 
+DisplayName: Office MRO Device Manager Service, ApplicationId: 
+DisplayName: cloud-ops-admin, ApplicationId: 
+DisplayName: Omnichannel for CS Provisioning App Primary, ApplicationId: 
+DisplayName: Microsoft Graph Change Tracking, ApplicationId: 
+DisplayName: BingWebmasterTools, ApplicationId: 
+DisplayName: Defender for IoT, ApplicationId: 
+DisplayName: Substrate Conversation Intelligence Service, ApplicationId: 
+DisplayName: Skype Team Substrate connector, ApplicationId: 
+DisplayName: Power Platform Environment Discovery Service, ApplicationId: 
+DisplayName: Partner Customer Delegated Admin Offline Processor, ApplicationId: 
+DisplayName: mira-hal2-glados-sync, ApplicationId: 
+DisplayName: Microsoft Intune PowerShell, ApplicationId: 
+DisplayName: tableaudesktop, ApplicationId: 
+DisplayName: Dynamic Alerts, ApplicationId: 
+DisplayName: AvePoint Online Services Administration, ApplicationId: 
+DisplayName: Machine Learning Services Network Management, ApplicationId: 
+DisplayName: Avatier AIMS, ApplicationId: 
+DisplayName: gitlab-coresvcs-prd-sp, ApplicationId: 
+DisplayName: MIP Exchange Solutions - Teams, ApplicationId: 
+DisplayName: amethyst-notebooks-prod, ApplicationId: 
+DisplayName: eAgreements-Services, ApplicationId: 
+DisplayName: Azure Machine Learning Authorization App 1, ApplicationId: 
+DisplayName: ServiceNow Prod - Email - MSGraph OAuth, ApplicationId: 
+DisplayName: k8s-pods-development-workflows-hvl2mos7hesu45574mhnxgerqgqizwm6l4rpyvl4efsutt7q53xq, ApplicationId: 
+DisplayName: Microsoft Intune Advanced Threat Protection Integration, ApplicationId: 
+DisplayName: Microsoft.MileIQ.Dashboard, ApplicationId: 
+DisplayName: Messaging Bot API Application, ApplicationId: 
+DisplayName: k8s-pods-grafana, ApplicationId: 
+DisplayName: Office365 Zoom, ApplicationId: 
+DisplayName: Audit Search Api Service, ApplicationId: 
+DisplayName: MicrosoftAzureActiveDirectoryIntegratedApp, ApplicationId: 
+DisplayName: workflows, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: Docebo (Wayfinder) for Oauth2, ApplicationId: 
+DisplayName: Backup Management Service, ApplicationId: 
+DisplayName: azurepolicy-shared-services-test-aks, ApplicationId: 
+DisplayName: Azure OSSRDBMS Database, ApplicationId: 
+DisplayName: Azure Container Apps Arc - Control Plane, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab, ApplicationId: 
+DisplayName: Office 365 SharePoint Online, ApplicationId: 
+DisplayName: Windows Azure Security Resource Provider, ApplicationId: 
+DisplayName: sea-ops101, ApplicationId: 
+DisplayName: Microsoft Device Management Enrollment, ApplicationId: 
+DisplayName: omsagent-platinum-ny3ufpa7ecxaxxpooswwzfchoz5iwjqycfhdt2ieezvxuq3gxd6a, ApplicationId: 
+DisplayName: auth0-tools-sp, ApplicationId: 
+DisplayName: habitats-aks-adpt-internal-agentpool, ApplicationId: 
+DisplayName: mirth-westus3-test-aks-identity, ApplicationId: 
+DisplayName: Microsoft Intune AndroidSync, ApplicationId: 
+DisplayName: IPSubstrate, ApplicationId: 
+DisplayName: camunda-wu3-stg-aks-agentpool, ApplicationId: 
+DisplayName: SEA-SCCM01, ApplicationId: 
+DisplayName: Business Value Programs - VDW API, ApplicationId: 
+DisplayName: ECO Azure, ApplicationId: 
+DisplayName: Azure Smart Alerts, ApplicationId: 
+DisplayName: dwm-app-wus2-dev, ApplicationId: 
+DisplayName: CAS API Security RP, ApplicationId: 
+DisplayName: Windows Notification Service, ApplicationId: 
+DisplayName: Azure AD Identity Governance, ApplicationId: 
+DisplayName: Azure Digital Twins, ApplicationId: 
+DisplayName: Intune DeviceDirectory ConfidentialClient, ApplicationId: 
+DisplayName: tableau-desktop, ApplicationId: 
+DisplayName: gitlab-camundasink-dev-sp, ApplicationId: 
+DisplayName: pipelineivdprod, ApplicationId: 
+DisplayName: Microsoft Teams Web Client, ApplicationId: 
+DisplayName: dbmanagedidentity, ApplicationId: 
+DisplayName: gitlab-sheetgen-stg-sp, ApplicationId: 
+DisplayName: lvdb-westus3-tst-00, ApplicationId: 
+DisplayName: CXP Previews Portal, ApplicationId: 
+DisplayName: Azure Communication Services, ApplicationId: 
+DisplayName: Test Name , ApplicationId: 
+DisplayName: Azure Notebooks, ApplicationId: 
+DisplayName: Microsoft Azure Data Catalog, ApplicationId: 
+DisplayName: Microsoft B2B Admin Worker, ApplicationId: 
+DisplayName: Message Header Analyzer, ApplicationId: 
+DisplayName: IC3 Long Running Operations Service, ApplicationId: 
+DisplayName: Power BI Service, ApplicationId: 
+DisplayName: gitlabrunner-aks, ApplicationId: 
+DisplayName: Busylight Teams Graph Presence Access, ApplicationId: 
+DisplayName: Teams NRT DLP Ingestion Service, ApplicationId: 
+DisplayName: Azure Kubernetes Service AAD Server, ApplicationId: 
+DisplayName: Skype for Business, ApplicationId: 
+DisplayName: O365 Secure Score, ApplicationId: 
+DisplayName: OutlookTasksConnector-PowerApps and Flow, ApplicationId: 
+DisplayName: Azure Data Factory, ApplicationId: 
+DisplayName: moveworks-teamsappstore-prod, ApplicationId: 
+DisplayName: Conferencing Virtual Assistant, ApplicationId: 
+DisplayName: Microsoft Teams Services, ApplicationId: 
+DisplayName: Azure Forensics Service, ApplicationId: 
+DisplayName: Customer Experience Platform CDPA Provisioning TIP, ApplicationId: 
+DisplayName: Azure OSSRDBMS PostgreSQL Flexible Server AAD Authentication, ApplicationId: 
+DisplayName: Dynamics 365 Resource Scheduling Optimization, ApplicationId: 
+DisplayName: Dynamics 365 collaboration with Microsoft Teams, ApplicationId: 
+DisplayName: CompliancePolicy, ApplicationId: 
+DisplayName: Power BI Premium, ApplicationId: 
+DisplayName: Access IoT Hub Device Provisioning Service, ApplicationId: 
+DisplayName: Afdx Resource Provider, ApplicationId: 
+DisplayName: Power Virtual Agents Service, ApplicationId: 
+DisplayName: ServiceDesk Plus for OAuth2, ApplicationId: 
+DisplayName: k8s-pods-workflows-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa, ApplicationId: 
+DisplayName: dbmanagedidentity, ApplicationId: 
+DisplayName: ManageEngine AD Auditor, ApplicationId: 
+DisplayName: ECAL, ApplicationId: 
+DisplayName: Azure SQL Database, ApplicationId: 
+DisplayName: Dataverse Resource Provider, ApplicationId: 
+DisplayName: OnCommand Cloud Manager Wizard, ApplicationId: 
+DisplayName: pipelineruotest, ApplicationId: 
+DisplayName: dddaz-prod-aks, ApplicationId: 
+DisplayName: Cisco Webex, ApplicationId: 
+DisplayName: ef85edffa4664fe4a21ac121, ApplicationId: 
+DisplayName: pairseq-mira-merge-personalized-svc-test-sp, ApplicationId: 
+DisplayName: ASA Curation Web Tool, ApplicationId: 
+DisplayName: Bot Framework Dev Portal, ApplicationId: 
+DisplayName: platinum-hvl2mos7hesu45574mhnxgerqgqizwm6l4rpyvl4efsutt7q53xq-agentpool, ApplicationId: 
+DisplayName: Graph explorer, ApplicationId: 
+DisplayName: RoverGo, ApplicationId: 
+DisplayName: Azure Digital Twins Authorization PDP, ApplicationId: 
+DisplayName: habitats-aks-adpt-internal-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxw, ApplicationId: 
+DisplayName: Office Personal Assistant at Work Service, ApplicationId: 
+DisplayName: Microsoft.NotificationHubs, ApplicationId: 
+DisplayName: gitlab-aurora-dev-sp, ApplicationId: 
+DisplayName: adpt-shared-dev-aks-identity, ApplicationId: 
+DisplayName: Modern Workplace Management, ApplicationId: 
+DisplayName: Intune Autopilot ConfidentialClient, ApplicationId: 
+DisplayName: Microsoft People Cards Service, ApplicationId: 
+DisplayName: gitlab-lab-batch-engine-stg-sp, ApplicationId: 
+DisplayName: Partner Customer Delegated Administration, ApplicationId: 
+DisplayName: testAppTobias, ApplicationId: 
+DisplayName: RPA - Machine Management Relay Service - Application, ApplicationId: 
+DisplayName: Az-AdaptiveSQL, ApplicationId: 
+DisplayName: Microsoft Office 365 Portal, ApplicationId: 
+DisplayName: Universal Print PS Module, ApplicationId: 
+DisplayName: Skype Teams Calling API Service, ApplicationId: 
+DisplayName: gitlab-crowdstrike-acr-push-sp, ApplicationId: 
+DisplayName: Microsoft Services, ApplicationId: 
+DisplayName: Microsoft Teams AuthSvc, ApplicationId: 
+DisplayName: Microsoft Invoicing, ApplicationId: 
+DisplayName: ViewPoint, ApplicationId: 
+DisplayName: Quest Software, ApplicationId: 
+DisplayName: gitlab-camunda-test-sp, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-coresvcs-wu3-dev-aks, ApplicationId: 
+DisplayName: Microsoft Seller Dashboard, ApplicationId: 
+DisplayName: Azure Monitor Control Service, ApplicationId: 
+DisplayName: gitlab-sheetgen-prd-sp, ApplicationId: 
+DisplayName: Media Analysis and Transformation Service, ApplicationId: 
+DisplayName: gitlab-sharedapp-stg-sp, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxwjhz3bchksbamwr7a, ApplicationId: 
+DisplayName: k8s-pods-workflows-76aqpt2pl5j5om6cz6ihacxxgs6y5zyq5vvcwsoot5tg37okxfgq, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-emradptr-westus3-test-aks, ApplicationId: 
+DisplayName: Teams CMD Services Artifacts, ApplicationId: 
+DisplayName: Centralized Deployment, ApplicationId: 
+DisplayName: Diagnostic Services Data Access, ApplicationId: 
+DisplayName: Targeted Messaging Service, ApplicationId: 
+DisplayName: RPA - Machine Management Relay Service, ApplicationId: 
+DisplayName: ConnectionsService, ApplicationId: 
+DisplayName: SharePoint Online Client Extensibility Web Application Principal, ApplicationId: 
+DisplayName: Substrate-FileWatcher, ApplicationId: 
+DisplayName: Lucid Chart Cloud Insights, ApplicationId: 
+DisplayName: Microsoft Operations Management Suite, ApplicationId: 
+DisplayName: Conference Auto Attendant, ApplicationId: 
+DisplayName: Teams Work Report, ApplicationId: 
+DisplayName: OneLTI, ApplicationId: 
+DisplayName: Cloud Connector user registration app, ApplicationId: 
+DisplayName: gitlab-camunda-prd-sp, ApplicationId: 
+DisplayName: k8s-pods-jupyter-enterprise-gateway, ApplicationId: 
+DisplayName: Microsoft Modern Contact Master, ApplicationId: 
+DisplayName: Windows Update for Business Deployment Service, ApplicationId: 
+DisplayName: dwm-adfir-wus2-shared, ApplicationId: 
+DisplayName: Microsoft Intune AAD BitLocker Recovery Key Integration, ApplicationId: 
+DisplayName: camunda-wu3-test-aks-agentpool, ApplicationId: 
+DisplayName: MDATPNetworkScanAgent, ApplicationId: 
+DisplayName: GWPOCAKSClusterPublic-agentpool, ApplicationId: 
+DisplayName: Azure Red Hat OpenShift RP, ApplicationId: 
+DisplayName: habitats-read-adpt-realworlddata, ApplicationId: 
+DisplayName: platinum-ny3ufpa7ecxaxxpooswwzfchoz5iwjqycfhdt2ieezvxuq3gxd6a-agentpool, ApplicationId: 
+DisplayName: gitlab-lab-batch-engine-acrpush-dev-sp, ApplicationId: 
+DisplayName: AzureDataCatalog, ApplicationId: 
+DisplayName: Viva Engage, ApplicationId: 
+DisplayName: Marketplace SaaS v2, ApplicationId: 
+DisplayName: Microsoft Azure Container Apps - Control Plane, ApplicationId: 
+DisplayName: teamorgchart.com, ApplicationId: 
+DisplayName: IC3 Gateway, ApplicationId: 
+DisplayName: OCaaS Experience Management Service, ApplicationId: 
+DisplayName: BRBv2, ApplicationId: 
+DisplayName: pvt-cluster-test, ApplicationId: 
+DisplayName: Azure Spring Cloud Resource Provider, ApplicationId: 
+DisplayName: moira-prod-aks-agentpool, ApplicationId: 
+DisplayName: DevilFish, ApplicationId: 
+DisplayName: HabitatsAgateTestExport, ApplicationId: 
+DisplayName: adpt-grafana-neteng, ApplicationId: 
+DisplayName: Microsoft Photos, ApplicationId: 
+DisplayName: Azure Bastion, ApplicationId: 
+DisplayName: Azure CosmosDB for PostgreSQL Microsoft EntraId, ApplicationId: 
+DisplayName: gitlab-sharedapp-prd-sp, ApplicationId: 
+DisplayName: Customer Service Trial PVA, ApplicationId: 
+DisplayName: Customer Experience Platform PROD, ApplicationId: 
+DisplayName: Diagnostic Services Trusted Storage Access, ApplicationId: 
+DisplayName: omsagent-habitats-aks-adpt-shared, ApplicationId: 
+DisplayName: batchengine-stg-config-id, ApplicationId: 
+DisplayName: OfficeServicesManager, ApplicationId: 
+DisplayName: Cortana Experience with O365, ApplicationId: 
+DisplayName: Azure HDInsight Cluster API, ApplicationId: 
+DisplayName: Jamf Native macOS Connector, ApplicationId: 
+DisplayName: Site Provisioning 7DEC2021, ApplicationId: 
+DisplayName: pairseq-mira-merge-personalized-svc-stage-sp, ApplicationId: 
+DisplayName: Azure Machine Learning Services, ApplicationId: 
+DisplayName: PnP Management Shell, ApplicationId: 
+DisplayName: azurepolicy-dddaz-test-aks, ApplicationId: 
+DisplayName: Azure SQL Database Backup To Azure Backup Vault, ApplicationId: 
+DisplayName: Microsoft.Relay, ApplicationId: 
+DisplayName: VPN Server, ApplicationId: 
+DisplayName: Power Platform Governance Services - TIRPS, ApplicationId: 
+DisplayName: Jamf API Integration, ApplicationId: 
+DisplayName: Cloud Sync - Create Data Broker, ApplicationId: 
+DisplayName: MURAL, ApplicationId: 
+DisplayName: OneDriveLTI, ApplicationId: 
+DisplayName: compbio-personalized-product-read-prd-sp, ApplicationId: 
+DisplayName: Dynamics 365 Customer Insights - Consent, ApplicationId: 
+DisplayName: Outlook Calendar for Slack, ApplicationId: 
+DisplayName: analyzer-tools-test, ApplicationId: 
+DisplayName: SharePoint Online Client Extensibility Web Application Principal Helper, ApplicationId: 
+DisplayName: 8f64fdc27d3c479290dfed30, ApplicationId: 
+DisplayName: adpt-shared-wu3-stg-aks-agentpool, ApplicationId: 
+DisplayName: HoloLens Camera Roll Upload, ApplicationId: 
+DisplayName: gitlab-ordermgmt-test-sp, ApplicationId: 
+DisplayName: Amazon Alexa Connect, ApplicationId: 
+DisplayName: Microsoft password reset service, ApplicationId: 
+DisplayName: Azure AD Application Proxy, ApplicationId: 
+DisplayName: Teams Application Gateway, ApplicationId: 
+DisplayName: WindowsDefenderATP, ApplicationId: 
+DisplayName: Azure DNS Managed Resolver, ApplicationId: 
+DisplayName: camunda-wu3-dev-aks-identity, ApplicationId: 
+DisplayName: Exchange Office Graph Client for AAD - Interactive, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab, ApplicationId: 
+DisplayName: Compute Artifacts Publishing Service, ApplicationId: 
+DisplayName: Office 365 Import Service, ApplicationId: 
+DisplayName: dbmanagedidentity, ApplicationId: 
+DisplayName: Microsoft.MileIQ.RESTService, ApplicationId: 
+DisplayName: MIP Exchange Solutions, ApplicationId: 
+DisplayName: mirth-westus3-prod-aks-identity, ApplicationId: 
+DisplayName: SPIQ, ApplicationId: 
+DisplayName: Microsoft Threat Protection, ApplicationId: 
+DisplayName: Microsoft Defender for Cloud Scanner Resource Provider, ApplicationId: 
+DisplayName: MaintenanceResourceProvider, ApplicationId: 
+DisplayName: azurepolicy-camunda-wu3-test-aks, ApplicationId: 
+DisplayName: Teams Calling Meeting Devices Services, ApplicationId: 
+DisplayName: Outlook Web App Widgets, ApplicationId: 
+DisplayName: Azure Maps Resource Provider, ApplicationId: 
+DisplayName: dwm-adf-wus2-test, ApplicationId: 
+DisplayName: imrprod-agic-sp, ApplicationId: 
+DisplayName: Microsoft Teams Admin Gateway Service, ApplicationId: 
+DisplayName: AdaptiveCMG, ApplicationId: 
+DisplayName: OneNote Web Clipper, ApplicationId: 
+DisplayName: Microsoft.SMIT, ApplicationId: 
+DisplayName: Envoy - Teams - Graph permissions, ApplicationId: 
+DisplayName: NetworkVerifier, ApplicationId: 
+DisplayName: gitlab-tcrbg-acrpush-prod-sp, ApplicationId: 
+DisplayName: azurepolicy-coresvcs-wu3-test-aks, ApplicationId: 
+DisplayName: Microsoft Kaizala, ApplicationId: 
+DisplayName: Modern Workplace Customer API Native, ApplicationId: 
+DisplayName: Skype for Business Voicemail, ApplicationId: 
+DisplayName: azure-cli-2019-05-23-23-37-03, ApplicationId: 
+DisplayName: Policy Administration Service, ApplicationId: 
+DisplayName: P2P Server, ApplicationId: 
+DisplayName: MIRAScriptTest, ApplicationId: 
+DisplayName: SEAL SNI, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxwjhz3bchksbamwr7a, ApplicationId: 
+DisplayName: O365 Customer Monitoring, ApplicationId: 
+DisplayName: Common Data Service License Management, ApplicationId: 
+DisplayName: Azure Security Insights, ApplicationId: 
+DisplayName: O365 Demeter, ApplicationId: 
+DisplayName: IAMTenantCrawler, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-camunda-wu3-prd-aks, ApplicationId: 
+DisplayName: alz-w3us-dc02, ApplicationId: 
+DisplayName: cshorizonactcv1ced1lqs, ApplicationId: 
+DisplayName: Windows Store for Business, ApplicationId: 
+DisplayName: AgreementsWeb, ApplicationId: 
+DisplayName: Appliance Resource Provider, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab-hvl2mos7hesu45574mhnxgerqgqizwm6l4rpyvl4efsutt7q53xq, ApplicationId: 
+DisplayName: Azure Healthcare APIs, ApplicationId: 
+DisplayName: Sailpoint, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernels-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxwjhz3bchksbamwr7a, ApplicationId: 
+DisplayName: Microsoft Teams AadSync, ApplicationId: 
+DisplayName: BambooTestStacksSP, ApplicationId: 
+DisplayName: azurepolicy-emradptr-westus3-test-aks, ApplicationId: 
+DisplayName: Microsoft.MileIQ, ApplicationId: 
+DisplayName: Azure Hilo cluster API access, ApplicationId: 
+DisplayName: Azure-Veeam01, ApplicationId: 
+DisplayName: Frontline Worker Orchestrator Service, ApplicationId: 
+DisplayName: Application Registration Portal, ApplicationId: 
+DisplayName: ordermgmt-svc-prd-sp, ApplicationId: 
+DisplayName: Samsung Email, ApplicationId: 
+DisplayName: SmartDeploy, ApplicationId: 
+DisplayName: Azure Container Registry Application, ApplicationId: 
+DisplayName: MSAI Substrate Meeting Intelligence , ApplicationId: 
+DisplayName: adpt-shared-stg-agw-id, ApplicationId: 
+DisplayName: Office 365 Configure, ApplicationId: 
+DisplayName: gitlab-camundasink-acrpush-stage-sp, ApplicationId: 
+DisplayName: omsagent-habitats-aks-adpt-rwd, ApplicationId: 
+DisplayName: DeploymentScheduler, ApplicationId: 
+DisplayName: Office365 Shell SS-Server Default, ApplicationId: 
+DisplayName: Azure Management Groups, ApplicationId: 
+DisplayName: gitlab-tcrbg-prod-sp, ApplicationId: 
+DisplayName: Microsoft_Azure_Support, ApplicationId: 
+DisplayName: Azure Advanced Threat Protection, ApplicationId: 
+DisplayName: Azure Cost Management XCloud, ApplicationId: 
+DisplayName: Azure Resource Graph, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernel, ApplicationId: 
+DisplayName: reactmsalapp, ApplicationId: 
+DisplayName: AzureBackup_Fabric_Service, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: OfficeDelve, ApplicationId: 
+DisplayName: Microsoft.Azure.Frontdoor, ApplicationId: 
+DisplayName: Quota, ApplicationId: 
+DisplayName: ccsworkflowmanager.azurewebsites.net, ApplicationId: 
+DisplayName: lvdb-westus3-prd-00, ApplicationId: 
+DisplayName: Metrics Monitor API, ApplicationId: 
+DisplayName: alz-w3us-certman, ApplicationId: 
+DisplayName: Atlassian Links, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: SUMOBRDLQProcessorSumoStorageTesttns5kxbfgfwfe, ApplicationId: 
+DisplayName: gitlab-coresvcs-dev-sp, ApplicationId: 
+DisplayName: Dynamics 365 Business Central, ApplicationId: 
+DisplayName: Azure DNS, ApplicationId: 
+DisplayName: Dual-write, ApplicationId: 
+DisplayName: azure-cli-2021-01-07-19-04-23, ApplicationId: 
+DisplayName: Windows 365 Ibiza Extension, ApplicationId: 
+DisplayName: Microsoft Volume Licensing, ApplicationId: 
+DisplayName: omsagent-habitats-aks-adpt-internal-3kkncsxo3eskj4wy4bngewcjlhcyu4jkpvxw, ApplicationId: 
+DisplayName: emradptr-westus3-stg-aks-agentpool, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-coresvcs-wu3-prd-aks, ApplicationId: 
+DisplayName: TEST-avsfpapp, ApplicationId: 
+DisplayName: AzureSupportCenter, ApplicationId: 
+DisplayName: daz-test-aks, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-mirth-westus3-test-aks, ApplicationId: 
+DisplayName: Microsoft Stream Service, ApplicationId: 
+DisplayName: Microsoft Managed Policy Manager, ApplicationId: 
+DisplayName: Radius Aad Syncer, ApplicationId: 
+DisplayName: Microsoft Azure, ApplicationId: 
+DisplayName: Microsoft Dynamics ERP Microservices CDS, ApplicationId: 
+DisplayName: Office Delve, ApplicationId: 
+DisplayName: Protection Center, ApplicationId: 
+DisplayName: Microsoft.ExtensibleRealUserMonitoring, ApplicationId: 
+DisplayName: adpt-shared-wu3-stg-apim, ApplicationId: 
+DisplayName: Common Data Service, ApplicationId: 
+DisplayName: Microsoft Dynamics 365 Supply Chain Visibility, ApplicationId: 
+DisplayName: ordermgmt-attachments-dev-sp, ApplicationId: 
+DisplayName: Azure API for DICOM, ApplicationId: 
+DisplayName: Sherlock, ApplicationId: 
+DisplayName: TelephoneNumberManagement, ApplicationId: 
+DisplayName: Microsoft.Intune, ApplicationId: 
+DisplayName: Domain Controller Services, ApplicationId: 
+DisplayName: azure-cora-test-file-access, ApplicationId: 
+DisplayName: Azure Healthcare APIs RBAC, ApplicationId: 
+DisplayName: teams contacts griffin processor, ApplicationId: 
+DisplayName: MsgDataMgmt, ApplicationId: 
+DisplayName: k8s-pods-development-workflows-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa, ApplicationId: 
+DisplayName: Teams Approvals, ApplicationId: 
+DisplayName: asmcontainerimagescanner, ApplicationId: 
+DisplayName: gitlab-emradptr-pre-sp, ApplicationId: 
+DisplayName: ALZ-SD-TEST, ApplicationId: 
+DisplayName: OCPS Admin Service, ApplicationId: 
+DisplayName: Microsoft Graph, ApplicationId: 
+DisplayName: M365 Lighthouse API, ApplicationId: 
+DisplayName: imrtest-sp, ApplicationId: 
+DisplayName: PTSS, ApplicationId: 
+DisplayName: Microsoft Teams, ApplicationId: 
+DisplayName: Azure Data Warehouse Polybase, ApplicationId: 
+DisplayName: dwhite-pipeline-test, ApplicationId: 
+DisplayName: k8s-pods-jupyter-lab, ApplicationId: 
+DisplayName: MicrosoftOffAzureApp, ApplicationId: 
+DisplayName: Azure Container Scale Sets, ApplicationId: 
+DisplayName: MRMaps PPE, ApplicationId: 
+DisplayName: moira-test-aks, ApplicationId: 
+DisplayName: emradptr-westus3-test-aks-identity, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: ME AD Auditor, ApplicationId: 
+DisplayName: Windows Update for Business Cloud Extensions PowerShell, ApplicationId: 
+DisplayName: Microsoft.Azure.DomainRegistration, ApplicationId: 
+DisplayName: Azure Cosmos DB, ApplicationId: 
+DisplayName: Azure SQL Managed Instance to Microsoft.Network, ApplicationId: 
+DisplayName: Domain Controller Services, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-camunda-wu3-dev-aks, ApplicationId: 
+DisplayName: ordermgmt-svc-test-sp, ApplicationId: 
+DisplayName: Verifiable Credentials Issuer Service, ApplicationId: 
+DisplayName: Microsoft Teams VSTS, ApplicationId: 
+DisplayName: Microsoft Teams Bots, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-emradptr-westus3-pre-aks, ApplicationId: 
+DisplayName: Microsoft Azure Windows Virtual Machine Sign-in, ApplicationId: 
+DisplayName: gitlabrunner-qa-aks-agentpool, ApplicationId: 
+DisplayName: Nine for Office 365, ApplicationId: 
+DisplayName: Workato, ApplicationId: 
+DisplayName: MileIQ Admin Center, ApplicationId: 
+DisplayName: ISV Portal, ApplicationId: 
+DisplayName: Microsoft Azure Signup Portal, ApplicationId: 
+DisplayName: ComplianceWorkbenchApp, ApplicationId: 
+DisplayName: Alkira, ApplicationId: 
+DisplayName: EngineeringHub, ApplicationId: 
+DisplayName: Azure Gallery RP, ApplicationId: 
+DisplayName: Azure Iot Hub, ApplicationId: 
+DisplayName: AAD Lifecycle Management, ApplicationId: 
+DisplayName: Microsoft Flow CDS Integration Service TIP1, ApplicationId: 
+DisplayName: Expel O365 Integration, ApplicationId: 
+DisplayName: Microsoft Azure Workflow, ApplicationId: 
+DisplayName: Storage Resource Provider, ApplicationId: 
+DisplayName: adaptivecmg1165, ApplicationId: 
+DisplayName: SharePoint Online Web Client Extensibility, ApplicationId: 
+DisplayName: ad-sp-dwm-cicd-dev, ApplicationId: 
+DisplayName: Microsoft Intune API, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: bb-stress-testSP-20190124112246, ApplicationId: 
+DisplayName: camunda-wu3-dev-aks-agentpool, ApplicationId: 
+DisplayName: cora-unit-test-sp, ApplicationId: 
+DisplayName: Intune AndroidFOTAService ConfidentialClient, ApplicationId: 
+DisplayName: PowerApps Service, ApplicationId: 
+DisplayName: Microsoft Teams RetentionHook Service, ApplicationId: 
+DisplayName: Tableau Desktop, ApplicationId: 
+DisplayName: Groupies Web Service, ApplicationId: 
+DisplayName: daz-test-sp, ApplicationId: 
+DisplayName: Power platform Community, ApplicationId: 
+DisplayName: gitlab-sharedapp-test-sp, ApplicationId: 
+DisplayName: adpt-dataset-transfer, ApplicationId: 
+DisplayName: Skype Business Voice Fraud Detection and Prevention, ApplicationId: 
+DisplayName: Bing Places for Business, ApplicationId: 
+DisplayName: Microsoft AppPlat EMA, ApplicationId: 
+DisplayName: Azure Machine Learning Singularity, ApplicationId: 
+DisplayName: Azure VPN, ApplicationId: 
+DisplayName: Microsoft O365 Scuba, ApplicationId: 
+DisplayName: Azure Data Lake, ApplicationId: 
+DisplayName: k8s-pods-atlas-hub, ApplicationId: 
+DisplayName: Domain Controller Services, ApplicationId: 
+DisplayName: StoragePool Resource Provider, ApplicationId: 
+DisplayName: Packer for Azure, ApplicationId: 
+DisplayName: ordermgmt-svc-dev-sp, ApplicationId: 
+DisplayName: Portfolios, ApplicationId: 
+DisplayName: habitats-adpt-internal, ApplicationId: 
+DisplayName: ACR-Tasks-Prod, ApplicationId: 
+DisplayName: Graph Explorer, ApplicationId: 
+DisplayName: Spool-Resource-Provider, ApplicationId: 
+DisplayName: Data Classification Service, ApplicationId: 
+DisplayName: Office Scripts Service, ApplicationId: 
+DisplayName: Office 365 Management, ApplicationId: 
+DisplayName: analyzer-stress-testSP-20190124124041, ApplicationId: 
+DisplayName: Office Hive, ApplicationId: 
+DisplayName: Azure Service Fabric Resource Provider, ApplicationId: 
+DisplayName: dddaz-prod-aks-agentpool, ApplicationId: 
+DisplayName: azurepolicy-gitlabrunner-qa-aks, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-aurora-westus3-dev-aks, ApplicationId: 
+DisplayName: habitats-aks-adpt-pcb-agentpool, ApplicationId: 
+DisplayName: pipelinernd, ApplicationId: 
+DisplayName: AIGraphClient, ApplicationId: 
+DisplayName: Policy Processor, ApplicationId: 
+DisplayName: Azure Spring Cloud Domain-Management, ApplicationId: 
+DisplayName: Microsoft Information Protection API, ApplicationId: 
+DisplayName: gitlab-cawemo-acr-dev-sp, ApplicationId: 
+DisplayName: pairseq-mira-merge-personalized-svc-prod-sp, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: MIP Exchange Solutions - SPO, ApplicationId: 
+DisplayName: azure-cli-2019-05-21-18-12-16, ApplicationId: 
+DisplayName: Iris Provider EOP Web Service, ApplicationId: 
+DisplayName: OxBlue Interface Single Sign On, ApplicationId: 
+DisplayName: Data Migration Service, ApplicationId: 
+DisplayName: ingress-agw-sp, ApplicationId: 
+DisplayName: Microsoft Teams Intelligent Workspaces Interactions Service, ApplicationId: 
+DisplayName: Business Value Programs - FT API, ApplicationId: 
+DisplayName: SvcPrincipalProdIT1, ApplicationId: 
+DisplayName: ServiceNow Dev - Email - MSGraph OAuth, ApplicationId: 
+DisplayName: sheetgen-prd-config-id, ApplicationId: 
+DisplayName: MS Tech Comm, ApplicationId: 
+DisplayName: Azure Search Management, ApplicationId: 
+DisplayName: Jira Server, ApplicationId: 
+DisplayName: Microsoft Volume Licensing, ApplicationId: 
+DisplayName: Common Job Provider, ApplicationId: 
+DisplayName: Dynamics CRM Online Administration, ApplicationId: 
+DisplayName: labvantagelargelanguagemodel, ApplicationId: 
+DisplayName: moira-test-aks-agentpool, ApplicationId: 
+DisplayName: adpt-shared-test-agw-id, ApplicationId: 
+DisplayName: Slack, ApplicationId: 
+DisplayName: tableaua, ApplicationId: 
+DisplayName: O365SBRM Service, ApplicationId: 
+DisplayName: Office Change Management, ApplicationId: 
+DisplayName: Skype For Business Powershell Server Application, ApplicationId: 
+DisplayName: Azure Cognitive Search, ApplicationId: 
+DisplayName: lucidconnector, ApplicationId: 
+DisplayName: Okta Microsoft Graph Client, ApplicationId: 
+DisplayName: compbio-storage-sp, ApplicationId: 
+DisplayName: Dynamics 365 for Marketing, ApplicationId: 
+DisplayName: Skype for Business Name Dictionary Service, ApplicationId: 
+DisplayName: Power Platform Governance Services, ApplicationId: 
+DisplayName: azurepolicy-coresvcs-wu3-stg-aks, ApplicationId: 
+DisplayName: Skype Teams Firehose, ApplicationId: 
+DisplayName: ProjectWorkManagement, ApplicationId: 
+DisplayName: Intune oAuth Graph, ApplicationId: 
+DisplayName: shared-services-test-aks, ApplicationId: 
+DisplayName: ordermgmt-attachments-stg-sp, ApplicationId: 
+DisplayName: azure-cli-2021-08-18-22-19-26, ApplicationId: 
+DisplayName: Zapier, ApplicationId: 
+DisplayName: mirth-westus3-stage-aks-identity, ApplicationId: 
+DisplayName: CoraSvcsTestAGICid, ApplicationId: 
+DisplayName: MicrosoftMigrateProject, ApplicationId: 
+DisplayName: dwm-adf-wus2-dev, ApplicationId: 
+DisplayName: development-workflows, ApplicationId: 
+DisplayName: NYC-DC101, ApplicationId: 
+DisplayName: test-cluster-k3x7emixzijk7hqgp56eke2tq7x7gdgkscugtebyjbltz5hfob-kubelet, ApplicationId: 
+DisplayName: Boomerang, ApplicationId: 
+DisplayName: amethyst-notebooks-staging, ApplicationId: 
+DisplayName: Azure Guest Container Update Manager, ApplicationId: 
+DisplayName: Microsoft.OfficeModernCalendar, ApplicationId: 
+DisplayName: Virtual Connector Provider, ApplicationId: 
+DisplayName: Intune SidecarService ConfidentialClient, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-mirth-westus3-stage-aks, ApplicationId: 
+DisplayName: M365 Compliance Drive Client, ApplicationId: 
+DisplayName: azure-cora-stage-file-access, ApplicationId: 
+DisplayName: Microsoft Flow Portal, ApplicationId: 
+DisplayName: Envoy for Teams, ApplicationId: 
+DisplayName: Calendly, ApplicationId: 
+DisplayName: Adaptive PM Site Provisioning, ApplicationId: 
+DisplayName: SPAuthEvent, ApplicationId: 
+DisplayName: SharePoint Notification Service, ApplicationId: 
+DisplayName: AssistAPI, ApplicationId: 
+DisplayName: cora-scripts-test, ApplicationId: 
+DisplayName: Databricks Resource Provider, ApplicationId: 
+DisplayName: moira-stage-aks-agentpool, ApplicationId: 
+DisplayName: moira-test-sp, ApplicationId: 
+DisplayName: Microsoft.CodeSigning, ApplicationId: 
+DisplayName: AAD Request Verification Service - PROD, ApplicationId: 
+DisplayName: Dynamics 365 Universal Resource Scheduling, ApplicationId: 
+DisplayName: servicedesk, ApplicationId: 
+DisplayName: dwm-adf-wus2-prod, ApplicationId: 
+DisplayName: CABProvisioning, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernel, ApplicationId: 
+DisplayName: AzureBackupReporting, ApplicationId: 
+DisplayName: dwm-dbtdocsapp-wus2-dev, ApplicationId: 
+DisplayName: azurepolicy-adpt-shared-wu3-stg-aks, ApplicationId: 
+DisplayName: AADReporting, ApplicationId: 
+DisplayName: camundahackathon, ApplicationId: 
+DisplayName: platinum-hvl2mos7hesu45574mhnxgerqgqizwm6l4rpyvl4efsutt7q53xq, ApplicationId: 
+DisplayName: mi-dwm-sbox578c4a45, ApplicationId: 
+DisplayName: ansibleit, ApplicationId: 
+DisplayName: Workflow, ApplicationId: 
+DisplayName: adpt-shared-test-apim-id, ApplicationId: 
+DisplayName: SmartList Designer, ApplicationId: 
+DisplayName: Skype Business Voice Directory, ApplicationId: 
+DisplayName: Adobe Acrobat, ApplicationId: 
+DisplayName: Office 365 Client Admin, ApplicationId: 
+DisplayName: Microsoft Substrate Management, ApplicationId: 
+DisplayName: Azure Analysis Services, ApplicationId: 
+DisplayName: agateteststoragesp, ApplicationId: 
+DisplayName: habitats-aks-adpt-internal, ApplicationId: 
+DisplayName: Liftr Elastic Whale Worker, ApplicationId: 
+DisplayName: analyzer-tools-prod, ApplicationId: 
+DisplayName: camunda-wu3-stg-aks-identity, ApplicationId: 
+DisplayName: Power Query Online, ApplicationId: 
+DisplayName: oauth-breaker, ApplicationId: 
+DisplayName: Azure Iot Hub Publisher App, ApplicationId: 
+DisplayName: EventGrid Data API, ApplicationId: 
+DisplayName: Microsoft SharePoint Online - SharePoint Home, ApplicationId: 
+DisplayName: Intune DiagnosticService, ApplicationId: 
+DisplayName: DelineaPriviligeManager-Connect, ApplicationId: 
+DisplayName: coresvcs-dev-aks-identity, ApplicationId: 
+DisplayName: OneDrive Free Client, ApplicationId: 
+DisplayName: Microsoft Fluid Framework Preview, ApplicationId: 
+DisplayName: gitlab-coresvcs-test-sp, ApplicationId: 
+DisplayName: Universal Print Native Client, ApplicationId: 
+DisplayName: OCPS Checkin Service, ApplicationId: 
+DisplayName: Signup, ApplicationId: 
+DisplayName: pipelineruostage, ApplicationId: 
+DisplayName: Call Recorder, ApplicationId: 
+DisplayName: coresvcs-wu3-dev-aks-agentpool, ApplicationId: 
+DisplayName: azurepolicy-mirth-westus3-test-aks, ApplicationId: 
+DisplayName: PROD Microsoft Defender For Cloud XDR, ApplicationId: 
+DisplayName: Microsoft Azure BatchAI, ApplicationId: 
+DisplayName: Cloudsponge, ApplicationId: 
+DisplayName: Azure Graph, ApplicationId: 
+DisplayName: drawio, ApplicationId: 
+DisplayName: M365 Pillar Diagnostics Service, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-adpt-shared-wu3-stg-aks, ApplicationId: 
+DisplayName: Microsoft Dynamics 365 Apps Integration, ApplicationId: 
+DisplayName: Microsoft Flow Service, ApplicationId: 
+DisplayName: Compute Usage Provider, ApplicationId: 
+DisplayName: Azure Reserved Instance Application, ApplicationId: 
+DisplayName: Meru19 First Party App, ApplicationId: 
+DisplayName: Apps Mspbackups Web, ApplicationId: 
+DisplayName: staging-adptatlas-api, ApplicationId: 
+DisplayName: mmrpreview, ApplicationId: 
+DisplayName: adaptiveinternal, ApplicationId: 
+DisplayName: Microsoft Insider Risk Management, ApplicationId: 
+DisplayName: dddaz-test-aks-agentpool, ApplicationId: 
+DisplayName: Azure Regional Service Manager, ApplicationId: 
+DisplayName: azure-cli-2023-03-27-17-28-24, ApplicationId: 
+DisplayName: My React App, ApplicationId: 
+DisplayName: Messaging Augmentation Application, ApplicationId: 
+DisplayName: azurepolicy-emradptr-westus3-dev-aks, ApplicationId: 
+DisplayName: gitlab-camundasink-stage-sp, ApplicationId: 
+DisplayName: Azure DevOps, ApplicationId: 
+DisplayName: azvmstartstop, ApplicationId: 
+DisplayName: Microsoft Azure Batch, ApplicationId: 
+DisplayName: k8s-pods-jupyter-kernels, ApplicationId: 
+DisplayName: Omnichannel for CS CRM ClientApp Primary, ApplicationId: 
+DisplayName: Webex Teams Calendar Service, ApplicationId: 
+DisplayName: Greenhouse Service Application, ApplicationId: 
+DisplayName: Office365 Shell SS-Server, ApplicationId: 
+DisplayName: Azure Marketplace Container Management API, ApplicationId: 
+DisplayName: Azure Security for IoT, ApplicationId: 
+DisplayName: pipelineivdtest, ApplicationId: 
+DisplayName: Windows Azure Service Management API, ApplicationId: 
+DisplayName: pairseq-analysis-personalized-svc-stage-sp, ApplicationId: 
+DisplayName: panel-design-svc-stage-sp, ApplicationId: 
+DisplayName: aws-migration, ApplicationId: 
+DisplayName: dddaz-stage-aks, ApplicationId: 
+DisplayName: mirth-westus3-prod-aks-agentpool, ApplicationId: 
+DisplayName: Office 365 Reports, ApplicationId: 
+DisplayName: ordermgmt-attachments-test-sp, ApplicationId: 
+DisplayName: K8 Bridge, ApplicationId: 
+DisplayName: WebhooksTest, ApplicationId: 
+DisplayName: gitlab-emradptr-stg-sp, ApplicationId: 
+DisplayName: Microsoft Azure AD Identity Protection, ApplicationId: 
+DisplayName: Marketplace Reviews, ApplicationId: 
+DisplayName: platinum-agentpool, ApplicationId: 
+DisplayName: k8s-pods-development-workflows, ApplicationId: 
+DisplayName: platinum-76aqpt2pl5j5om6cz6ihacxxgs6y5zyq5vvcwsoot5tg37okxfgq, ApplicationId: 
+DisplayName: Windows Azure Active Directory, ApplicationId: 
+DisplayName: Azure Notification Service, ApplicationId: 
+DisplayName: ASM Campaign Servicing, ApplicationId: 
+DisplayName: Hubble Media Service, ApplicationId: 
+DisplayName: Lucidchart, ApplicationId: 
+DisplayName: Bot Service CMEK Prod, ApplicationId: 
+DisplayName: Atlas, ApplicationId: 
+DisplayName: Live Chat Bot, ApplicationId: 
+DisplayName: Device Registration Service, ApplicationId: 
+DisplayName: Windows Cloud Login, ApplicationId: 
+DisplayName: gitlab-devops-poc-sp, ApplicationId: 
+DisplayName: ordermgmt-svc-stg-sp, ApplicationId: 
+DisplayName: Office 365 OAuth2 Sandbox, ApplicationId: 
+DisplayName: Cloud Connector, ApplicationId: 
+DisplayName: O365 UAP Processor, ApplicationId: 
+DisplayName: Service Bus MSI App, ApplicationId: 
+DisplayName: Dynamics Data Integration, ApplicationId: 
+DisplayName: batchengine-test-config-id, ApplicationId: 
+DisplayName: platinum-mgbapzrzzvyvmd254k34tcboifl67k3b6wq2g6ecvidab3liwwoa-control-plane, ApplicationId: 
+DisplayName: Modern workplace, ApplicationId: 
+DisplayName: pipeline-docker-auth-sp, ApplicationId: 
+DisplayName: Power Query Online GCC-L2, ApplicationId: 
+DisplayName: amethyst-tools-staging, ApplicationId: 
+DisplayName: Jarvis Transaction Service, ApplicationId: 
+DisplayName: SurveyMonkey, ApplicationId: 
+DisplayName: Media Analysis and Transformation Service, ApplicationId: 
+DisplayName: CPIM Service, ApplicationId: 
+DisplayName: azurepolicy-dddaz-prod-aks, ApplicationId: 
+DisplayName: PowerApps and Flow, ApplicationId: 
+DisplayName: SoapBox, ApplicationId: 
+DisplayName: CodeTwo User Photos for Office 365, ApplicationId: 
+DisplayName: OneBit Survey Master, ApplicationId: 
+DisplayName: tableau3, ApplicationId: 
+DisplayName: Federated Profile Service, ApplicationId: 
+DisplayName: App Protection, ApplicationId: 
+DisplayName: Azure Advisor, ApplicationId: 
+DisplayName: imrprod-sp, ApplicationId: 
+DisplayName: k8s-pods-trails-operatorz76aqpt2pl5j5om6cz6ihacxxgs6y5zyq5vvcwsoot5tg37okxfgq, ApplicationId: 
+DisplayName: Microsoft Customer Engagement Portal, ApplicationId: 
+DisplayName: gitlab-mirth-prod-sp, ApplicationId: 
+DisplayName: panel-design-svc-test-sp, ApplicationId: 
+DisplayName: moira-prod-aks, ApplicationId: 
+DisplayName: aciapi, ApplicationId: 
+DisplayName: Microsoft.CustomProviders RP, ApplicationId: 
+DisplayName: MS-PIM, ApplicationId: 
+DisplayName: spntest3, ApplicationId: 
+DisplayName: Intune-Graph-API, ApplicationId: 
+DisplayName: M365DataAtRestEncryption, ApplicationId: 
+DisplayName: Lucid, ApplicationId: 
+DisplayName: camunda-wu3-test-aks-identity, ApplicationId: 
+DisplayName: Cisco Webex Meetings, ApplicationId: 
+DisplayName: pipelineruononprod, ApplicationId: 
+DisplayName: CorptITAutomation, ApplicationId: 
+DisplayName: Microsoft Teams Mailhook, ApplicationId: 
+DisplayName: Outlook Lite, ApplicationId: 
+DisplayName: gitlab-ordermgmt-prd-sp, ApplicationId: 
+DisplayName: OneDrive Web, ApplicationId: 
+DisplayName: Office 365 Management APIs, ApplicationId: 
+DisplayName: Business Scenario Service, ApplicationId: 
+DisplayName: Universal Print, ApplicationId: 
+DisplayName: alz-eaus-dc02, ApplicationId: 
+DisplayName: FastTrack Production, ApplicationId: 
+DisplayName: gitlabrunner-aks-agentpool, ApplicationId: 
+DisplayName: SharePoint Online Client, ApplicationId: 
+DisplayName: Microsoft Teams Retail Service, ApplicationId: 
+DisplayName: MoveCollection-eus-wus2-eus2, ApplicationId: 
+DisplayName: Cortana Runtime Service, ApplicationId: 
+DisplayName: Microsoft.EventGrid, ApplicationId: 
+DisplayName: Microsoft Azure Authorization Private Link Provider, ApplicationId: 
+DisplayName: azurepolicy-mirth-westus3-stage-aks, ApplicationId: 
+DisplayName: analyzer-notebook-staging, ApplicationId: 
+DisplayName: gitlab-emradptr-prd-sp, ApplicationId: 
+DisplayName: sea-sccmsql01, ApplicationId: 
+DisplayName: MALogAnalyticsReader, ApplicationId: 
+DisplayName: Sway, ApplicationId: 
+DisplayName: Microsoft Cloud App Security, ApplicationId: 
+DisplayName: Microsoft Social Engagement, ApplicationId: 
+DisplayName: gitlab-lab-batch-engine-acrpush-test-sp, ApplicationId: 
+DisplayName: IpLicensingService, ApplicationId: 
+DisplayName: MCAPI Authorization Prod, ApplicationId: 
+DisplayName: netapp-cloudmanager, ApplicationId: 
+DisplayName: Microsoft Graph PowerShell, ApplicationId: 
+DisplayName: dwm-dbtdocsapp-wus2-test, ApplicationId: 
+DisplayName: ccsapproval.azurewebsites.net, ApplicationId: 
+DisplayName: gitlab-mira-qa-test-sp, ApplicationId: 
+DisplayName: azurekeyvaultsecretsprovider-mirth-westus3-prod-aks, ApplicationId: 
+DisplayName: lvdb-westus3-dev-00, ApplicationId: 
+DisplayName: aro-qwlytnem, ApplicationId: 
+DisplayName: Compute Recommendation Service, ApplicationId: 
+DisplayName: Microsoft Teams ADL, ApplicationId: 
+DisplayName: ResourceHealthRP, ApplicationId: 
+DisplayName: update-management, ApplicationId: 
+DisplayName: AvsOnFleetRP, ApplicationId: 
+DisplayName: Microsoft Intune Checkin, ApplicationId: 
+DisplayName: MTS, ApplicationId: 
+DisplayName: ProdIT-S3-Transfers, ApplicationId: 
+DisplayName: My Profile, ApplicationId: 
+DisplayName: azdc102, ApplicationId: 
+DisplayName: Microsoft_EMM_ModernWorkplace, ApplicationId: 
+DisplayName: azurepolicy-adpt-shared-wu3-dev-aks, ApplicationId: 
+DisplayName: mira-analysis-personalized-svc-stage-sp, ApplicationId: 
+DisplayName: IpAddressManager, ApplicationId: 
+DisplayName: cora-stage-sp, ApplicationId: 
+DisplayName: Request Based Chats, ApplicationId: 
+DisplayName: pipeprod-docker-auth-sp, ApplicationId: 
+DisplayName: Office 365 Information Protection, ApplicationId: 
+DisplayName: MS Teams Griffin Assistant, ApplicationId: 
+DisplayName: dynamic-ppl, ApplicationId: 
+DisplayName: k8s-pods-development-workflows, ApplicationId: 
+DisplayName: Microsoft Mobile Application Management, ApplicationId: 
+DisplayName: Microsoft Device Management EMM API, ApplicationId: 
+DisplayName: Office Shredding Service, ApplicationId: 
+DisplayName: M365 Pillar Diagnostics Service API, ApplicationId: 
+DisplayName: SharePoint Online Client Extensibility, ApplicationId: 
+DisplayName: key-fetcher, ApplicationId: 
+DisplayName: Microsoft B2B Admin Portal, ApplicationId: 
+DisplayName: Microsoft Azure Authorization Resource Provider, ApplicationId: 
+DisplayName: omsagent-habitats-aks-adpt-internal, ApplicationId: 
+DisplayName: GatewayRP, ApplicationId: 
+DisplayName: Sharegate, ApplicationId: 
+DisplayName: aea23ca1c8ad4b0bbf3c25c1, ApplicationId: 
+DisplayName: Azure Traffic Manager and DNS, ApplicationId: 
+DisplayName: Microsoft Teams UIS, ApplicationId: 
+DisplayName: FastTrack, ApplicationId: 
