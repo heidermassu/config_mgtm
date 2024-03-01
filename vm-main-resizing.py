@@ -10,24 +10,24 @@ import time
 # Replace the following variables with your own values
 resource_group_name = 'manual' # Replace with the RG regarding the source VM
 target_resource_group = 'aut' # Replace with the RG regarding the where you want to create the new VM
-vm_name = 'vm1' # Replace with the RG regarding the where you want to create the new VM
+vm_name = 'vm01' # Replace with the RG regarding the where you want to create the new VM
 location = 'WestUS' # Have to be same location of source VM
-snapshot_name = 'snap-vm1' # Snapshot name going to be created
+snapshot_name = 'snap-vm01' # Snapshot name going to be created
 new_disk_name = 'vm1-new-test' # Managed Disk name name going to be created
-new_vm_name = 'vm1' # New VM name going to be created
+new_vm_name = 'vm01' # New VM name going to be created
 vm_size = 'Standard_DS1_v2'  # Replace with the desired VM size
-subscription_id = '' # Replace with the subscription Id where is based the VM
+subscription_id = '7e0b9c40-967a-438d-b02d-a5aa7e85b912' # Replace with the subscription Id where is based the VM
 key_path = r'' # in case you are using pem to aut in linux here is the local where is your pem
 ssh_user = 'heider' # This one is used for both authetication (pem and user/pass)
 ssh_password = 'Change@1234567' # used only for user/pass authentication
-disk_name = 'vm1_disk1_338c7ee9869344e2a018786f43523253' # OS disk name going to be created
+disk_name = 'os-dis-example' # OS disk name going to be created
 snap_skudisk= 'Premium_LRS' # You have only 2 choise ## Premium_LRS,Standard_LRS
 nic_name = 'nic-vm1-temp'  # Nic name going to be created and attached as temp in the old VM
 # Define NIC Parameters
 ip_configuration_name = "ipconfig1"
 private_ip_address_allocation = "Dynamic"
 subnet_id = "default" # subnet ID where is the NIC that want to be detached and also where going to be created new nic temp. Obs both have to be same VNET
-vnetnet_id = "vm1-vnet" # VNET ID where is the NIC that want to be detached and also where going to be created new nic temp. Obs both have to be same VNET
+vnetnet_id = "vm01-vnet" # VNET ID where is the NIC that want to be detached and also where going to be created new nic temp. Obs both have to be same VNET
 rg_vnet = 'manual'# RG where is the VNET
 rg_nic = 'manual' # RG where is the NIC
 
@@ -152,7 +152,6 @@ else:
 
 # Perform actions taking snapshot, creating disk, creating vm from this disk
     create_vm_from_snap(target_resource_group, rg_vnet, resource_group_name, vm_name, disk_name, vnetnet_id, subnet_id, snapshot_name, subscription_id, vm_inf, snap_skudisk, new_disk_name, new_vm_name, vm_size)
-
 # Perform actions deallocating VM
     deallocating_vm(target_resource_group, new_vm_name, subscription_id)
 

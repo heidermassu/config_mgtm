@@ -61,7 +61,7 @@ def initialize_variables(resource_group, vm, disk, snapshot, public_ip, user, ke
     ssh_password = sshpassword
     target_resource_group = targetresource_group
 
-def create_snapshot_os_disk(targetresource_group, resource_group, vm, snapshot, subscriptionid, vminf, snapskudisk):
+def create_snapshot_os_disk(targetresource_group, resource_group, vm, disk, snapshot, subscriptionid, vminf, snapskudisk, new_diskname, newvm_name, vmsize):
  ### This function aiming to:
     ## Create a snapshot of the OS disk lives in the VM mentioned in the variable 'vm_name';
 
