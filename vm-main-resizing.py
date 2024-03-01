@@ -179,3 +179,4 @@ else:
     #### check if the services are running
     #### Add same TAGs and values ols VMs had
     #### Options to delete old VM
+    #### Start the process from snapshoot already created instead creat new one
