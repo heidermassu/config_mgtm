@@ -61,3 +61,18 @@ The idea is have all scripts executed through Makefile
     - 7.1º Attach the new managed disk created
     - 8º Make Private IP address static on NIC, Detach NIC from the old VM and attach it in the new VM
     - 9º start the new VM
+#### Functions
+- Module 'common.vm.vm'
+  - create_snapshot_os_disk
+  - create_vm_from_snap
+  - deallocating_vm
+  - get_vm_status
+  - start_vm_created
+  - execute_ssh_commands_stop
+  - execute_ssh_commands_start
+  - ssh_into_vm
+  - create_snapshot_and_attach_existing_managed_disks
+
+- Module 'common.network.network'
+  - create_nic
+  - nic_attach
