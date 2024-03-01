@@ -2,7 +2,7 @@ import sys
 print(sys.path)
 
 import sys
-sys.path.append(r"C\Users\heide\OneDrive\Works\github\config_mgtm")
+sys.path.append(r"\common\vm")
 
 
 from common.vm import initialize_variables, create_vm_from_snap, start_vm_created, deallocating_vm, get_vm_status, execute_ssh_commands_stop, execute_ssh_commands_start, ssh_into_vm, create_snapshot_and_attach_existing_managed_disks
