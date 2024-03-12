@@ -45,3 +45,62 @@ Provide step-by-step instructions on how to install and set up your project. Inc
 
 ## How to submit new script?
 The idea is have all scripts executed through Makefile
+
+## Main Functions
+
+### Resizing VM
+- Resizing VM 'vm-main-resizing.py'
+  - Automatic Steps:
+    - 1º ssh into server
+    - 2º Stop the services kudu-server, impalad and hadoop-hdfs-datanode'
+    - 3º Stop System operation
+    - 4º Deallocate VM
+    - 5º take Snapshot of OS disk and managed disk attached
+    - 6º Create a new disks from those Snapshots 
+    - 7º Create a new VM from the OS disk created and choose the new VM size 
+    - 7.1º Attach the new managed disk created
+    - 8º Make Private IP address static on NIC, Detach NIC from the old VM and attach it in the new VM
+    - 9º start the new VM
+
+### Deallocating VM
+- Resizing VM 'deallocating-vm-main.py'
+  - Going to deallocate VM settled in the variables
+
+### Snapshoting VM os Disk
+- Resizing VM 'snapshot-vm-os-main.py'
+
+### Restoring VM from snapshot
+- Resizing VM 'restore-vm-from-snap-main.py'
+
+## Functions
+### Module common.vm.vm
+- create_snapshot_os_disk
+  - This function aiming to create a snapshot of the OS disk lives in the VM mentioned in the variable vm_name';
+
+- create_snap_and_vm
+  - This function aiming to create a snapshot of the OS disk lives in the VM mentioned in the variable 'vm_name'; create a new disk from this snapshot; Create new a NIC in the same VNET/Sbunet of VM mentioned in the variable 'vm_name'
+
+- deallocating_vm
+  - This function aiming to deallocate the VM mentioned in the variable 'vm_name';
+
+- get_vm_status
+  - This function aiming to get the VM status of the VM mentioned in the variable 'vm_name';
+
+- start_vm_created
+  - This function aiming to start the VM is mentioned in the variable new_vm_name
+
+- execute_ssh_commands_stop
+  - SSH into the VM and execute commands to stop services
+
+- execute_ssh_commands_start
+  - SSH into the VM and execute commands to start services
+
+- ssh_into_vm
+  - SSH into the VM 
+
+- create_snapshot_and_attach_existing_managed_disks
+  - This function aiming to get the list of data disks attached to the VM in the VM mentioned in the variable 'vm_name' and new_vm_name ; Create snapshot of all disks found; create a new disk from those snapshot; Attach those disks in the VM mentioned in the variable 'new_vm_name'
+
+### Module common.network.network
+- create_nic
+- nic_attach

@@ -94,7 +94,7 @@ def create_snapshot_os_disk(targetresource_group, resource_group, vm, disk, snap
 
     return None  # Return None if there is no OS disk ID
 
-def create_vm_from_snap(targetresource_group, rg_vnet, resource_group, vm, disk, vnetnetid, subnetid, snapshot, subscriptionid, vminf, snapskudisk, new_diskname, newvm_name, vmsize):
+def create_snap_and_vm(targetresource_group, rg_vnet, resource_group, vm, disk, vnetnetid, subnetid, snapshot, subscriptionid, vminf, snapskudisk, new_diskname, newvm_name, vmsize):
 ### This function aiming to:
     ## Create a snapshot of the OS disk lives in the VM mentioned in the variable 'vm_name';
     ## create a new disk from this snapshot;
@@ -347,3 +347,99 @@ def create_snapshot_and_attach_existing_managed_disks(targetresource_group, reso
             )
             async_update.wait()
             print(f"Disk '{managed_disk.name}' Attached.")
+
+
+def create_vm_from_snap(targetresource_group, rg_vnet, resource_group, disk, vnetnetid, subnetid, snapshot, subscriptionid, snapskudisk, newvm_name, vmsize):
+### This function aiming to:
+    ## create a new disk from this snapshot mentioned variable 'snapshot_name' on main file;
+    ## Create new a NIC in the same VNET/Sbunet of VM mentioned in the variable 'vm_name'
+    ## 
+
+    subscription_id = subscriptionid
+    credential = DefaultAzureCredential()
+    compute_client = ComputeManagementClient(credential, subscription_id)
+
+    # Get the VM
+    snapinf = compute_client.snapshots.get(snapshot,resource_group)
+    # Get the OS disk ID
+    snap_id = snapinf.storage_profile.os_disk.managed_disk.id
+   
+    if snap_id:
+        # Snapshot created already
+        snapshot_creation_result = snapshot
+
+        # Create disk from snapshot
+        disk_creation_result = compute_client.disks.begin_create_or_update(
+            targetresource_group,
+            disk,
+            {
+                'location': snapinf.location,
+                'creation_data': {
+                    'create_option': DiskCreateOption.copy,
+                    'source_resource_id': snapshot_creation_result.id
+                },
+                'sku': {'name': snapskudisk}
+            }
+        ).result()
+        print(f"Snapshot '{snapshot}' created successfully.")
+        print(f"Disk from snapshot '{snapshot_creation_result.name}' created successfully.")
+
+        # Create a new NIC
+        new_nic_params = {
+            'location': snapinf.location,
+            'ip_configurations': [{
+                'name': 'ipconfig1',
+                'subnet': {
+                    'id': '/subscriptions/{}/resourceGroups/{}/providers/Microsoft.Network/virtualNetworks/{}/subnets/{}'.format(
+                        subscription_id, rg_vnet, vnetnetid, subnetid)
+                }
+            }]
+        }
+
+        network_client = NetworkManagementClient(credential, subscription_id)
+        new_nic = network_client.network_interfaces.begin_create_or_update(
+            targetresource_group,
+            f"nic-{newvm_name}",
+            new_nic_params
+        ).result()
+
+        
+        #new_nic = create_nic (resource_group, vm, subscriptionid, vminf, newvm_name)
+        print(f"NIC '{new_nic.name}' created successfully.")
+
+
+        # Create a new VM from the disk
+        vm_creation_params = compute_client.virtual_machines.begin_create_or_update(
+            targetresource_group,
+            newvm_name,
+            {
+                'location': snapinf.location,
+                'storage_profile': {
+                    'os_disk': {
+                        'os_type': 'Linux',
+                        'create_option': DiskCreateOption.attach,
+                        'managed_disk': {
+                            'id': disk_creation_result.id #, 'storage_account_type': snapskudisk # Specify the appropriate storage account type
+                        }
+                    }
+                },
+                'hardware_profile': {
+                    'vm_size': vmsize
+                },
+                'network_profile': {
+                    'network_interfaces': [{
+                        'id': new_nic.id
+                    }]
+                },
+                "securityProfile": {
+                    #"uefiSettings": {
+                    #"secureBootEnabled": True,
+                    #"vTpmEnabled": True
+                    #},
+                    "securityType": "Standard" # Trustedlaunch or Standard
+                }
+        }).result()
+        #compute_client.virtual_machines.create_or_update(resource_group, newvm_name, vm_creation_params)
+        print(f"VM '{newvm_name}' created successfully from the disk.")
+    else:
+        print(f"Could not find the OS disk ID for VM '{vm_name}'.")

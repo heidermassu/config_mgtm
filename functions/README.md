@@ -65,14 +65,31 @@ The idea is have all scripts executed through Makefile
 ## Functions
 ### Module common.vm.vm
 - create_snapshot_os_disk
-- create_vm_from_snap
+  - This function aiming to create a snapshot of the OS disk lives in the VM mentioned in the variable vm_name';
+
+- create_snap_and_vm
+  - This function aiming to create a snapshot of the OS disk lives in the VM mentioned in the variable 'vm_name'; create a new disk from this snapshot; Create new a NIC in the same VNET/Sbunet of VM mentioned in the variable 'vm_name'
+
 - deallocating_vm
+  - This function aiming to deallocate the VM mentioned in the variable 'vm_name';
+
 - get_vm_status
+  - This function aiming to get the VM status of the VM mentioned in the variable 'vm_name';
+
 - start_vm_created
+  - This function aiming to start the VM is mentioned in the variable new_vm_name
+
 - execute_ssh_commands_stop
+  - SSH into the VM and execute commands to stop services
+
 - execute_ssh_commands_start
+  - SSH into the VM and execute commands to start services
+
 - ssh_into_vm
+  - SSH into the VM 
+
 - create_snapshot_and_attach_existing_managed_disks
+  - This function aiming to get the list of data disks attached to the VM in the VM mentioned in the variable 'vm_name' and new_vm_name ; Create snapshot of all disks found; create a new disk from those snapshot; Attach those disks in the VM mentioned in the variable 'new_vm_name'
 
 ### Module common.network.network
 - create_nic

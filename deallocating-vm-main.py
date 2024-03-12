@@ -11,5 +11,5 @@ resource_group = 'aut'
 vm = 'vm01'
 subscriptionid = ''
 
-
+# Going to deallocate VM settled in the variables
 deallocating_vm(resource_group, vm, subscriptionid)

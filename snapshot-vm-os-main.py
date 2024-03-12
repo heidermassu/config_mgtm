@@ -15,7 +15,7 @@ snapshot = 'snap-vm1-test1' # Snapshot name going to be created
 snap_skudisk= 'Premium_LRS' # You have only 2 choise ## Premium_LRS,Standard_LRS
 
 
-
+## going to create snapshot of os disk only
 
 # Connect to Azure and get VM information
 credential = DefaultAzureCredential()

@@ -1,4 +1,4 @@
-from common.vm.vm import initialize_variables, create_vm_from_snap, start_vm_created, deallocating_vm, get_vm_status, execute_ssh_commands_stop, execute_ssh_commands_start, ssh_into_vm, create_snapshot_and_attach_existing_managed_disks
+from common.vm.vm import initialize_variables, create_snap_and_vm, start_vm_created, deallocating_vm, get_vm_status, execute_ssh_commands_stop, execute_ssh_commands_start, ssh_into_vm, create_snapshot_and_attach_existing_managed_disks
 from common.network.network import initialize_variables, create_nic, nic_attach
 
 from azure.identity import DefaultAzureCredential
@@ -8,28 +8,28 @@ from azure.mgmt.compute.models import DiskCreateOption, DiskCreateOptionTypes, D
 import time
 
 # Replace the following variables with your own values
-resource_group_name = 'manual' # Replace with the RG regarding the source VM
-target_resource_group = 'aut' # Replace with the RG regarding the where you want to create the new VM
-vm_name = 'vm01' # Replace with the RG regarding the where you want to create the new VM
-location = 'WestUS' # Have to be same location of source VM
-snapshot_name = 'snap-vm01' # Snapshot name going to be created
-new_disk_name = 'vm1-new-test' # Managed Disk name name going to be created
-new_vm_name = 'vm01' # New VM name going to be created
+resource_group_name = '' # Replace with the RG regarding the source VM
+target_resource_group = '' # Replace with the RG regarding the where you want to create the new VM
+vm_name = '' # Replace with the RG regarding the where you want to create the new VM
+location = '' # Have to be same location of source VM
+snapshot_name = '' # Snapshot name going to be created
+new_disk_name = '' # Managed Disk name name going to be created
+new_vm_name = '' # New VM name going to be created
 vm_size = 'Standard_DS1_v2'  # Replace with the desired VM size
-subscription_id = '7e0b9c40-967a-438d-b02d-a5aa7e85b912' # Replace with the subscription Id where is based the VM
+subscription_id = '' # Replace with the subscription Id where is based the VM
 key_path = r'' # in case you are using pem to aut in linux here is the local where is your pem
-ssh_user = 'heider' # This one is used for both authetication (pem and user/pass)
-ssh_password = 'Change@1234567' # used only for user/pass authentication
-disk_name = 'os-dis-example' # OS disk name going to be created
-snap_skudisk= 'Premium_LRS' # You have only 2 choise ## Premium_LRS,Standard_LRS
-nic_name = 'nic-vm1-temp'  # Nic name going to be created and attached as temp in the old VM
+ssh_user = '' # This one is used for both authetication (pem and user/pass)
+ssh_password = '' # used only for user/pass authentication
+disk_name = '' # OS disk name going to be created
+snap_skudisk= '' # You have only 2 choise ## Premium_LRS,Standard_LRS
+nic_name = ''  # Nic name going to be created and attached as temp in the old VM
 # Define NIC Parameters
 ip_configuration_name = "ipconfig1"
 private_ip_address_allocation = "Dynamic"
 subnet_id = "default" # subnet ID where is the NIC that want to be detached and also where going to be created new nic temp. Obs both have to be same VNET
 vnetnet_id = "vm01-vnet" # VNET ID where is the NIC that want to be detached and also where going to be created new nic temp. Obs both have to be same VNET
-rg_vnet = 'manual'# RG where is the VNET
-rg_nic = 'manual' # RG where is the NIC
+rg_vnet = ''# RG where is the VNET
+rg_nic = '' # RG where is the NIC
 
 # Connect to Azure and get VM information
 credential = DefaultAzureCredential()
@@ -85,7 +85,7 @@ if vm_status != 'VM running':
     print("VM is not in a running state. Skipping SSH and proceeding with other steps.")
 
 # Perform actions taking snapshot, creating disk, creating vm from this disk
-    create_vm_from_snap(target_resource_group, rg_vnet, resource_group_name, vm_name, disk_name, vnetnet_id, subnet_id, snapshot_name, subscription_id, vm_inf, snap_skudisk, new_disk_name, new_vm_name, vm_size)
+    create_snap_and_vm(target_resource_group, rg_vnet, resource_group_name, vm_name, disk_name, vnetnet_id, subnet_id, snapshot_name, subscription_id, vm_inf, snap_skudisk, new_disk_name, new_vm_name, vm_size)
 
 # Perform actions deallocating VM
     deallocating_vm(target_resource_group, new_vm_name, subscription_id)
@@ -151,7 +151,7 @@ else:
     deallocating_vm(resource_group_name, vm_name, subscription_id)
 
 # Perform actions taking snapshot, creating disk, creating vm from this disk
-    create_vm_from_snap(target_resource_group, rg_vnet, resource_group_name, vm_name, disk_name, vnetnet_id, subnet_id, snapshot_name, subscription_id, vm_inf, snap_skudisk, new_disk_name, new_vm_name, vm_size)
+    create_snap_and_vm(target_resource_group, rg_vnet, resource_group_name, vm_name, disk_name, vnetnet_id, subnet_id, snapshot_name, subscription_id, vm_inf, snap_skudisk, new_disk_name, new_vm_name, vm_size)
 # Perform actions deallocating VM
     deallocating_vm(target_resource_group, new_vm_name, subscription_id)
 
