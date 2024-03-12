@@ -61,7 +61,7 @@ def initialize_variables(resource_group, vm, disk, snapshot, public_ip, user, ke
     ssh_password = sshpassword
     target_resource_group = targetresource_group
 
-def create_snapshot_os_disk(targetresource_group, resource_group, vm, disk, snapshot, subscriptionid, vminf, snapskudisk, new_diskname, newvm_name, vmsize):
+def create_snapshot_os_disk(targetresource_group, resource_group, vm, snapshot, subscriptionid, vminf, snapskudisk):
  ### This function aiming to:
     ## Create a snapshot of the OS disk lives in the VM mentioned in the variable 'vm_name';
 
@@ -112,7 +112,7 @@ def create_snap_and_vm(targetresource_group, rg_vnet, resource_group, vm, disk, 
    
     if os_disk_id:
         # Create snapshot
-        snapshot_creation_result = create_snapshot_os_disk (targetresource_group, resource_group, vm, disk, snapshot, subscriptionid, vminf, snapskudisk, new_diskname, newvm_name, vmsize).result()
+        snapshot_creation_result = create_snapshot_os_disk (targetresource_group, resource_group, vm, snapshot, subscriptionid, vminf, snapskudisk).result()
 
         # Create disk from snapshot
         disk_creation_result = compute_client.disks.begin_create_or_update(
@@ -348,7 +348,6 @@ def create_snapshot_and_attach_existing_managed_disks(targetresource_group, reso
             async_update.wait()
             print(f"Disk '{managed_disk.name}' Attached.")
 
-
 def create_vm_from_snap(targetresource_group, rg_vnet, resource_group, disk, vnetnetid, subnetid, snapshot, subscriptionid, snapskudisk, newvm_name, vmsize):
 ### This function aiming to:
     ## create a new disk from this snapshot mentioned variable 'snapshot_name' on main file;
@@ -360,9 +359,9 @@ def create_vm_from_snap(targetresource_group, rg_vnet, resource_group, disk, vne
     compute_client = ComputeManagementClient(credential, subscription_id)
 
     # Get the VM
-    snapinf = compute_client.snapshots.get(snapshot,resource_group)
+    snapinf = compute_client.snapshots.get(resource_group, snapshot)
     # Get the OS disk ID
-    snap_id = snapinf.storage_profile.os_disk.managed_disk.id
+    snap_id = snapinf.id
    
     if snap_id:
         # Snapshot created already
@@ -376,13 +375,13 @@ def create_vm_from_snap(targetresource_group, rg_vnet, resource_group, disk, vne
                 'location': snapinf.location,
                 'creation_data': {
                     'create_option': DiskCreateOption.copy,
-                    'source_resource_id': snapshot_creation_result.id
+                    'source_resource_id': snap_id
                 },
                 'sku': {'name': snapskudisk}
             }
         ).result()
-        print(f"Snapshot '{snapshot}' created successfully.")
-        print(f"Disk from snapshot '{snapshot_creation_result.name}' created successfully.")
+        print(f"Snapshot '{snapshot}' been used.")
+        print(f"Disk from snapshot '{disk_creation_result.name}' created successfully.")
 
         # Create a new NIC
         new_nic_params = {
@@ -436,10 +435,39 @@ def create_vm_from_snap(targetresource_group, rg_vnet, resource_group, disk, vne
                     #"secureBootEnabled": True,
                     #"vTpmEnabled": True
                     #},
-                    "securityType": "Standard" # Trustedlaunch or Standard
+                    "securityType": "Trustedlaunch" # Trustedlaunch or Standard
                 }
         }).result()
         #compute_client.virtual_machines.create_or_update(resource_group, newvm_name, vm_creation_params)
         print(f"VM '{newvm_name}' created successfully from the disk.")
     else:
         print(f"Could not find the OS disk ID for VM '{vm_name}'.")
+
+
+def delete_vm(resource_group, vm, subscriptionid, vminf):
+### This function aiming to:
+    ## Create a snapshot of the OS disk lives in the VM mentioned in the variable 'vm_name';
+    ## create a new disk from this snapshot;
+    ## Create new a NIC in the same VNET/Sbunet of VM mentioned in the variable 'vm_name'
+    ## 
+
+    subscription_id = subscriptionid
+    credential = DefaultAzureCredential()
+    compute_client = ComputeManagementClient(credential, subscription_id)
+
+    # Get the VM
+    vminf = compute_client.virtual_machines.get(resource_group, vm)
+    # Get the OS disk ID
+    os_disk_id = vminf.storage_profile.os_disk.name
+   
+    if os_disk_id:
+
+        # Delete VM
+        vm_delete = compute_client.virtual_machines.begin_delete(
+            resource_group,
+            vm)
+        print(f"VM '{vm}' deleted successfully.")
+
+         # Delete Os Disk
+        vm_os_disk = compute_client.disks.begin_delete(resource_group,os_disk_id)
+        print(f"disk '{os_disk_id}' deleted successfully.")
