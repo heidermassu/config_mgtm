@@ -7,7 +7,7 @@ from azure.mgmt.compute.models import DiskCreateOption, DiskCreateOptionTypes, D
 import time
 
 #variables
-subscription_id = 'a6cc1a53-c242-42f9-aa16-15a377d21069' # Replace with the subscription Id where is based the VM
+subscription_id = '' # Replace with the subscription Id where is based the VM
 resource_group_name = 'Python-Poc' # Replace with the RG regarding the source VM
 vm = 'heider-vm01' # Replace with the RG regarding the where you want to create the new VM
 targetresource_group = 'Python-Poc' # Replace with the RG regarding the where you want to create the new VM
