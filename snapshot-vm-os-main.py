@@ -11,7 +11,7 @@ subscription_id = 'a6cc1a53-c242-42f9-aa16-15a377d21069' # Replace with the subs
 resource_group_name = 'Python-Poc' # Replace with the RG regarding the source VM
 vm = 'heider-vm01' # Replace with the RG regarding the where you want to create the new VM
 targetresource_group = 'Python-Poc' # Replace with the RG regarding the where you want to create the new VM
-snapshot = 'snap-heider-vm01' # Snapshot name going to be created
+snapshot = 'snap-heider-vm04' # Snapshot name going to be created
 snap_skudisk= 'Premium_LRS' # You have only 2 choise ## Premium_LRS,Standard_LRS
 
 

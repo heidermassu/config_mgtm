@@ -74,7 +74,7 @@ def create_nic(targetresource_group, subscriptionid, nicname, location, vnetneti
     ).result()
     print(f"NIC '{nic.name}' created successfully.")
 
-def nic_attach(targetresource_group, rg_vnet, resource_group, vm, newvm_name, subscriptionid, nicname, location, vnetnetid, subnetid, ipconfigurationname, privateipaddressallocation):
+def nic_attach(targetresource_group, rg_vnet, resource_group, vm, newvm_name, subscriptionid, nicname, vnetnetid, subnetid, ipconfigurationname, privateipaddressallocation):
     subscription_id = subscriptionid
     credential = DefaultAzureCredential()
     compute_client = ComputeManagementClient(credential, subscription_id)
