@@ -7,8 +7,8 @@ from azure.mgmt.network import NetworkManagementClient
 from azure.mgmt.compute.models import DiskCreateOption, DiskCreateOptionTypes, DataDisk
 import time
 
-resource_group = 'aut'
-vm = 'vm01'
+resource_group = ''
+vm = ''
 subscriptionid = ''
 
 # Going to deallocate VM settled in the variables
