@@ -356,7 +356,7 @@ def get_managed_disks(resource_group, subscriptionid):
 
     return list(disks)
 
-def create_vm_from_snap(securityType, attach_nsg, nsg_name, attach_nic, nic_name, targetresource_group, rg_vnet, resource_group, disk, vnetnetid, subnetid, snapshot, subscriptionid, snapskudisk, newvm_name, vmsize):
+def create_vm_from_snap(securityType, nsg_name, attach_nic, nic_name, targetresource_group, rg_vnet, resource_group, disk, vnetnetid, subnetid, snapshot, subscriptionid, snapskudisk, newvm_name, vmsize):
 ### This function aiming to:
     ## create a new disk from this snapshot mentioned variable 'snapshot_name' on main file;
     ## Create new a NIC in the same VNET/Sbunet of VM mentioned in the variable 'vm_name'
@@ -401,6 +401,10 @@ def create_vm_from_snap(securityType, attach_nsg, nsg_name, attach_nic, nic_name
                         subscription_id, rg_vnet, vnetnetid, subnetid)
                 }
             }]
+            #'network_security_group': {
+            #    'id': '/subscriptions/{}/resourceGroups/{}/providers/Microsoft.Network/networkSecurityGroups/{}'.format(
+            #        subscription_id, rg_vnet, nsg_name)
+            #}
         }
         if attach_nic: 
             # Attach a NIC already created
@@ -420,15 +424,6 @@ def create_vm_from_snap(securityType, attach_nsg, nsg_name, attach_nic, nic_name
                 new_nic_params
             ).result()
             print(f"NIC '{new_nic.name}' created successfully.")
-
-        if attach_nsg:
-            # Attach a NSG already created
-            network_client = NetworkManagementClient(credential, subscription_id)
-            nsg = network_client.network_security_groups.begin_create_or_update(
-                rg_vnet,
-                nsg_name
-            ).result()
-            print(f"NSG '{nsg.name}' attached successfully.")
 
         # Create a new VM from the disk
         vm_creation_params = compute_client.virtual_machines.begin_create_or_update(
@@ -494,7 +489,7 @@ def delete_vm(resource_group, vm, subscriptionid, vminf):
         vm_os_disk = compute_client.disks.begin_delete(resource_group,os_disk_id)
         print(f"disk '{os_disk_id}' deleted successfully.")
 
-def attach_existing_managed_disks(targetresource_group, resource_group, newvm_name, subscriptionid, new_disk_name_template):
+def attach_existing_managed_disks(targetresource_group, resource_group, newvm_name, subscriptionid, disk_managed_name):
 ### This function aiming to:
     ## Get the list of data disks attached to the VM in the VM mentioned in the variable 'vm_name' and new_vm_name ;
     ## Create snapshot of all disks found
@@ -510,14 +505,14 @@ def attach_existing_managed_disks(targetresource_group, resource_group, newvm_na
     managed_disks = get_managed_disks(resource_group, subscription_id)
     
     # Filter managed_disks for Unattached disks
-    unattached_disks = [disk for disk in managed_disks if disk.disk_state == "Unattached"]
+    unattached_disks = [disk for disk in managed_disks if disk.disk_state == "Unattached" and disk.name in disk_managed_name]
 
     for index, disk in enumerate(unattached_disks):
         print(f"Managed Disk Name: {disk.name}")
         print(f"Disk State: {disk.disk_state}")
         print(f"Getting if condition")
         # Access the managed disk details, e.g., data_disk.name, data_disk.managed_disk.id, etc.
-        new_disk_name = f'{new_disk_name_template}_DataDisk_{index}'
+        new_disk_name = disk.name
 
         managed_disk = compute_client.disks.get(targetresource_group, new_disk_name)
         vminf_target = compute_client.virtual_machines.get(targetresource_group, newvm_name)
