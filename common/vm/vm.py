@@ -182,7 +182,7 @@ def create_snap_and_vm(targetresource_group, rg_vnet, resource_group, vm, disk, 
                     #"secureBootEnabled": True,
                     #"vTpmEnabled": True
                     #},
-                    "securityType": "Standard" # Trustedlaunch or Standard
+                    "securityType": "Trustedlaunch" # Trustedlaunch or Standard
                 }
         }).result()
         #compute_client.virtual_machines.create_or_update(resource_group, newvm_name, vm_creation_params)
