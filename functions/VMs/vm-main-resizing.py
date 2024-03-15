@@ -5,7 +5,7 @@ import sys
 sys.path.append(r"\common\vm")
 
 
-from common.vm import initialize_variables, create_snap_and_vm, start_vm_created, deallocating_vm, get_vm_status, execute_ssh_commands_stop, execute_ssh_commands_start, ssh_into_vm, create_snapshot_and_attach_existing_managed_disks
+from common.vm import initialize_variables, create_vm_from_snap, start_vm_created, deallocating_vm, get_vm_status, execute_ssh_commands_stop, execute_ssh_commands_start, ssh_into_vm, create_snapshot_and_attach_existing_managed_disks
 from common.network import initialize_variables, create_nic, nic_attach
 
 from azure.identity import DefaultAzureCredential
@@ -93,7 +93,7 @@ if vm_status != 'VM running':
     print("VM is not in a running state. Skipping SSH and proceeding with other steps.")
 
 # Perform actions taking snapshot, creating disk, creating vm from this disk
-    create_snap_and_vm(securityType, target_resource_group, rg_vnet, resource_group_name, vm_name, disk_name, vnetnet_id, subnet_id, snapshot_name, subscription_id, vm_inf, snap_skudisk, new_disk_name, new_vm_name, vm_size)
+    create_vm_from_snap(target_resource_group, rg_vnet, resource_group_name, vm_name, disk_name, vnetnet_id, subnet_id, snapshot_name, subscription_id, vm_inf, snap_skudisk, new_disk_name, new_vm_name, vm_size)
 
 # Perform actions deallocating VM
     deallocating_vm(target_resource_group, new_vm_name, subscription_id)
@@ -159,7 +159,7 @@ else:
     deallocating_vm(resource_group_name, vm_name, subscription_id)
 
 # Perform actions taking snapshot, creating disk, creating vm from this disk
-    create_snap_and_vm(securityType, target_resource_group, rg_vnet, resource_group_name, vm_name, disk_name, vnetnet_id, subnet_id, snapshot_name, subscription_id, vm_inf, snap_skudisk, new_disk_name, new_vm_name, vm_size)
+    create_vm_from_snap(target_resource_group, rg_vnet, resource_group_name, vm_name, disk_name, vnetnet_id, subnet_id, snapshot_name, subscription_id, vm_inf, snap_skudisk, new_disk_name, new_vm_name, vm_size)
 
 # Perform actions deallocating VM
     deallocating_vm(target_resource_group, new_vm_name, subscription_id)

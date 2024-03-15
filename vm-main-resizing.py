@@ -8,29 +8,29 @@ from azure.mgmt.compute.models import DiskCreateOption, DiskCreateOptionTypes, D
 import time
 
 # Replace the following variables with your own values
-resource_group_name = 'heider-gtw-upgrade' # Replace with the RG regarding the source VM
-target_resource_group = 'heider-temp' # Replace with the RG regarding the where you want to create the new VM
-vm_name = 'heider-vm01' # Replace with the RG regarding the where you want to create the new VM
-location = 'EastUS' # Have to be same location of source VM
-snapshot_name = 'snap-heider-vm01' # Snapshot name going to be created
-new_disk_name = 'heider-vm01' # Managed Disk name name going to be created
-new_vm_name = 'heider-vm01' # New VM name going to be created
+resource_group_name = '' # Replace with the RG regarding the source VM
+target_resource_group = '' # Replace with the RG regarding the where you want to create the new VM
+vm_name = '' # Replace with the RG regarding the where you want to create the new VM
+location = '' # Have to be same location of source VM
+snapshot_name = '' # Snapshot name going to be created
+new_disk_name = '' # Managed Disk name name going to be created
+new_vm_name = '' # New VM name going to be created
 vm_size = 'Standard_DS1_v2'  # Replace with the desired VM size
-securityType = 'Trustedlaunch' # Trustedlaunch or Standard
-subscription_id = 'a6cc1a53-c242-42f9-aa16-15a377d21069' # Replace with the subscription Id where is based the VM
+securityType = '' # Trustedlaunch or Standard
+subscription_id = '' # Replace with the subscription Id where is based the VM
 key_path = r'' # in case you are using pem to aut in linux here is the local where is your pem
-ssh_user = 'heider' # This one is used for both authetication (pem and user/pass)
-ssh_password = 'L34ndr0.hdrblm' # used only for user/pass authentication
-disk_name = 'heider-vm01' # OS disk name going to be created
-snap_skudisk= 'Premium_LRS' # You have only 2 choise ## Premium_LRS,Standard_LRS
-nic_name = 'heider-vm01-temp'  # Nic name going to be created and attached as temp in the old VM
+ssh_user = '' # This one is used for both authetication (pem and user/pass)
+ssh_password = '' # used only for user/pass authentication
+disk_name = '' # OS disk name going to be created
+snap_skudisk= '' # You have only 2 choise ## Premium_LRS,Standard_LRS
+nic_name = ''  # Nic name going to be created and attached as temp in the old VM
 # Define NIC Parameters
 ip_configuration_name = "ipconfig1"
 private_ip_address_allocation = "Dynamic"
 subnet_id = "default" # subnet ID where is the NIC that want to be detached and also where going to be created new nic temp. Obs both have to be same VNET
-vnetnet_id = "heider-gtwupgrade-vnet" # VNET ID where is the NIC that want to be detached and also where going to be created new nic temp. Obs both have to be same VNET
-rg_vnet = 'heider-gtw-upgrade'# RG where is the VNET
-rg_nic = 'heider-gtw-upgrade' # RG where is the NIC
+vnetnet_id = "vm01-vnet" # VNET ID where is the NIC that want to be detached and also where going to be created new nic temp. Obs both have to be same VNET
+rg_vnet = ''# RG where is the VNET
+rg_nic = '' # RG where is the NIC
 
 # Connect to Azure and get VM information
 credential = DefaultAzureCredential()

@@ -359,7 +359,7 @@ def get_managed_disks(resource_group, subscriptionid):
 def create_vm_from_snap(securityType, nsg_name, attach_nic, nic_name, targetresource_group, rg_vnet, resource_group, disk, vnetnetid, subnetid, snapshot, subscriptionid, snapskudisk, newvm_name, vmsize):
 ### This function aiming to:
     ## create a new disk from this snapshot mentioned variable 'snapshot_name' on main file;
-    ## Create new a NIC in the same VNET/Sbunet of VM mentioned in the variable 'vm_name'
+    ## Create new a NIC in the same VNET/Sbunet of VM mentioned in the variable 'vm_name' or attach NIC already created
     ## 
     #attach_nic = True or False
     subscription_id = subscriptionid
@@ -459,14 +459,11 @@ def create_vm_from_snap(securityType, nsg_name, attach_nic, nic_name, targetreso
         #compute_client.virtual_machines.create_or_update(resource_group, newvm_name, vm_creation_params)
         print(f"VM '{newvm_name}' created successfully from the disk.")
     else:
-        print(f"Could not find the OS disk ID for VM '{vm_name}'.")
+        print(f"Could not find the snapshot to be restored '{snapinf}'.")
 
 def delete_vm(resource_group, vm, subscriptionid, vminf):
 ### This function aiming to:
-    ## Create a snapshot of the OS disk lives in the VM mentioned in the variable 'vm_name';
-    ## create a new disk from this snapshot;
-    ## Create new a NIC in the same VNET/Sbunet of VM mentioned in the variable 'vm_name'
-    ## 
+    ## Delete a VM and Os Disk related to it
 
     subscription_id = subscriptionid
     credential = DefaultAzureCredential()
@@ -491,11 +488,9 @@ def delete_vm(resource_group, vm, subscriptionid, vminf):
 
 def attach_existing_managed_disks(targetresource_group, resource_group, newvm_name, subscriptionid, disk_managed_name):
 ### This function aiming to:
-    ## Get the list of data disks attached to the VM in the VM mentioned in the variable 'vm_name' and new_vm_name ;
-    ## Create snapshot of all disks found
-    ## create a new disk from those snapshot;
-    ## Attach those disks in the VM mentioned in the variable 'new_vm_name'
-    ## 
+    ## Get the list of managed disks attached filtering for Unattached disks and also by name disk mentioned in the main variable 'disk_managed_name'
+    ## add those disks as managed disks
+
     subscription_id = subscriptionid
     credential = DefaultAzureCredential()
 

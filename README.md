@@ -46,6 +46,46 @@ Provide step-by-step instructions on how to install and set up your project. Inc
 ## How to submit new script?
 The idea is have all scripts executed through Makefile
 
+## Main Variables
+For each Main function there are a bunch of variables have to be filled with the inforamtion related to either resources are created or going to be created. All Main Functions has comments in the variables given inforamtion what is used for.
+Nevertheless, here goes all Variables and their propose.
+OBs. Those ones are all variables but you will notice the main function may not have all variables but only the necessary variables.
+
+### Varibales:
+Replace the following variables with your own values
+- resource_group_name = '' # Replace with the RG regarding the source VM
+- target_resource_group = '' # Replace with the RG regarding the where you want to create the new VM.Could be same RG the old but necessary delete the old one.
+- vm_name = '' # Replace with the RG regarding the where you want to create the new VM
+- snapshot_name = '' # Snapshot name going to be created
+- new_disk_name = '' # Managed Disk name name going to be created
+- new_vm_name = '' # New VM name going to be created
+- vm_size = 'Standard_DS1_v2'  # Replace with the desired VM size
+- subscription_id = '' # Replace with the subscription Id where is based the VM
+- key_path = r'' # in case you are using pem to aut in linux here is the local where is your pem
+- ssh_user = '' # This one is used for both authetication (pem and user/pass)
+- ssh_password = '' # used only for user/pass authentication
+- disk_name = '' # OS disk name going to be created
+- snap_skudisk= '' # You have only 2 choise ## Premium_LRS,Standard_LRS
+- nic_name = ''  # Nic name going to be created and attached as temp in the old VM.#Should be filled only if 'attach_nic' is 'True' otherwise will not have
+- ip_configuration_name = "ipconfig1" # name of the IP configuration under NIC
+- private_ip_address_allocation = "Dynamic" # type of configuration of the IP could be Dynamic or Standard
+- subnet_id = "default" # subnet ID where is the NIC that want to be detached and also where going to be created new nic temp. Obs both have to be same VNET
+- vnetnet_id = "vm01-vnet" # VNET ID where is the NIC that want to be detached and also where going to be created new nic temp. Obs both have to be same VNET
+- rg_vnet = ''# RG where is the VNET
+- rg_nic = '' # RG where is the NIC
+- vm = 'heider-vm01' # vm name that have to be restored
+- disk ='disk-from-snap4' #name of the os disk going to be created for the new VM
+- disk_managed_name = ['heider-vm01_DataDisk_2', 'heiderDataDisk_1'] # In case there are managed disks attached fill with the names ['disk'', 'disk2']
+- snapskudisk = 'Premium_LRS' # You have only 2 choise ## Premium_LRS,Standard_LRS
+- newvm_name = 'heider-vm01' # Name of the new vm going to be created. Could be same name but the flag 'del_vm' have to be 'True' otherwise will get error due to have vm with same name 
+- vmsize = 'Standard_D2s_v3' # Replace with the desired VM size
+- securityType = 'Trustedlaunch' # Trustedlaunch or Standard
+- del_vm = True #True or False.  True going to delete vm (used when you want create with same name same RG.) False going to leave the old VM as deallocated
+- attach_nic = True #True or False
+- nsg_name = 'heider-vm01-nsg' #This is the NSG going to be either attached in the new vm or created if do not have
+- nic_name = 'heider-vm01647' #Should be filled only if 'attach_nic' is 'True' otherwise will not have impact. this is the NIC going to be attached in the new vm
+
+
 ## Main Functions
 
 ### Resizing VM
@@ -68,9 +108,20 @@ The idea is have all scripts executed through Makefile
 
 ### Snapshoting VM os Disk
 - Resizing VM 'snapshot-vm-os-main.py'
+  - Going to create a snapshot of the VM mentioned
 
 ### Restoring VM from snapshot
 - Resizing VM 'restore-vm-from-snap-main.py'
+  - Going to restore a new VM based on Snapshot name provided
+    - steps:
+      - 1º Going to deallocate old VM settled in the variables
+      - 2º Delete the old VM were deallocated (only if the variable 'del_vm = True')
+      - 3º Create a New vm from snapshot name provided in the variable 'snapshot'. You must have a snapshot created already that ensure you can restore that specifi point of time!! Otherwise will not posible restore
+        - 3.1 - Create disk from snapshot
+        - 3.2 - Create a new NIC or Attach NIC already created
+        - 3.3 - Create a new VM from the disk
+      - 4º Attach managed disk providen through variable 'disk_managed_name' 
+
 
 ## Functions
 ### Module common.vm.vm
@@ -100,6 +151,19 @@ The idea is have all scripts executed through Makefile
 
 - create_snapshot_and_attach_existing_managed_disks
   - This function aiming to get the list of data disks attached to the VM in the VM mentioned in the variable 'vm_name' and new_vm_name ; Create snapshot of all disks found; create a new disk from those snapshot; Attach those disks in the VM mentioned in the variable 'new_vm_name'
+
+- delete_vm
+  - Delete a VM and Os Disk related to it
+  
+- create_vm_from_snap
+  - create a new disk from this snapshot mentioned variable 'snapshot_name' on main file (restore-vm-from-snap-main.py);
+  - Create new either a NIC in the same VNET/Sbunet of VM mentioned in the variable 'vm_name' or attach NIC already created
+
+- attach_existing_managed_disks
+  -  Get the list of managed disks attached filtering for Unattached disks and also by name disk mentioned in the main variable 'disk_managed_name'and then add those disks as managed disks
+
+- get_managed_disks
+  - Get the full list of disks
 
 ### Module common.network.network
 - create_nic
