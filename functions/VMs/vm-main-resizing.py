@@ -23,6 +23,7 @@ snapshot_name = 'snap-vm1' # Snapshot name going to be created
 new_disk_name = 'vm1-new-test' # Managed Disk name name going to be created
 new_vm_name = 'vm1' # New VM name going to be created
 vm_size = 'Standard_DS1_v2'  # Replace with the desired VM size
+securityType = 'Trustedlaunch' # Trustedlaunch or Standard
 subscription_id = '' # Replace with the subscription Id where is based the VM
 key_path = r'' # in case you are using pem to aut in linux here is the local where is your pem
 ssh_user = 'heider' # This one is used for both authetication (pem and user/pass)
@@ -92,7 +93,7 @@ if vm_status != 'VM running':
     print("VM is not in a running state. Skipping SSH and proceeding with other steps.")
 
 # Perform actions taking snapshot, creating disk, creating vm from this disk
-    create_snap_and_vm(target_resource_group, rg_vnet, resource_group_name, vm_name, disk_name, vnetnet_id, subnet_id, snapshot_name, subscription_id, vm_inf, snap_skudisk, new_disk_name, new_vm_name, vm_size)
+    create_snap_and_vm(securityType, target_resource_group, rg_vnet, resource_group_name, vm_name, disk_name, vnetnet_id, subnet_id, snapshot_name, subscription_id, vm_inf, snap_skudisk, new_disk_name, new_vm_name, vm_size)
 
 # Perform actions deallocating VM
     deallocating_vm(target_resource_group, new_vm_name, subscription_id)
@@ -158,7 +159,7 @@ else:
     deallocating_vm(resource_group_name, vm_name, subscription_id)
 
 # Perform actions taking snapshot, creating disk, creating vm from this disk
-    create_snap_and_vm(target_resource_group, rg_vnet, resource_group_name, vm_name, disk_name, vnetnet_id, subnet_id, snapshot_name, subscription_id, vm_inf, snap_skudisk, new_disk_name, new_vm_name, vm_size)
+    create_snap_and_vm(securityType, target_resource_group, rg_vnet, resource_group_name, vm_name, disk_name, vnetnet_id, subnet_id, snapshot_name, subscription_id, vm_inf, snap_skudisk, new_disk_name, new_vm_name, vm_size)
 
 # Perform actions deallocating VM
     deallocating_vm(target_resource_group, new_vm_name, subscription_id)

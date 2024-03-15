@@ -94,7 +94,7 @@ def create_snapshot_os_disk(targetresource_group, resource_group, vm, snapshot, 
 
     return None  # Return None if there is no OS disk ID
 
-def create_snap_and_vm(targetresource_group, rg_vnet, resource_group, vm, disk, vnetnetid, subnetid, snapshot, subscriptionid, vminf, snapskudisk, new_diskname, newvm_name, vmsize):
+def create_snap_and_vm(securityType, targetresource_group, rg_vnet, resource_group, vm, disk, vnetnetid, subnetid, snapshot, subscriptionid, vminf, snapskudisk, new_diskname, newvm_name, vmsize):
 ### This function aiming to:
     ## Create a snapshot of the OS disk lives in the VM mentioned in the variable 'vm_name';
     ## create a new disk from this snapshot;
@@ -182,7 +182,7 @@ def create_snap_and_vm(targetresource_group, rg_vnet, resource_group, vm, disk, 
                     #"secureBootEnabled": True,
                     #"vTpmEnabled": True
                     #},
-                    "securityType": "Trustedlaunch" # Trustedlaunch or Standard
+                    "securityType": securityType # Trustedlaunch or Standard
                 }
         }).result()
         #compute_client.virtual_machines.create_or_update(resource_group, newvm_name, vm_creation_params)
