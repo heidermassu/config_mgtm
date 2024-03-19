@@ -29,92 +29,48 @@ def get_ip_addresses(nic):
         public_ip = "N/A"  # Assign a default value when there's no public IP
     return private_ip, public_ip
 
+from azure.core.exceptions import HttpResponseError
 
-# Function to get private DNS information
-#def get_private_dns_info(vm, nic_ref):
-#    internal_fqdn = []
-#    internal_dns_name_label = []
-#    applied_dns_servers = []
-#    internal_domain_name_suffix = []
-#    nic = network_client.network_interfaces.get(nic_ref.split('/')[4], nic_ref.split('/')[-1])
-#    if nic.dns_settings:
-#        internal_fqdn.append(nic.dns_settings.internal_fqdn)
-#        internal_dns_name_label.append(nic.dns_settings.internal_dns_name_label)
-#        applied_dns_servers.append(nic.dns_settings.applied_dns_servers)
-#        internal_domain_name_suffix.append(nic.dns_settings.internal_domain_name_suffix)
-#    combined_info = internal_fqdn + internal_dns_name_label + applied_dns_servers + internal_domain_name_suffix
-#    combined_info = [str(info) for info in combined_info if info is not None]
-#    return ", ".join(combined_info) if combined_info else "N/A"
-##def get_dns_info(vm, nic_ref):
-##    custom_dns = "N/A"
-##    private_dns = "N/A"
-##    dns_servers = "N/A"
-##
-##    # Retrieve network interface
-##    nic = network_client.network_interfaces.get(nic_ref.split('/')[4], nic_ref.split('/')[-1])
-##
-##    # Retrieve custom DNS
-##    if nic.dns_settings and nic.dns_settings.internal_domain_name_suffix:
-##        custom_dns = f"{vm.name}.{nic.dns_settings.internal_domain_name_suffix}"
-##    
-##    # Retrieve private DNS
-##    if nic.dns_settings and nic.dns_settings.dns_servers:
-##        private_dns = nic.dns_settings.dns_servers
-##    
-##    # Retrieve associated virtual network
-##    virtual_network_id = nic.ip_configurations[0].subnet.id.split('/')[6]
-##    virtual_network = network_client.virtual_networks.get(nic_ref.split('/')[4], virtual_network_id)
-##
-##    if virtual_network.dhcp_options and virtual_network.dhcp_options.dns_servers:
-##        dns_servers = virtual_network.dhcp_options.dns_servers
-##
-##    return custom_dns, private_dns, dns_servers
-
+# Function to get DNS info with error handling
 def get_dns_info(vm, nic_ref):
     custom_dns = "N/A"
     private_dns = "N/A"
     dns_servers = "N/A"
 
-    # Retrieve network interface
-    nic = network_client.network_interfaces.get(nic_ref.split('/')[4], nic_ref.split('/')[-1])
+    try:
+        # Retrieve network interface
+        nic = network_client.network_interfaces.get(nic_ref.split('/')[4], nic_ref.split('/')[-1])
 
-    # Retrieve custom DNS
-    if nic.dns_settings and nic.dns_settings.internal_domain_name_suffix:
-        custom_dns = f"{vm.name}.{nic.dns_settings.internal_domain_name_suffix}"
-    
-    # Retrieve private DNS
-    if nic.dns_settings and nic.dns_settings.dns_servers:
-        private_dns = nic.dns_settings.dns_servers
-    
-    # Retrieve associated virtual network
-    subnet_id = nic.ip_configurations[0].subnet.id
-    subnet_parts = subnet_id.split('/')
-    resource_group_name = subnet_parts[4]
-    virtual_network_name = subnet_parts[8]
-    virtual_network = network_client.virtual_networks.get(resource_group_name, virtual_network_name)
+        # Retrieve custom DNS
+        if nic.dns_settings and nic.dns_settings.internal_domain_name_suffix:
+            custom_dns = f"{vm.name}.{nic.dns_settings.internal_domain_name_suffix}"
+        
+        # Retrieve private DNS
+        if nic.dns_settings and nic.dns_settings.dns_servers:
+            private_dns = nic.dns_settings.dns_servers
+        
+        # Retrieve associated virtual network
+        subnet_id = nic.ip_configurations[0].subnet.id
+        subnet_parts = subnet_id.split('/')
+        resource_group_name = subnet_parts[4]
+        virtual_network_name = subnet_parts[8]
+        virtual_network = network_client.virtual_networks.get(resource_group_name, virtual_network_name)
 
-    if virtual_network.dhcp_options and virtual_network.dhcp_options.dns_servers:
-        dns_servers = virtual_network.dhcp_options.dns_servers
+        if virtual_network.dhcp_options and virtual_network.dhcp_options.dns_servers:
+            dns_servers = virtual_network.dhcp_options.dns_servers
+
+    except HttpResponseError as e:
+        print(f"Error occurred while retrieving DNS info: {e}")
+        # Log the error or handle it as needed
+        pass
 
     return custom_dns, private_dns, dns_servers
 
 
-# Virtual Machines
-#vm_sheet = workbook.create_sheet("Virtual Machines")
-#vm_sheet.append(["Resource Group", "Host", "Private IP", "Public IP", "Private DNS"])
-#for rg in resource_client.resource_groups.list():
-#    for vm in compute_client.virtual_machines.list(rg.name):
-#        for nic_reference in vm.network_profile.network_interfaces:
-#            nic = network_client.network_interfaces.get(rg.name, nic_reference.id.split('/')[-1])
-#            private_ip, public_ip = get_ip_addresses(nic)
-#            custom_dns, private_dns, dns_servers = get_dns_info(vm, nic.id)
-#            #print (custom_dns, private_dns, nic.ip_configurations)
-#            vm_sheet.append([rg.name, vm.name, private_ip, public_ip, custom_dns, private_dns, dns_servers])
-#
 
 # Virtual Machines
 vm_sheet = workbook.create_sheet("Virtual Machines")
-vm_sheet.append(["Resource Group", "Host", "Private IP", "Public IP", "Custom DNS", "Private DNS", "DNS Servers"])
+vm_sheet.append(["Resource Group", "Host", "Private IP", "Public IP", "Internal Domain Name SUffix", "Private DNS", "DNS Servers"])
 for rg in resource_client.resource_groups.list():
     for vm in compute_client.virtual_machines.list(rg.name):
         for nic_reference in vm.network_profile.network_interfaces:
