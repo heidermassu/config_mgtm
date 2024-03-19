@@ -4,6 +4,7 @@ from azure.mgmt.web import WebSiteManagementClient
 from azure.mgmt.resource import ResourceManagementClient
 from azure.mgmt.network import NetworkManagementClient
 from openpyxl import Workbook
+from azure.core.exceptions import ResourceNotFoundError
 
 # Initialize Azure credentials
 credentials = DefaultAzureCredential()
@@ -29,9 +30,7 @@ def get_ip_addresses(nic):
         public_ip = "N/A"  # Assign a default value when there's no public IP
     return private_ip, public_ip
 
-from azure.core.exceptions import HttpResponseError
-
-# Function to get DNS info with error handling
+# Function to get DNS info with improved error handling
 def get_dns_info(vm, nic_ref):
     custom_dns = "N/A"
     private_dns = "N/A"
@@ -59,31 +58,50 @@ def get_dns_info(vm, nic_ref):
         if virtual_network.dhcp_options and virtual_network.dhcp_options.dns_servers:
             dns_servers = virtual_network.dhcp_options.dns_servers
 
-    except HttpResponseError as e:
+        return custom_dns, private_dns, dns_servers
+
+    except ResourceNotFoundError as e:
+        print(f"Resource not found while retrieving DNS info: {e}")
+        # Return None if any resource is not found
+        return None
+
+    except Exception as e:
         print(f"Error occurred while retrieving DNS info: {e}")
         # Log the error or handle it as needed
-        pass
-
-    return custom_dns, private_dns, dns_servers
-
+        return None
 
 
 # Virtual Machines
 vm_sheet = workbook.create_sheet("Virtual Machines")
-vm_sheet.append(["Resource Group", "Host", "Private IP", "Public IP", "Internal Domain Name SUffix", "Private DNS", "DNS Servers"])
+vm_sheet.append(["Resource Group", "Host", "Private IP", "Public IP", "Internal Domain Name Suffix", "Private DNS", "DNS Servers"])
 for rg in resource_client.resource_groups.list():
     for vm in compute_client.virtual_machines.list(rg.name):
         for nic_reference in vm.network_profile.network_interfaces:
-            nic = network_client.network_interfaces.get(rg.name, nic_reference.id.split('/')[-1])
-            private_ip, public_ip = get_ip_addresses(nic)
-            custom_dns, private_dns, dns_servers = get_dns_info(vm, nic.id)
-            
-            # Convert DNS servers to a string
-            dns_servers_str = ", ".join(dns_servers) if dns_servers != "N/A" else "N/A"
-            
-            vm_sheet.append([rg.name, vm.name, private_ip, public_ip, custom_dns, private_dns, dns_servers_str])
+            try:
+                nic = network_client.network_interfaces.get(rg.name, nic_reference.id.split('/')[-1])
+                dns_info = get_dns_info(vm, nic.id)
+                if dns_info is not None:
+                    custom_dns, private_dns, dns_servers = dns_info
+                else:
+                    # Assign default values if get_dns_info() returns None
+                    custom_dns, private_dns, dns_servers = "N/A", "N/A", "N/A"
+                
+                private_ip, public_ip = get_ip_addresses(nic)
+                
+                # Convert DNS servers to a string
+                dns_servers_str = ", ".join(dns_servers) if dns_servers != "N/A" else "N/A"
+                
+                vm_sheet.append([rg.name, vm.name, private_ip, public_ip, custom_dns, private_dns, dns_servers_str])
 
+            except ResourceNotFoundError as e:
+                print(f"Resource not found while retrieving NIC: {e}")
+                # Continue to the next iteration
+                continue
 
+            except Exception as e:
+                print(f"Error occurred while retrieving NIC: {e}")
+                # Log the error or handle it as needed
+                continue
 # App Services
 app_services_sheet = workbook.create_sheet("App Services")
 app_services_sheet.append(["Resource Group", "App Services", "Default Domain", "Custom Domains"])
