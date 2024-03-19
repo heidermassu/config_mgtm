@@ -5,6 +5,7 @@ from azure.mgmt.resource import ResourceManagementClient
 from azure.mgmt.network import NetworkManagementClient
 from openpyxl import Workbook
 from azure.core.exceptions import ResourceNotFoundError
+from kubernetes import client, config
 
 # Initialize Azure credentials
 credentials = DefaultAzureCredential()
@@ -70,6 +71,38 @@ def get_dns_info(vm, nic_ref):
         # Log the error or handle it as needed
         return None
 
+# Function to get AKS service ips across all namespaces
+def get_all_service_ips_aks():
+    # Load kubeconfig file
+    config.load_kube_config()
+
+    # Create Kubernetes API client
+    api_instance = client.CoreV1Api()
+
+    # Retrieve list of namespaces
+    namespaces = api_instance.list_namespace().items
+
+    # Dictionary to store service IPs
+    all_service_ips = {}
+
+    # Iterate through namespaces
+    for namespace in namespaces:
+        namespace_name = namespace.metadata.name
+
+        # Retrieve list of services in the namespace
+        services = api_instance.list_namespaced_service(namespace=namespace_name).items
+
+        # Iterate through services in the namespace and retrieve their IP addresses
+        for service in services:
+            service_name = service.metadata.name
+            service_ip = service.spec.cluster_ip
+
+            # Store the service IP address in the dictionary
+            if namespace_name not in all_service_ips:
+                all_service_ips[namespace_name] = {}
+            all_service_ips[namespace_name][service_name] = service_ip
+
+    return all_service_ips
 
 # Virtual Machines
 vm_sheet = workbook.create_sheet("Virtual Machines")
@@ -102,6 +135,16 @@ for rg in resource_client.resource_groups.list():
                 print(f"Error occurred while retrieving NIC: {e}")
                 # Log the error or handle it as needed
                 continue
+
+
+# AKS Services IPs
+aks_sheet = workbook.create_sheet("AKS")
+aks_sheet.append(["Resource Group", "AKS Server", "Namespace", "Service", "Service IP"])
+#for rg in resource_client.resource_groups.list():
+for aks_namespace, services in get_all_service_ips_aks().items():
+    for service_name, service_ip in services.items():
+        aks_sheet.append([rg.name, "", aks_namespace, service_name, service_ip])
+
 # App Services
 app_services_sheet = workbook.create_sheet("App Services")
 app_services_sheet.append(["Resource Group", "App Services", "Default Domain", "Custom Domains"])
