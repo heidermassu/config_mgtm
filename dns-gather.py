@@ -87,11 +87,11 @@ def get_all_service_ips_aks(resource_group_name, cluster_name):
     # Create Kubernetes API client
     api_instance = client.CoreV1Api()
 
-    # Retrieve list of namespaces
-    namespaces = api_instance.list_namespace().items
-
     # Dictionary to store service IPs
     all_service_ips = {}
+
+    # Retrieve list of namespaces
+    namespaces = api_instance.list_namespace().items
 
     # Iterate through namespaces
     for namespace in namespaces:
@@ -104,11 +104,12 @@ def get_all_service_ips_aks(resource_group_name, cluster_name):
         for service in services:
             service_name = service.metadata.name
             service_ip = service.spec.cluster_ip
+            service_type = service.spec.type if service.spec.type else "Unknown"  # Default to "Unknown" if type is not provided
 
-            # Store the service IP address in the dictionary
+            # Store the service IP address and type in the dictionary
             if namespace_name not in all_service_ips:
                 all_service_ips[namespace_name] = {}
-            all_service_ips[namespace_name][service_name] = service_ip
+            all_service_ips[namespace_name][service_name] = (service_ip, service_type)
 
     return all_service_ips
 
@@ -148,7 +149,7 @@ for rg in resource_client.resource_groups.list():
 # AKS Services IPs
 # AKS Ingress Resources
 aks_sheet = workbook.create_sheet("AKS")
-aks_sheet.append(["Resource Group", "AKS Server", "Namespace", "Service", "Service IP"])
+aks_sheet.append(["Resource Group", "AKS Server", "Namespace", "Service", "Service Type", "Service IP"])
 
 # Iterate through each AKS cluster
 # Iterate through each AKS cluster
@@ -158,13 +159,13 @@ for cluster in azure_aks_clusters:
     
     # Retrieve service IPs for this AKS cluster
     cluster_service_ips = get_all_service_ips_aks(cluster_resource_group, cluster_name)
-    print(cluster_name)  # Print the name of the current AKS cluster for debugging
+    #print(cluster_name)  # Print the name of the current AKS cluster for debugging
     
     # Iterate through the service IPs for this AKS cluster
     for aks_namespace, services in cluster_service_ips.items():
-        for service_name, service_ip in services.items():
-            aks_sheet.append([cluster_resource_group, cluster_name, aks_namespace, service_name, service_ip])
-
+        for service_name, (service_ip, service_type) in services.items():
+            aks_sheet.append([cluster_resource_group, cluster_name, aks_namespace, service_name, service_type, service_ip])
+            
 # App Services
 app_services_sheet = workbook.create_sheet("App Services")
 app_services_sheet.append(["Resource Group", "App Services", "Default Domain", "Custom Domains"])
