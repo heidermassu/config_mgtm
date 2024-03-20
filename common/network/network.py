@@ -27,6 +27,8 @@ ip_configuration_name = ''
 private_ip_address_allocation = ''
 vnetnet_id = ''
 target_resource_group = ''
+credentials = ''
+network_client = ''
 
 def initialize_variables(resource_group, vm, disk, snapshot, public_ip, user, key, subscriptionid, vminf, stop_commands, ssh, snapskudisk, newdisk_name, newvm_name, vmsize, start_commands, nicname, location, vnetnetid, subnetid, ipconfigurationname, privateipaddressallocation, targetresource_group):
     global resource_group_name, vm_name, disk_name, snapshot_name, subscription_id, public_ip_address, ssh_user, key_path, vm_inf, stoping_commands,sshconnection, snap_skudisk, starting_commands, nic_name
@@ -136,3 +138,14 @@ def nic_attach(targetresource_group, rg_vnet, resource_group, vm, newvm_name, su
         ).result()  # Wait for the operation to complete
 
     print(f"NIC {current_nic_id} attached to VM {newvm_name} successfully!")
+
+# Function to get IP addresses from a network interface
+def get_ip_addresses(nic, network_client):
+    private_ip = nic.ip_configurations[0].private_ip_address
+    if nic.ip_configurations[0].public_ip_address:
+        public_ip_id = nic.ip_configurations[0].public_ip_address.id
+        public_ip_rg = public_ip_id.split('/')[4]  # Extracting resource group from resource ID
+        public_ip = network_client.public_ip_addresses.get(public_ip_rg, public_ip_id.split('/')[-1]).ip_address
+    else:
+        public_ip = "N/A"  # Assign a default value when there's no public IP
+    return private_ip, public_ip
