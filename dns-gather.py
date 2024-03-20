@@ -6,10 +6,16 @@ from azure.mgmt.network import NetworkManagementClient
 from openpyxl import Workbook
 from azure.core.exceptions import ResourceNotFoundError
 from kubernetes import client, config
+from azure.mgmt.containerservice import ContainerServiceClient
 
 # Initialize Azure credentials
 credentials = DefaultAzureCredential()
 subscription_id = 'a6cc1a53-c242-42f9-aa16-15a377d21069'
+
+# Initialize AKS client
+aks_client = ContainerServiceClient(credentials, subscription_id)
+# Retrieve list of AKS clusters
+azure_aks_clusters = aks_client.managed_clusters.list()
 
 # Initialize Azure clients
 compute_client = ComputeManagementClient(credentials, subscription_id)
@@ -72,7 +78,9 @@ def get_dns_info(vm, nic_ref):
         return None
 
 # Function to get AKS service ips across all namespaces
-def get_all_service_ips_aks():
+# Function to get AKS service IPs for a specific AKS cluster
+# Function to get AKS service IPs for a specific AKS cluster
+def get_all_service_ips_aks(resource_group_name, cluster_name):
     # Load kubeconfig file
     config.load_kube_config()
 
@@ -138,12 +146,24 @@ for rg in resource_client.resource_groups.list():
 
 
 # AKS Services IPs
+# AKS Ingress Resources
 aks_sheet = workbook.create_sheet("AKS")
 aks_sheet.append(["Resource Group", "AKS Server", "Namespace", "Service", "Service IP"])
-#for rg in resource_client.resource_groups.list():
-for aks_namespace, services in get_all_service_ips_aks().items():
-    for service_name, service_ip in services.items():
-        aks_sheet.append([rg.name, "", aks_namespace, service_name, service_ip])
+
+# Iterate through each AKS cluster
+# Iterate through each AKS cluster
+for cluster in azure_aks_clusters:
+    cluster_resource_group = cluster.node_resource_group
+    cluster_name = cluster.name
+    
+    # Retrieve service IPs for this AKS cluster
+    cluster_service_ips = get_all_service_ips_aks(cluster_resource_group, cluster_name)
+    print(cluster_name)  # Print the name of the current AKS cluster for debugging
+    
+    # Iterate through the service IPs for this AKS cluster
+    for aks_namespace, services in cluster_service_ips.items():
+        for service_name, service_ip in services.items():
+            aks_sheet.append([cluster_resource_group, cluster_name, aks_namespace, service_name, service_ip])
 
 # App Services
 app_services_sheet = workbook.create_sheet("App Services")
