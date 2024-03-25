@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-loadbalancer
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: app-loadbalancer
+  template:
+    metadata:
+      labels:
+        app: app-loadbalancer
+    spec:
+      containers:
+      - name: app-loadbalancer
+        image: wordpress:latest
+        ports:
+        - containerPort: 80
+        env:
+        - name: WORDPRESS_DB_HOST
+          value: mysql-service
+        - name: WORDPRESS_DB_NAME
+          value: wordpress
+        - name: WORDPRESS_DB_USER
+          value: root
+        - name: WORDPRESS_DB_PASSWORD
+          value: password
+        volumeMounts:
+        - name: wordpress-persistent-storage
+          mountPath: /var/www/html
+      volumes:
+      - name: wordpress-persistent-storage
+        persistentVolumeClaim:
+          claimName: wordpress-pv-claim
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app-loadbalancer-service
+spec:
+  selector:
+    app: app-loadbalancer
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: LoadBalancer

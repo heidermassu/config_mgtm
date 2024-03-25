@@ -1,0 +1,64 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-ingress
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: app-ingress
+  template:
+    metadata:
+      labels:
+        app: app-ingress
+    spec:
+      containers:
+      - name: app-ingress
+        image: wordpress:latest
+        ports:
+        - containerPort: 80
+        env:
+        - name: WORDPRESS_DB_HOST
+          value: mysql-service
+        - name: WORDPRESS_DB_NAME
+          value: wordpress
+        - name: WORDPRESS_DB_USER
+          value: root
+        - name: WORDPRESS_DB_PASSWORD
+          value: password
+        volumeMounts:
+        - name: wordpress-persistent-storage
+          mountPath: /var/www/html
+      volumes:
+      - name: wordpress-persistent-storage
+        persistentVolumeClaim:
+          claimName: wordpress-pv-claim
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app-ingress-service
+spec:
+  selector:
+    app: app-ingress
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: LoadBalancer
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: app-ingress
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: app-ingress-service
+            port:
+              number: 80
