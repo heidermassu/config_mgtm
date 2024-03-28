@@ -3,7 +3,7 @@ from azure.identity import DefaultAzureCredential
 from azure.mgmt.resource import ResourceManagementClient
 
 def main():
-    subscription_id = 'a6cc1a53-c242-42f9-aa16-15a377d21069'
+    subscription_id = ''
     resource_client = ResourceManagementClient(DefaultAzureCredential(), subscription_id)
 
     with open('azure_resources_info.csv', 'w', newline='') as csvfile:
